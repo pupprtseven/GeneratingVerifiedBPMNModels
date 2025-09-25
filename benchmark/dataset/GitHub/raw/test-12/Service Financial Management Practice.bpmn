@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
+  <collaboration id="Collaboration_1">
+    <participant id="pool_11" name="Financial Manager" processRef="Process_11" />
+  </collaboration>
+  <process id="Process_11">
+    <endEvent id="endEvent_0" name="Company forecast created">
+      <incoming>sequenceFlow_49</incoming>
+    </endEvent>
+    <intermediateCatchEvent id="timerIntermediateEvent_1" name="Forecast due date">
+      <outgoing>sequenceFlow_59</outgoing>
+      <timerEventDefinition id="TimerEventDefinition_1" />
+    </intermediateCatchEvent>
+    <subProcess id="subProcessCollapsed_2" name="IT Profitability Analysis">
+      <incoming>sequenceFlow_52</incoming>
+      <outgoing>sequenceFlow_45</outgoing>
+      <outgoing>sequenceFlow_50</outgoing>
+    </subProcess>
+    <subProcess id="subProcessCollapsed_3" name="IT Financial Organization">
+      <incoming>sequenceFlow_53</incoming>
+      <outgoing>sequenceFlow_43</outgoing>
+    </subProcess>
+    <intermediateCatchEvent id="timerIntermediateEvent_4" name="Budgeting date">
+      <outgoing>sequenceFlow_57</outgoing>
+      <timerEventDefinition id="TimerEventDefinition_4" />
+    </intermediateCatchEvent>
+    <intermediateCatchEvent id="timerIntermediateEvent_5" name="Effective charging date">
+      <outgoing>sequenceFlow_58</outgoing>
+      <timerEventDefinition id="TimerEventDefinition_5" />
+    </intermediateCatchEvent>
+    <subProcess id="subProcessCollapsed_6" name="IT Forecast">
+      <incoming>sequenceFlow_59</incoming>
+      <outgoing>sequenceFlow_49</outgoing>
+      <outgoing>sequenceFlow_51</outgoing>
+    </subProcess>
+    <subProcess id="subProcessCollapsed_7" name="Invoicing for IT Services">
+      <incoming>sequenceFlow_58</incoming>
+      <outgoing>sequenceFlow_47</outgoing>
+    </subProcess>
+    <endEvent id="messageEndEvent_8" name="Profitability action">
+      <incoming>sequenceFlow_56</incoming>
+      <messageEventDefinition id="MessageEventDefinition_8" />
+    </endEvent>
+    <endEvent id="messageEndEvent_9" name="Profitability action">
+      <incoming>sequenceFlow_51</incoming>
+      <messageEventDefinition id="MessageEventDefinition_9" />
+    </endEvent>
+    <subProcess id="subProcessCollapsed_10" name="IT Budgeting">
+      <incoming>sequenceFlow_57</incoming>
+      <outgoing>sequenceFlow_46</outgoing>
+    </subProcess>
+    <subProcess id="subProcessCollapsed_12" name="IT Financial Reporting">
+      <incoming>sequenceFlow_55</incoming>
+      <outgoing>sequenceFlow_48</outgoing>
+    </subProcess>
+    <subProcess id="subProcessCollapsed_13" name="IT Cost Monitoring">
+      <incoming>sequenceFlow_54</incoming>
+      <outgoing>sequenceFlow_44</outgoing>
+    </subProcess>
+    <intermediateCatchEvent id="timerIntermediateEvent_14" name="Periodic check">
+      <outgoing>sequenceFlow_53</outgoing>
+      <timerEventDefinition id="TimerEventDefinition_14" />
+    </intermediateCatchEvent>
+    <endEvent id="messageEndEvent_15" name="Rules for IT charging">
+      <incoming>sequenceFlow_43</incoming>
+      <messageEventDefinition id="MessageEventDefinition_15" />
+    </endEvent>
+    <intermediateCatchEvent id="timerIntermediateEvent_16" name="Period closing">
+      <outgoing>sequenceFlow_55</outgoing>
+      <timerEventDefinition id="TimerEventDefinition_16" />
+    </intermediateCatchEvent>
+    <endEvent id="endEvent_17" name="Approved IT budget">
+      <incoming>sequenceFlow_46</incoming>
+    </endEvent>
+    <endEvent id="endEvent_18" name="IT financial report communicated">
+      <incoming>sequenceFlow_48</incoming>
+    </endEvent>
+    <endEvent id="endEvent_19" name="Costs allocated correctly">
+      <incoming>sequenceFlow_44</incoming>
+    </endEvent>
+    <endEvent id="endEvent_20" name="Invoicing accepted">
+      <incoming>sequenceFlow_47</incoming>
+    </endEvent>
+    <intermediateCatchEvent id="timerIntermediateEvent_21" name="Quarterly">
+      <outgoing>sequenceFlow_52</outgoing>
+      <timerEventDefinition id="TimerEventDefinition_21" />
+    </intermediateCatchEvent>
+    <intermediateCatchEvent id="timerIntermediateEvent_22" name="Monthly">
+      <outgoing>sequenceFlow_54</outgoing>
+      <timerEventDefinition id="TimerEventDefinition_22" />
+    </intermediateCatchEvent>
+    <endEvent id="messageEndEvent_23" name="No price increase possible">
+      <incoming>sequenceFlow_45</incoming>
+      <messageEventDefinition id="MessageEventDefinition_23" />
+    </endEvent>
+    <endEvent id="messageEndEvent_24" name="Adjusted prices for the IT Services">
+      <incoming>sequenceFlow_50</incoming>
+      <outgoing>sequenceFlow_56</outgoing>
+      <messageEventDefinition id="MessageEventDefinition_24" />
+    </endEvent>
+    <sequenceFlow id="sequenceFlow_43" sourceRef="subProcessCollapsed_3" targetRef="messageEndEvent_15" />
+    <sequenceFlow id="sequenceFlow_44" sourceRef="subProcessCollapsed_13" targetRef="endEvent_19" />
+    <sequenceFlow id="sequenceFlow_45" sourceRef="subProcessCollapsed_2" targetRef="messageEndEvent_23" />
+    <sequenceFlow id="sequenceFlow_46" sourceRef="subProcessCollapsed_10" targetRef="endEvent_17" />
+    <sequenceFlow id="sequenceFlow_47" sourceRef="subProcessCollapsed_7" targetRef="endEvent_20" />
+    <sequenceFlow id="sequenceFlow_48" sourceRef="subProcessCollapsed_12" targetRef="endEvent_18" />
+    <sequenceFlow id="sequenceFlow_49" sourceRef="subProcessCollapsed_6" targetRef="endEvent_0" />
+    <sequenceFlow id="sequenceFlow_50" sourceRef="subProcessCollapsed_2" targetRef="messageEndEvent_24" />
+    <sequenceFlow id="sequenceFlow_51" sourceRef="subProcessCollapsed_6" targetRef="messageEndEvent_9" />
+    <sequenceFlow id="sequenceFlow_52" sourceRef="timerIntermediateEvent_21" targetRef="subProcessCollapsed_2" />
+    <sequenceFlow id="sequenceFlow_53" sourceRef="timerIntermediateEvent_14" targetRef="subProcessCollapsed_3" />
+    <sequenceFlow id="sequenceFlow_54" sourceRef="timerIntermediateEvent_22" targetRef="subProcessCollapsed_13" />
+    <sequenceFlow id="sequenceFlow_55" sourceRef="timerIntermediateEvent_16" targetRef="subProcessCollapsed_12" />
+    <sequenceFlow id="sequenceFlow_56" sourceRef="messageEndEvent_24" targetRef="messageEndEvent_8" />
+    <sequenceFlow id="sequenceFlow_57" sourceRef="timerIntermediateEvent_4" targetRef="subProcessCollapsed_10" />
+    <sequenceFlow id="sequenceFlow_58" sourceRef="timerIntermediateEvent_5" targetRef="subProcessCollapsed_7" />
+    <sequenceFlow id="sequenceFlow_59" sourceRef="timerIntermediateEvent_1" targetRef="subProcessCollapsed_6" />
+  </process>
+  <bpmndi:BPMNDiagram id="diagram-0">
+    <bpmndi:BPMNPlane id="plane-0" bpmnElement="Collaboration_1">
+      <bpmndi:BPMNShape id="pool_11_di" bpmnElement="pool_11" isHorizontal="true">
+        <omgdc:Bounds x="55.19255813953488" y="15.025836459114778" width="1214.5786646661663" height="1135.3897674418606" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="sequenceFlow_59_di" bpmnElement="sequenceFlow_59">
+        <omgdi:waypoint x="331.3216504126031" y="421.4473218304576" />
+        <omgdi:waypoint x="522.7543285821455" y="421.2810202550637" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_58_di" bpmnElement="sequenceFlow_58">
+        <omgdi:waypoint x="330.5097074268567" y="725.7987696924231" />
+        <omgdi:waypoint x="524.6912528132033" y="724.7813953488371" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_57_di" bpmnElement="sequenceFlow_57">
+        <omgdi:waypoint x="330.979264816204" y="269.26181545386345" />
+        <omgdi:waypoint x="522.7738934733683" y="269.19333833458364" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_56_di" bpmnElement="sequenceFlow_56">
+        <omgdi:waypoint x="908.5544186046511" y="884.2646061515378" />
+        <omgdi:waypoint x="914.4434508627156" y="877.9353638409602" />
+        <omgdi:waypoint x="932.5018454613653" y="875.9201800450112" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_55_di" bpmnElement="sequenceFlow_55">
+        <omgdi:waypoint x="331.1357839459865" y="1028.7611102775695" />
+        <omgdi:waypoint x="523.3999699924981" y="1029.0448012003" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_54_di" bpmnElement="sequenceFlow_54">
+        <omgdi:waypoint x="331.4781695423856" y="573.6132633158289" />
+        <omgdi:waypoint x="525.0629857464365" y="572.3611102775694" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_53_di" bpmnElement="sequenceFlow_53">
+        <omgdi:waypoint x="330.79339834958733" y="117.20348087021755" />
+        <omgdi:waypoint x="525.1510277569392" y="117.78064516129032" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_52_di" bpmnElement="sequenceFlow_52">
+        <omgdi:waypoint x="330.78361590397594" y="877.4364591147787" />
+        <omgdi:waypoint x="524.7206001500375" y="877.5831957989498" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_51_di" bpmnElement="sequenceFlow_51">
+        <omgdi:waypoint x="749.0418604651163" y="442.65566391597895" />
+        <omgdi:waypoint x="932.0714178544636" y="446.24582145536385" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_50_di" bpmnElement="sequenceFlow_50">
+        <omgdi:waypoint x="748.5038259564891" y="899.9654313578394" />
+        <omgdi:waypoint x="875.4408402100524" y="901.9806151537883" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_49_di" bpmnElement="sequenceFlow_49">
+        <omgdi:waypoint x="749.0418604651163" y="401.77482370592645" />
+        <omgdi:waypoint x="933.8811702925731" y="399.07486871717924" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_48_di" bpmnElement="sequenceFlow_48">
+        <omgdi:waypoint x="747.3984096024005" y="1029.2111027756937" />
+        <omgdi:waypoint x="935.3387546886721" y="1029.064366091523" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_47_di" bpmnElement="sequenceFlow_47">
+        <omgdi:waypoint x="747.8288372093023" y="724.5466166541635" />
+        <omgdi:waypoint x="933.832258064516" y="725.3292123030758" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_46_di" bpmnElement="sequenceFlow_46">
+        <omgdi:waypoint x="745.9701725431357" y="269.8389797449362" />
+        <omgdi:waypoint x="934.2529032258063" y="269.90745686421604" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_45_di" bpmnElement="sequenceFlow_45">
+        <omgdi:waypoint x="748.5038259564891" y="855.2596549137284" />
+        <omgdi:waypoint x="874.1886871717929" y="853.2053413353337" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_44_di" bpmnElement="sequenceFlow_44">
+        <omgdi:waypoint x="748.16144036009" y="572.6350187546886" />
+        <omgdi:waypoint x="934.996369092273" y="573.2024006001501" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_43_di" bpmnElement="sequenceFlow_43">
+        <omgdi:waypoint x="746.7136384096024" y="118.25020255063765" />
+        <omgdi:waypoint x="933.1866166541636" y="118.85671417854464" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="endEvent_0_di" bpmnElement="endEvent_0">
+        <omgdc:Bounds x="933.8811702925731" y="380.5860465116279" width="34.17008252063015" height="35.676579144786196" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="973.4315978994748" y="388.7543885971492" width="166.4189647411853" height="22.20615153788447" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="timerIntermediateEvent_1_di" bpmnElement="timerIntermediateEvent_1">
+        <omgdc:Bounds x="289.139744936234" y="402.9487171792948" width="42.191687921980495" height="39.4623855963991" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="171.584096024006" y="412.1246511627907" width="115.07090772693172" height="20.96378094523631" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="subProcessCollapsed_2_di" bpmnElement="subProcessCollapsed_2">
+        <omgdc:Bounds x="524.7206001500375" y="829.2774793698425" width="223.78322580645158" height="96.61143285821456" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="subProcessCollapsed_3_di" bpmnElement="subProcessCollapsed_3">
+        <omgdc:Bounds x="525.1510277569392" y="69.28906226556639" width="221.56261065266315" height="95.68210052513128" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="timerIntermediateEvent_4_di" bpmnElement="timerIntermediateEvent_4">
+        <omgdc:Bounds x="288.83648912228057" y="251.39906976744186" width="42.132993248312076" height="38.31783945986496" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="187.49035258814703" y="261.17173293323333" width="98.31357839459865" height="21.227906976744183" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="timerIntermediateEvent_5_di" bpmnElement="timerIntermediateEvent_5">
+        <omgdc:Bounds x="289.2180045011252" y="707.0066916729182" width="41.301485371342835" height="40.05911477869468" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="140.51504876219053" y="715.7130682670668" width="146.5508177044261" height="22.010502625656414" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="subProcessCollapsed_6_di" bpmnElement="subProcessCollapsed_6">
+        <omgdc:Bounds x="522.7543285821455" y="374.0611552888222" width="226.2875318829707" height="96.28861215303826" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="subProcessCollapsed_7_di" bpmnElement="subProcessCollapsed_7">
+        <omgdc:Bounds x="524.6912528132033" y="678.9604201050262" width="223.13758439609902" height="93.19735933983495" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageEndEvent_8_di" bpmnElement="messageEndEvent_8">
+        <omgdc:Bounds x="932.5018454613653" y="859.6911027756938" width="37.23198799699925" height="36.17548387096774" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="971.44576144036" y="868.1920480120029" width="119.84474118529633" height="20.885521380345086" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageEndEvent_9_di" bpmnElement="messageEndEvent_9">
+        <omgdc:Bounds x="932.0714178544636" y="429.12654163540884" width="36.96786196549137" height="37.662415603900975" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="973.5783345836459" y="437.9600900225056" width="115.40351087771943" height="21.296384096024003" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="subProcessCollapsed_10_di" bpmnElement="subProcessCollapsed_10">
+        <omgdc:Bounds x="522.7738934733683" y="223.4310577644411" width="223.19627906976743" height="94.94841710427606" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="subProcessCollapsed_12_di" bpmnElement="subProcessCollapsed_12">
+        <omgdc:Bounds x="523.3999699924981" y="979.7412753188296" width="223.98865716429106" height="98.8711777944486" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="subProcessCollapsed_13_di" bpmnElement="subProcessCollapsed_13">
+        <omgdc:Bounds x="525.0629857464365" y="525.5031957989497" width="223.09845461365342" height="97.1396849212303" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="timerIntermediateEvent_14_di" bpmnElement="timerIntermediateEvent_14">
+        <omgdc:Bounds x="289.24735183795946" y="99.98637659414852" width="41.54604651162791" height="38.99282820705176" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="192.05875468867217" y="109.02535633908477" width="93.0114928732183" height="19.007291822955736" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageEndEvent_15_di" bpmnElement="messageEndEvent_15">
+        <omgdc:Bounds x="933.1866166541636" y="100.01572393098273" width="35.500495123780944" height="37.799369842460614" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="971.4261965491372" y="108.7807951987997" width="132.59126781695423" height="22.118109527381844" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="timerIntermediateEvent_16_di" bpmnElement="timerIntermediateEvent_16">
+        <omgdc:Bounds x="288.7386646661665" y="1009.8516429107276" width="42.397119279819954" height="39.384126031507876" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="193.9467666916729" y="1020.426466616654" width="93.7158289572393" height="20.2496624156039" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="endEvent_17_di" bpmnElement="endEvent_17">
+        <omgdc:Bounds x="934.2529032258063" y="251.01755438859715" width="33.91573893473368" height="37.48633158289572" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="973.4022505626406" y="260.4282670667667" width="127.6511327831958" height="23.252873218304575" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="endEvent_18_di" bpmnElement="endEvent_18">
+        <omgdc:Bounds x="935.3387546886721" y="1010.4385896474118" width="32.487501875468865" height="38.102625656414105" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="971.5338034508627" y="1019.7221305326332" width="216.30943735933982" height="22.705056264066016" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="endEvent_19_di" bpmnElement="endEvent_19">
+        <omgdc:Bounds x="934.996369092273" y="555.1146586646662" width="33.55378844711177" height="37.99501875468867" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="971.4066316579144" y="562.9210502625657" width="157.09629407351838" height="23.3409152288072" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="endEvent_20_di" bpmnElement="endEvent_20">
+        <omgdc:Bounds x="933.832258064516" y="706.8599549887472" width="35.15810952738184" height="37.35915978994748" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="970.7609902475618" y="716.446751687922" width="119.34583645911478" height="21.20834208552138" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="timerIntermediateEvent_21_di" bpmnElement="timerIntermediateEvent_21">
+        <omgdc:Bounds x="288.52345086271566" y="858.6835108777193" width="42.260165041260315" height="39.892813203300825" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="220.88762190547638" y="868.1920480120029" width="63.92828207051762" height="20.572483120780195" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="timerIntermediateEvent_22_di" bpmnElement="timerIntermediateEvent_22">
+        <omgdc:Bounds x="289.0027906976744" y="554.9777044261066" width="42.47537884471118" height="39.15912978244561" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="229.21248312078018" y="564.7405851462865" width="56.47405851462865" height="20.06379594898725" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageEndEvent_23_di" bpmnElement="messageEndEvent_23">
+        <omgdc:Bounds x="874.1886871717929" y="835.2545536384096" width="38.00480120030007" height="36.49830457614404" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="806.7289422355589" y="811.3951687921981" width="169.568912228057" height="22.959399849962487" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageEndEvent_24_di" bpmnElement="messageEndEvent_24">
+        <omgdc:Bounds x="875.4408402100524" y="884.2646061515378" width="36.772213053263314" height="37.212423105776445" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="782.4391297824455" y="918.2096924231057" width="221.0930532633158" height="25.072408102025506" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="subProcessCollapsed_2" />
+  </bpmndi:BPMNDiagram>
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="subProcessCollapsed_3" />
+  </bpmndi:BPMNDiagram>
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="subProcessCollapsed_6" />
+  </bpmndi:BPMNDiagram>
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="subProcessCollapsed_7" />
+  </bpmndi:BPMNDiagram>
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="subProcessCollapsed_10" />
+  </bpmndi:BPMNDiagram>
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="subProcessCollapsed_12" />
+  </bpmndi:BPMNDiagram>
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="subProcessCollapsed_13" />
+  </bpmndi:BPMNDiagram>
+</definitions>

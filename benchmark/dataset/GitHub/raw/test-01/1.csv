@@ -1,0 +1,821 @@
+business_model_idx,business_scenario,LTC,business_object
+test01_0,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_0,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_0,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_0,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_0,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_0,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_0,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_0,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_0,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_0,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_0,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_0,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_0,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_0,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_0,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_0,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_0,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_0,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_0,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_0,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_1,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_1,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_1,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_1,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_1,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_1,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_1,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_1,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_1,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_1,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_1,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_1,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_1,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_1,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_1,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_1,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_1,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_1,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_1,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_1,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_2,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_2,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_2,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_2,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_2,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_2,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_2,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_2,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_2,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_2,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_2,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_2,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_2,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_2,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_2,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_2,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_2,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_2,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_2,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_2,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_3,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_3,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_3,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_3,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_3,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_3,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_3,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_3,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_3,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_3,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_3,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_3,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_3,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_3,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_3,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_3,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_3,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_3,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_3,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_3,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_4,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_4,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_4,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_4,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_4,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_4,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_4,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_4,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_4,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_4,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_4,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_4,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_4,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_4,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_4,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_4,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_4,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_4,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_4,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_4,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_5,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_5,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_5,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_5,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_5,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_5,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_5,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_5,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_5,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_5,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_5,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_5,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_5,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_5,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_5,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_5,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_5,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_5,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_5,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_5,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_6,credit risk assessment,The credit card application process is shifted to online handling.,send bank card in letter to customer
+test01_6,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card in letter to customer
+test01_6,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card in letter to customer
+test01_6,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card in letter to customer
+test01_6,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card in letter to customer
+test01_6,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card in letter to customer
+test01_6,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card in letter to customer
+test01_6,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card in letter to customer
+test01_6,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card in letter to customer
+test01_6,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card in letter to customer
+test01_6,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card in letter to customer
+test01_6,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card in letter to customer
+test01_6,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card in letter to customer
+test01_6,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card in letter to customer
+test01_6,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card in letter to customer
+test01_6,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card in letter to customer
+test01_6,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card in letter to customer
+test01_6,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card in letter to customer
+test01_6,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card in letter to customer
+test01_6,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card in letter to customer
+test01_7,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_7,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_7,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_7,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_7,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_7,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_7,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_7,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_7,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_7,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_7,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_7,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_7,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_7,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_7,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_7,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_7,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_7,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_7,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_7,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_8,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_8,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_8,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_8,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_8,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_8,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_8,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_8,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_8,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_8,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_8,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_8,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_8,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_8,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_8,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_8,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_8,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_8,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_8,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_8,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_9,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_9,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_9,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_9,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_9,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_9,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_9,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_9,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_9,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_9,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_9,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_9,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_9,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_9,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_9,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_9,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_9,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_9,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_9,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_9,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_10,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_10,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_10,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_10,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_10,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_10,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_10,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_10,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_10,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_10,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_10,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_10,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_10,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_10,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_10,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_10,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_10,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_10,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_10,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_10,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_11,credit risk assessment,The credit card application process is shifted to online handling.,send bankcard
+test01_11,credit risk assessment,System failure causes a suspension of credit card application processing.,send bankcard
+test01_11,credit risk assessment,The outbreak of COVID-19 in the local area.,send bankcard
+test01_11,credit risk assessment,The bank receives complaints that the current process is too slow.,send bankcard
+test01_11,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bankcard
+test01_11,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bankcard
+test01_11,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bankcard
+test01_11,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bankcard
+test01_11,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bankcard
+test01_11,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bankcard
+test01_11,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bankcard
+test01_11,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bankcard
+test01_11,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bankcard
+test01_11,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bankcard
+test01_11,credit risk assessment,A natural disaster causes temporary closure of branches.,send bankcard
+test01_11,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bankcard
+test01_11,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bankcard
+test01_11,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bankcard
+test01_11,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bankcard
+test01_11,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bankcard
+test01_12,credit risk assessment,The credit card application process is shifted to online handling.,send bankcard
+test01_12,credit risk assessment,System failure causes a suspension of credit card application processing.,send bankcard
+test01_12,credit risk assessment,The outbreak of COVID-19 in the local area.,send bankcard
+test01_12,credit risk assessment,The bank receives complaints that the current process is too slow.,send bankcard
+test01_12,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bankcard
+test01_12,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bankcard
+test01_12,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bankcard
+test01_12,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bankcard
+test01_12,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bankcard
+test01_12,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bankcard
+test01_12,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bankcard
+test01_12,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bankcard
+test01_12,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bankcard
+test01_12,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bankcard
+test01_12,credit risk assessment,A natural disaster causes temporary closure of branches.,send bankcard
+test01_12,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bankcard
+test01_12,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bankcard
+test01_12,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bankcard
+test01_12,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bankcard
+test01_12,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bankcard
+test01_13,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_13,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_13,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_13,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_13,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_13,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_13,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_13,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_13,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_13,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_13,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_13,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_13,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_13,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_13,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_13,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_13,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_13,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_13,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_13,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_14,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_14,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_14,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_14,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_14,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_14,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_14,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_14,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_14,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_14,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_14,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_14,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_14,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_14,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_14,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_14,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_14,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_14,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_14,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_14,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_15,credit risk assessment,The credit card application process is shifted to online handling.,send bank card in letter to customer
+test01_15,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card in letter to customer
+test01_15,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card in letter to customer
+test01_15,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card in letter to customer
+test01_15,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card in letter to customer
+test01_15,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card in letter to customer
+test01_15,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card in letter to customer
+test01_15,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card in letter to customer
+test01_15,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card in letter to customer
+test01_15,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card in letter to customer
+test01_15,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card in letter to customer
+test01_15,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card in letter to customer
+test01_15,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card in letter to customer
+test01_15,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card in letter to customer
+test01_15,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card in letter to customer
+test01_15,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card in letter to customer
+test01_15,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card in letter to customer
+test01_15,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card in letter to customer
+test01_15,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card in letter to customer
+test01_15,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card in letter to customer
+test01_16,credit risk assessment,The credit card application process is shifted to online handling.,send bankcard
+test01_16,credit risk assessment,System failure causes a suspension of credit card application processing.,send bankcard
+test01_16,credit risk assessment,The outbreak of COVID-19 in the local area.,send bankcard
+test01_16,credit risk assessment,The bank receives complaints that the current process is too slow.,send bankcard
+test01_16,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bankcard
+test01_16,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bankcard
+test01_16,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bankcard
+test01_16,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bankcard
+test01_16,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bankcard
+test01_16,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bankcard
+test01_16,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bankcard
+test01_16,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bankcard
+test01_16,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bankcard
+test01_16,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bankcard
+test01_16,credit risk assessment,A natural disaster causes temporary closure of branches.,send bankcard
+test01_16,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bankcard
+test01_16,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bankcard
+test01_16,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bankcard
+test01_16,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bankcard
+test01_16,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bankcard
+test01_17,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_17,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_17,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_17,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_17,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_17,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_17,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_17,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_17,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_17,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_17,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_17,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_17,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_17,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_17,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_17,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_17,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_17,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_17,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_17,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_18,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_18,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_18,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_18,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_18,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_18,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_18,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_18,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_18,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_18,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_18,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_18,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_18,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_18,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_18,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_18,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_18,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_18,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_18,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_18,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_19,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_19,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_19,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_19,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_19,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_19,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_19,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_19,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_19,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_19,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_19,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_19,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_19,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_19,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_19,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_19,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_19,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_19,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_19,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_19,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_20,credit risk assessment,The credit card application process is shifted to online handling.,send bankcard
+test01_20,credit risk assessment,System failure causes a suspension of credit card application processing.,send bankcard
+test01_20,credit risk assessment,The outbreak of COVID-19 in the local area.,send bankcard
+test01_20,credit risk assessment,The bank receives complaints that the current process is too slow.,send bankcard
+test01_20,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bankcard
+test01_20,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bankcard
+test01_20,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bankcard
+test01_20,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bankcard
+test01_20,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bankcard
+test01_20,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bankcard
+test01_20,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bankcard
+test01_20,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bankcard
+test01_20,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bankcard
+test01_20,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bankcard
+test01_20,credit risk assessment,A natural disaster causes temporary closure of branches.,send bankcard
+test01_20,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bankcard
+test01_20,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bankcard
+test01_20,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bankcard
+test01_20,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bankcard
+test01_20,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bankcard
+test01_21,credit risk assessment,The credit card application process is shifted to online handling.,send bankcard
+test01_21,credit risk assessment,System failure causes a suspension of credit card application processing.,send bankcard
+test01_21,credit risk assessment,The outbreak of COVID-19 in the local area.,send bankcard
+test01_21,credit risk assessment,The bank receives complaints that the current process is too slow.,send bankcard
+test01_21,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bankcard
+test01_21,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bankcard
+test01_21,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bankcard
+test01_21,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bankcard
+test01_21,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bankcard
+test01_21,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bankcard
+test01_21,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bankcard
+test01_21,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bankcard
+test01_21,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bankcard
+test01_21,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bankcard
+test01_21,credit risk assessment,A natural disaster causes temporary closure of branches.,send bankcard
+test01_21,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bankcard
+test01_21,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bankcard
+test01_21,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bankcard
+test01_21,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bankcard
+test01_21,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bankcard
+test01_22,credit risk assessment,The credit card application process is shifted to online handling.,send bankcard
+test01_22,credit risk assessment,System failure causes a suspension of credit card application processing.,send bankcard
+test01_22,credit risk assessment,The outbreak of COVID-19 in the local area.,send bankcard
+test01_22,credit risk assessment,The bank receives complaints that the current process is too slow.,send bankcard
+test01_22,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bankcard
+test01_22,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bankcard
+test01_22,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bankcard
+test01_22,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bankcard
+test01_22,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bankcard
+test01_22,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bankcard
+test01_22,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bankcard
+test01_22,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bankcard
+test01_22,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bankcard
+test01_22,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bankcard
+test01_22,credit risk assessment,A natural disaster causes temporary closure of branches.,send bankcard
+test01_22,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bankcard
+test01_22,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bankcard
+test01_22,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bankcard
+test01_22,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bankcard
+test01_22,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bankcard
+test01_23,credit risk assessment,The credit card application process is shifted to online handling.,send bank card in letter to customer
+test01_23,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card in letter to customer
+test01_23,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card in letter to customer
+test01_23,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card in letter to customer
+test01_23,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card in letter to customer
+test01_23,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card in letter to customer
+test01_23,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card in letter to customer
+test01_23,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card in letter to customer
+test01_23,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card in letter to customer
+test01_23,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card in letter to customer
+test01_23,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card in letter to customer
+test01_23,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card in letter to customer
+test01_23,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card in letter to customer
+test01_23,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card in letter to customer
+test01_23,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card in letter to customer
+test01_23,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card in letter to customer
+test01_23,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card in letter to customer
+test01_23,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card in letter to customer
+test01_23,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card in letter to customer
+test01_23,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card in letter to customer
+test01_24,credit risk assessment,The credit card application process is shifted to online handling.,send bank card via letter
+test01_24,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card via letter
+test01_24,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card via letter
+test01_24,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card via letter
+test01_24,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card via letter
+test01_24,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card via letter
+test01_24,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card via letter
+test01_24,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card via letter
+test01_24,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card via letter
+test01_24,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card via letter
+test01_24,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card via letter
+test01_24,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card via letter
+test01_24,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card via letter
+test01_24,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card via letter
+test01_24,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card via letter
+test01_24,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card via letter
+test01_24,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card via letter
+test01_24,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card via letter
+test01_24,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card via letter
+test01_24,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card via letter
+test01_25,credit risk assessment,The credit card application process is shifted to online handling.,send bankcard
+test01_25,credit risk assessment,System failure causes a suspension of credit card application processing.,send bankcard
+test01_25,credit risk assessment,The outbreak of COVID-19 in the local area.,send bankcard
+test01_25,credit risk assessment,The bank receives complaints that the current process is too slow.,send bankcard
+test01_25,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bankcard
+test01_25,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bankcard
+test01_25,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bankcard
+test01_25,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bankcard
+test01_25,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bankcard
+test01_25,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bankcard
+test01_25,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bankcard
+test01_25,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bankcard
+test01_25,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bankcard
+test01_25,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bankcard
+test01_25,credit risk assessment,A natural disaster causes temporary closure of branches.,send bankcard
+test01_25,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bankcard
+test01_25,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bankcard
+test01_25,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bankcard
+test01_25,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bankcard
+test01_25,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bankcard
+test01_26,credit risk assessment,The credit card application process is shifted to online handling.,send bankcard
+test01_26,credit risk assessment,System failure causes a suspension of credit card application processing.,send bankcard
+test01_26,credit risk assessment,The outbreak of COVID-19 in the local area.,send bankcard
+test01_26,credit risk assessment,The bank receives complaints that the current process is too slow.,send bankcard
+test01_26,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bankcard
+test01_26,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bankcard
+test01_26,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bankcard
+test01_26,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bankcard
+test01_26,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bankcard
+test01_26,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bankcard
+test01_26,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bankcard
+test01_26,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bankcard
+test01_26,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bankcard
+test01_26,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bankcard
+test01_26,credit risk assessment,A natural disaster causes temporary closure of branches.,send bankcard
+test01_26,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bankcard
+test01_26,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bankcard
+test01_26,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bankcard
+test01_26,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bankcard
+test01_26,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bankcard
+test01_27,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_27,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_27,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_27,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_27,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_27,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_27,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_27,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_27,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_27,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_27,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_27,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_27,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_27,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_27,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_27,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_27,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_27,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_27,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_27,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_28,credit risk assessment,The credit card application process is shifted to online handling.,send bankcard
+test01_28,credit risk assessment,System failure causes a suspension of credit card application processing.,send bankcard
+test01_28,credit risk assessment,The outbreak of COVID-19 in the local area.,send bankcard
+test01_28,credit risk assessment,The bank receives complaints that the current process is too slow.,send bankcard
+test01_28,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bankcard
+test01_28,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bankcard
+test01_28,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bankcard
+test01_28,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bankcard
+test01_28,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bankcard
+test01_28,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bankcard
+test01_28,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bankcard
+test01_28,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bankcard
+test01_28,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bankcard
+test01_28,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bankcard
+test01_28,credit risk assessment,A natural disaster causes temporary closure of branches.,send bankcard
+test01_28,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bankcard
+test01_28,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bankcard
+test01_28,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bankcard
+test01_28,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bankcard
+test01_28,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bankcard
+test01_29,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_29,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_29,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_29,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_29,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_29,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_29,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_29,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_29,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_29,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_29,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_29,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_29,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_29,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_29,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_29,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_29,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_29,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_29,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_29,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_30,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_30,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_30,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_30,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_30,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_30,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_30,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_30,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_30,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_30,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_30,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_30,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_30,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_30,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_30,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_30,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_30,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_30,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_30,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_30,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_31,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_31,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_31,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_31,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_31,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_31,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_31,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_31,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_31,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_31,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_31,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_31,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_31,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_31,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_31,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_31,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_31,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_31,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_31,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_31,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_32,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_32,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_32,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_32,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_32,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_32,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_32,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_32,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_32,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_32,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_32,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_32,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_32,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_32,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_32,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_32,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_32,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_32,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_32,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_32,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_33,credit risk assessment,The credit card application process is shifted to online handling.,send bankcard
+test01_33,credit risk assessment,System failure causes a suspension of credit card application processing.,send bankcard
+test01_33,credit risk assessment,The outbreak of COVID-19 in the local area.,send bankcard
+test01_33,credit risk assessment,The bank receives complaints that the current process is too slow.,send bankcard
+test01_33,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bankcard
+test01_33,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bankcard
+test01_33,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bankcard
+test01_33,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bankcard
+test01_33,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bankcard
+test01_33,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bankcard
+test01_33,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bankcard
+test01_33,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bankcard
+test01_33,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bankcard
+test01_33,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bankcard
+test01_33,credit risk assessment,A natural disaster causes temporary closure of branches.,send bankcard
+test01_33,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bankcard
+test01_33,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bankcard
+test01_33,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bankcard
+test01_33,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bankcard
+test01_33,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bankcard
+test01_34,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_34,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_34,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_34,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_34,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_34,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_34,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_34,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_34,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_34,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_34,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_34,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_34,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_34,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_34,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_34,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_34,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_34,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_34,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_34,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_35,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_35,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_35,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_35,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_35,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_35,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_35,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_35,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_35,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_35,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_35,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_35,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_35,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_35,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_35,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_35,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_35,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_35,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_35,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_35,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_36,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_36,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_36,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_36,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_36,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_36,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_36,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_36,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_36,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_36,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_36,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_36,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_36,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_36,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_36,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_36,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_36,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_36,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_36,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_36,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_37,credit risk assessment,The credit card application process is shifted to online handling.,send bankcard
+test01_37,credit risk assessment,System failure causes a suspension of credit card application processing.,send bankcard
+test01_37,credit risk assessment,The outbreak of COVID-19 in the local area.,send bankcard
+test01_37,credit risk assessment,The bank receives complaints that the current process is too slow.,send bankcard
+test01_37,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bankcard
+test01_37,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bankcard
+test01_37,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bankcard
+test01_37,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bankcard
+test01_37,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bankcard
+test01_37,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bankcard
+test01_37,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bankcard
+test01_37,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bankcard
+test01_37,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bankcard
+test01_37,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bankcard
+test01_37,credit risk assessment,A natural disaster causes temporary closure of branches.,send bankcard
+test01_37,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bankcard
+test01_37,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bankcard
+test01_37,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bankcard
+test01_37,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bankcard
+test01_37,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bankcard
+test01_38,credit risk assessment,The credit card application process is shifted to online handling.,send bankcard
+test01_38,credit risk assessment,System failure causes a suspension of credit card application processing.,send bankcard
+test01_38,credit risk assessment,The outbreak of COVID-19 in the local area.,send bankcard
+test01_38,credit risk assessment,The bank receives complaints that the current process is too slow.,send bankcard
+test01_38,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bankcard
+test01_38,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bankcard
+test01_38,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bankcard
+test01_38,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bankcard
+test01_38,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bankcard
+test01_38,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bankcard
+test01_38,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bankcard
+test01_38,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bankcard
+test01_38,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bankcard
+test01_38,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bankcard
+test01_38,credit risk assessment,A natural disaster causes temporary closure of branches.,send bankcard
+test01_38,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bankcard
+test01_38,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bankcard
+test01_38,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bankcard
+test01_38,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bankcard
+test01_38,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bankcard
+test01_39,credit risk assessment,The credit card application process is shifted to online handling.,send bank card
+test01_39,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card
+test01_39,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card
+test01_39,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card
+test01_39,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card
+test01_39,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card
+test01_39,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card
+test01_39,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card
+test01_39,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card
+test01_39,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card
+test01_39,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card
+test01_39,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card
+test01_39,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card
+test01_39,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card
+test01_39,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card
+test01_39,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card
+test01_39,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card
+test01_39,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card
+test01_39,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card
+test01_39,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card
+test01_40,credit risk assessment,The credit card application process is shifted to online handling.,send bank card via letter
+test01_40,credit risk assessment,System failure causes a suspension of credit card application processing.,send bank card via letter
+test01_40,credit risk assessment,The outbreak of COVID-19 in the local area.,send bank card via letter
+test01_40,credit risk assessment,The bank receives complaints that the current process is too slow.,send bank card via letter
+test01_40,credit risk assessment,A major incident or event temporarily creates an emergency processing channel for credit card applications.,send bank card via letter
+test01_40,credit risk assessment,A change in the customer credit scoring model leads to a modification in approval standards.,send bank card via letter
+test01_40,credit risk assessment,A bank merger or acquisition leads to a restructuring of business processes.,send bank card via letter
+test01_40,credit risk assessment,A new payment technology in the credit card market forces the bank to adjust related processes.,send bank card via letter
+test01_40,credit risk assessment,Frequent credit card fraud incidents lead to enhanced security verification during applications.,send bank card via letter
+test01_40,credit risk assessment,An increase in credit risk forces the bank to temporarily adjust credit card limit approval standards.,send bank card via letter
+test01_40,credit risk assessment,The credit card business is subject to a sudden inspection by regulatory authorities.,send bank card via letter
+test01_40,credit risk assessment,"Due to frequent fraud cases, the bank intensifies its review of application materials.",send bank card via letter
+test01_40,credit risk assessment,Intense competition in the credit card market forces the bank to improve approval efficiency.,send bank card via letter
+test01_40,credit risk assessment,Customers demand immediate credit card processing due to service issues with the bank.,send bank card via letter
+test01_40,credit risk assessment,A natural disaster causes temporary closure of branches.,send bank card via letter
+test01_40,credit risk assessment,"A major data breach occurs, leading to the suspension of credit card applications.",send bank card via letter
+test01_40,credit risk assessment,An unexpected surge in credit card applications leads to a shortage of manpower.,send bank card via letter
+test01_40,credit risk assessment,"The government implements a new anti-money laundering law, requiring additional review steps.",send bank card via letter
+test01_40,credit risk assessment,A competitor’s aggressive promotional campaign attracts a large number of customers.,send bank card via letter
+test01_40,credit risk assessment,"The bank launches a new credit card product, requiring process adjustments.",send bank card via letter

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="" exporter="Camunda Modeler" exporterVersion="5.23.0" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
+  <collaboration id="Collaboration_1">
+    <participant id="pool_18" name="2nd Level Support" processRef="Process_18" />
+    <participant id="pool_19" name="Business Unit" processRef="Process_19" />
+    <messageFlow id="messageFlow_51" sourceRef="messageIntermediateThrowEvent_23" targetRef="messageStartEvent_17" />
+    <messageFlow id="messageFlow_55" sourceRef="messageEndEvent_22" targetRef="messageStartEvent_13" />
+  </collaboration>
+  <process id="Process_18" isExecutable="false">
+    <laneSet id="LaneSet_180">
+      <lane id="lane_20" name="2nd Level Support">
+        <flowNodeRef>task_1</flowNodeRef>
+        <flowNodeRef>task_2</flowNodeRef>
+        <flowNodeRef>task_4</flowNodeRef>
+        <flowNodeRef>messageIntermediateThrowEvent_7</flowNodeRef>
+        <flowNodeRef>timerIntermediateEvent_8</flowNodeRef>
+        <flowNodeRef>eventBasedGateway_12</flowNodeRef>
+        <flowNodeRef>timerIntermediateEvent_14</flowNodeRef>
+        <flowNodeRef>messageIntermediateThrowEvent_15</flowNodeRef>
+        <flowNodeRef>messageStartEvent_17</flowNodeRef>
+        <flowNodeRef>messageEndEvent_22</flowNodeRef>
+        <flowNodeRef>subProcessCollapsed_6</flowNodeRef>
+        <flowNodeRef>subProcessCollapsed_11</flowNodeRef>
+      </lane>
+    </laneSet>
+    <task id="task_1" name="Set changed (IT) asset in CMS active">
+      <outgoing>sequenceFlow_52</outgoing>
+      <dataOutputAssociation id="dataOutputAssociation_56">
+        <targetRef>dataObjectReference_9</targetRef>
+      </dataOutputAssociation>
+    </task>
+    <task id="task_2" name="Identify affected IT assets and configuration items">
+      <incoming>sequenceFlow_45</incoming>
+      <property id="Property_54" name="__targetRef_placeholder" />
+      <dataInputAssociation id="dataInputAssociation_54">
+        <sourceRef>dataObjectReference_10</sourceRef>
+        <targetRef>Property_54</targetRef>
+      </dataInputAssociation>
+    </task>
+    <task id="task_4" name="Inform Business Unit">
+      <incoming>sequenceFlow_52</incoming>
+      <outgoing>sequenceFlow_53</outgoing>
+    </task>
+    <subProcess id="subProcessCollapsed_6" name="Preparation of new/changed IT Asset data">
+      <incoming>sequenceFlow_48</incoming>
+      <outgoing>sequenceFlow_46</outgoing>
+    </subProcess>
+    <intermediateThrowEvent id="messageIntermediateThrowEvent_7" name="New/changed IT Asset data with need for post-processing">
+      <outgoing>sequenceFlow_48</outgoing>
+      <messageEventDefinition id="MessageEventDefinition_7" />
+    </intermediateThrowEvent>
+    <intermediateCatchEvent id="timerIntermediateEvent_8" name="New/changed personnel data processed">
+      <incoming>sequenceFlow_44</incoming>
+      <outgoing>sequenceFlow_40</outgoing>
+      <timerEventDefinition id="TimerEventDefinition_8" />
+    </intermediateCatchEvent>
+    <subProcess id="subProcessCollapsed_11" name="Preparation of new / changed personnel data">
+      <incoming>sequenceFlow_50</incoming>
+      <outgoing>sequenceFlow_44</outgoing>
+    </subProcess>
+    <eventBasedGateway id="eventBasedGateway_12">
+      <incoming>sequenceFlow_42</incoming>
+      <incoming>sequenceFlow_40</incoming>
+    </eventBasedGateway>
+    <intermediateCatchEvent id="timerIntermediateEvent_14" name="New/changed IT Asset data processed">
+      <incoming>sequenceFlow_46</incoming>
+      <outgoing>sequenceFlow_42</outgoing>
+      <timerEventDefinition id="TimerEventDefinition_14" />
+    </intermediateCatchEvent>
+    <intermediateThrowEvent id="messageIntermediateThrowEvent_15" name="New/changed personnel data with need for post-processing">
+      <outgoing>sequenceFlow_50</outgoing>
+      <messageEventDefinition id="MessageEventDefinition_15" />
+    </intermediateThrowEvent>
+    <startEvent id="messageStartEvent_17" name="Affected personnel">
+      <outgoing>sequenceFlow_45</outgoing>
+      <messageEventDefinition id="MessageEventDefinition_17" />
+    </startEvent>
+    <endEvent id="messageEndEvent_22" name="Organizational change Implemented">
+      <incoming>sequenceFlow_53</incoming>
+      <messageEventDefinition id="MessageEventDefinition_22" />
+    </endEvent>
+    <dataObjectReference id="dataObjectReference_9" name="Configuration Management System" dataObjectRef="dataObject_9" />
+    <dataObject id="dataObject_9" />
+    <dataObjectReference id="dataObjectReference_10" name="Personnel" dataObjectRef="dataObject_10" />
+    <dataObject id="dataObject_10" />
+    <dataObjectReference id="dataObjectReference_16" name="consulted" dataObjectRef="dataObject_16" />
+    <dataObject id="dataObject_16" />
+    <sequenceFlow id="sequenceFlow_52" sourceRef="task_1" targetRef="task_4" />
+    <sequenceFlow id="sequenceFlow_45" sourceRef="messageStartEvent_17" targetRef="task_2" />
+    <sequenceFlow id="sequenceFlow_53" sourceRef="task_4" targetRef="messageEndEvent_22" />
+    <sequenceFlow id="sequenceFlow_48" sourceRef="messageIntermediateThrowEvent_7" targetRef="subProcessCollapsed_6" />
+    <sequenceFlow id="sequenceFlow_46" sourceRef="subProcessCollapsed_6" targetRef="timerIntermediateEvent_14" />
+    <sequenceFlow id="sequenceFlow_44" sourceRef="subProcessCollapsed_11" targetRef="timerIntermediateEvent_8" />
+    <sequenceFlow id="sequenceFlow_40" sourceRef="timerIntermediateEvent_8" targetRef="eventBasedGateway_12" />
+    <sequenceFlow id="sequenceFlow_50" sourceRef="messageIntermediateThrowEvent_15" targetRef="subProcessCollapsed_11" />
+    <sequenceFlow id="sequenceFlow_42" sourceRef="timerIntermediateEvent_14" targetRef="eventBasedGateway_12" />
+  </process>
+  <process id="Process_19" isExecutable="false">
+    <laneSet id="LaneSet_190">
+      <lane id="lane_21">
+        <flowNodeRef>task_0</flowNodeRef>
+        <flowNodeRef>startEvent_3</flowNodeRef>
+        <flowNodeRef>endEvent_5</flowNodeRef>
+        <flowNodeRef>messageStartEvent_13</flowNodeRef>
+        <flowNodeRef>messageIntermediateThrowEvent_23</flowNodeRef>
+      </lane>
+    </laneSet>
+    <task id="task_0" name="Define affected personnel">
+      <incoming>sequenceFlow_43</incoming>
+      <outgoing>sequenceFlow_41</outgoing>
+    </task>
+    <startEvent id="startEvent_3" name="Organizational change (including location)">
+      <outgoing>sequenceFlow_43</outgoing>
+    </startEvent>
+    <endEvent id="endEvent_5" name="Organizational change in the Service Configuration Management System completed">
+      <incoming>sequenceFlow_49</incoming>
+    </endEvent>
+    <startEvent id="messageStartEvent_13" name="Organizational change Implemented">
+      <outgoing>sequenceFlow_49</outgoing>
+      <messageEventDefinition id="MessageEventDefinition_13" />
+    </startEvent>
+    <intermediateThrowEvent id="messageIntermediateThrowEvent_23" name="Affected personnel">
+      <incoming>sequenceFlow_41</incoming>
+      <messageEventDefinition id="MessageEventDefinition_23" />
+    </intermediateThrowEvent>
+    <sequenceFlow id="sequenceFlow_43" sourceRef="startEvent_3" targetRef="task_0" />
+    <sequenceFlow id="sequenceFlow_41" sourceRef="task_0" targetRef="messageIntermediateThrowEvent_23" />
+    <sequenceFlow id="sequenceFlow_49" sourceRef="messageStartEvent_13" targetRef="endEvent_5" />
+  </process>
+  <bpmndi:BPMNDiagram id="diagram-0">
+    <bpmndi:BPMNPlane id="plane-0" bpmnElement="Collaboration_1">
+      <bpmndi:BPMNShape id="pool_18_di" bpmnElement="pool_18" isHorizontal="true">
+        <omgdc:Bounds x="166" y="180" width="1265" height="331" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="lane_20_di" bpmnElement="lane_20" isHorizontal="true">
+        <omgdc:Bounds x="217" y="180" width="1214" height="331" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task_1_di" bpmnElement="task_1">
+        <omgdc:Bounds x="1083" y="314" width="91" height="72" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task_2_di" bpmnElement="task_2">
+        <omgdc:Bounds x="432" y="314" width="93" height="71" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task_4_di" bpmnElement="task_4">
+        <omgdc:Bounds x="1214" y="314" width="89" height="73" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="subProcessCollapsed_6_di" bpmnElement="subProcessCollapsed_6">
+        <omgdc:Bounds x="763" y="313" width="89" height="73" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageIntermediateThrowEvent_7_di" bpmnElement="messageIntermediateThrowEvent_7">
+        <omgdc:Bounds x="671" y="336" width="29" height="27" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="647" y="361" width="81" height="53" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="timerIntermediateEvent_8_di" bpmnElement="timerIntermediateEvent_8">
+        <omgdc:Bounds x="916" y="436" width="29" height="30" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="894" y="464" width="73" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="subProcessCollapsed_11_di" bpmnElement="subProcessCollapsed_11">
+        <omgdc:Bounds x="763" y="414" width="89" height="73" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="eventBasedGateway_12_di" bpmnElement="eventBasedGateway_12">
+        <omgdc:Bounds x="1012" y="333" width="32" height="33" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="timerIntermediateEvent_14_di" bpmnElement="timerIntermediateEvent_14">
+        <omgdc:Bounds x="916" y="336" width="29" height="28" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="891" y="361" width="81" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageIntermediateThrowEvent_15_di" bpmnElement="messageIntermediateThrowEvent_15">
+        <omgdc:Bounds x="671" y="438" width="29" height="27" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="648" y="463" width="78" height="53" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageStartEvent_17_di" bpmnElement="messageStartEvent_17">
+        <omgdc:Bounds x="463" y="247" width="29" height="28" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="514" y="253" width="49" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageEndEvent_22_di" bpmnElement="messageEndEvent_22">
+        <omgdc:Bounds x="1244" y="246" width="27" height="28" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="1119" y="252" width="71" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="dataObjectReference_9_di" bpmnElement="dataObjectReference_9">
+        <omgdc:Bounds x="1105" y="427" width="47" height="45" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="1096" y="476" width="66" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="dataObjectReference_10_di" bpmnElement="dataObjectReference_10">
+        <omgdc:Bounds x="454" y="427" width="48" height="44" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="532" y="374" width="50" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="dataObjectReference_16_di" bpmnElement="dataObjectReference_16">
+        <omgdc:Bounds x="324" y="347" width="46" height="28" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="372" y="333" width="48" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="sequenceFlow_40_di" bpmnElement="sequenceFlow_40">
+        <omgdi:waypoint x="944.9191897974493" y="450.48822205551386" />
+        <omgdi:waypoint x="1024.509167291823" y="444.4915828957239" />
+        <omgdi:waypoint x="1027.9232408102025" y="366.0070217554388" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_42_di" bpmnElement="sequenceFlow_42">
+        <omgdi:waypoint x="945.1735333833458" y="346.9312528132033" />
+        <omgdi:waypoint x="1011.8702475618904" y="349.45512378094526" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_44_di" bpmnElement="sequenceFlow_44">
+        <omgdi:waypoint x="852.1033458364591" y="450.15561890472617" />
+        <omgdi:waypoint x="916.0316279069767" y="450.3903975993999" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_45_di" bpmnElement="sequenceFlow_45">
+        <omgdi:waypoint x="477.6606751687922" y="274.2085521380345" />
+        <omgdi:waypoint x="476.56504126031507" y="313.6709377344336" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_46_di" bpmnElement="sequenceFlow_46">
+        <omgdi:waypoint x="852.2207351837959" y="348.04645161290324" />
+        <omgdi:waypoint x="915.894673668417" y="348.23231807951987" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_48_di" bpmnElement="sequenceFlow_48">
+        <omgdi:waypoint x="700.0450112528132" y="348.3790547636909" />
+        <omgdi:waypoint x="763.1906976744185" y="348.9170892723181" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_50_di" bpmnElement="sequenceFlow_50">
+        <omgdi:waypoint x="699.8493623405851" y="450.42952738184545" />
+        <omgdi:waypoint x="763.2396099024756" y="449.37302325581396" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_52_di" bpmnElement="sequenceFlow_52">
+        <omgdi:waypoint x="1174.141455363841" y="349.5040360090023" />
+        <omgdi:waypoint x="1214.1907876969242" y="350.1105476369092" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_53_di" bpmnElement="sequenceFlow_53">
+        <omgdi:waypoint x="1256.5683420855214" y="313.84702175543885" />
+        <omgdi:waypoint x="1256.9205101275318" y="274.01290322580644" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="pool_19_di" bpmnElement="pool_19" isHorizontal="true">
+        <omgdc:Bounds x="151" y="79" width="1293" height="141" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="lane_21_di" bpmnElement="lane_21" isHorizontal="true">
+        <omgdc:Bounds x="203" y="79" width="1241" height="141" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task_0_di" bpmnElement="task_0">
+        <omgdc:Bounds x="335" y="118" width="86" height="68" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="startEvent_3_di" bpmnElement="startEvent_3">
+        <omgdc:Bounds x="256" y="140" width="28" height="28" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="227" y="165" width="87" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="endEvent_5_di" bpmnElement="endEvent_5">
+        <omgdc:Bounds x="1309" y="157" width="25" height="28" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="1288" y="119" width="71" height="93" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageStartEvent_13_di" bpmnElement="messageStartEvent_13">
+        <omgdc:Bounds x="1244" y="157" width="29" height="27" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="1119" y="161" width="71" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageIntermediateThrowEvent_23_di" bpmnElement="messageIntermediateThrowEvent_23">
+        <omgdc:Bounds x="464" y="140" width="27" height="29" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="513" y="145" width="49" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="sequenceFlow_41_di" bpmnElement="sequenceFlow_41">
+        <omgdi:waypoint x="421.0985746436609" y="153.63990997749437" />
+        <omgdi:waypoint x="464.37611402850706" y="153.32687171792946" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_43_di" bpmnElement="sequenceFlow_43">
+        <omgdi:waypoint x="283.91933983495875" y="152.63231807951988" />
+        <omgdi:waypoint x="335.10109527381843" y="152.3584096024006" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_49_di" bpmnElement="sequenceFlow_49">
+        <omgdi:waypoint x="1272.0539534883721" y="170.40702175543885" />
+        <omgdi:waypoint x="1309.3446361590395" y="170.33854463615904" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="dataOutputAssociation_56_di" bpmnElement="dataOutputAssociation_56">
+        <omgdi:waypoint x="1130.5900075018753" y="386.4718979744936" />
+        <omgdi:waypoint x="1129.0443810952738" y="427.2255663915979" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="dataInputAssociation_54_di" bpmnElement="dataInputAssociation_54">
+        <omgdi:waypoint x="478.00306076519126" y="426.6484021005251" />
+        <omgdi:waypoint x="478.2378394598649" y="385.073008252063" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="messageFlow_51_di" bpmnElement="messageFlow_51">
+        <omgdi:waypoint x="477.7193698424606" y="168.4994448612153" />
+        <omgdi:waypoint x="476.5552588147037" y="246.54379594898722" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="messageFlow_55_di" bpmnElement="messageFlow_55">
+        <omgdi:waypoint x="1255.609662415604" y="245.59489872468117" />
+        <omgdi:waypoint x="1256.3726931732933" y="184.79699924981244" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="subProcessCollapsed_6" />
+  </bpmndi:BPMNDiagram>
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="subProcessCollapsed_11" />
+  </bpmndi:BPMNDiagram>
+</definitions>

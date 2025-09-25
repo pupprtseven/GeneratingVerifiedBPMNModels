@@ -1,0 +1,49 @@
+{
+  "control_flow": [
+    {
+      "actor": "A",
+      "from": "S1",
+      "to": "T1"
+    },
+    {
+      "actor": "A",
+      "from": "T1",
+      "to": "T2-r1"
+    },
+    {
+      "actor": "B",
+      "from": "S2",
+      "to": "T2"
+    },
+    {
+      "actor": "B",
+      "from": "T2",
+      "to": "E2"
+    },
+    {
+      "actor": "A",
+      "from": "T2-r1",
+      "to": "E1-r1"
+    },
+    {
+      "actor": "A",
+      "from": "E1-r1",
+      "to": "E1"
+    },
+    {
+      "actor": "B",
+      "from": "E2-r1",
+      "to": "E2"
+    }
+  ],
+  "extracted_pairs": [
+    {
+      "type": "convergent",
+      "from_tasks": [
+        "E2-r1",
+        "T2"
+      ],
+      "to_task": "E2"
+    }
+  ]
+}

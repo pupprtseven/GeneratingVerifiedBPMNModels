@@ -1,0 +1,64 @@
+{
+  "config_name": "Revise task execution sequence based on requirement violations and counterexample trace.",
+  "input_variables": {
+    "REQUIREMENT": "Default requirement: User submits order, system processes it.",
+    "FORMATTASK": "{\n  \"actor\": [\n    {\n      \"actor_name\": \"User\",\n      \"symbol\": \"A\"\n    },\n    {\n      \"actor_name\": \"System\",\n      \"symbol\": \"B\"\n    }\n  ],\n  \"tasks\": [\n    {\n      \"actor_symbol\": \"A\",\n      \"task_description\": \"User submits order\",\n      \"task_symbol\": \"T1\"\n    },\n    {\n      \"actor_symbol\": \"B\",\n      \"task_description\": \"System processes the order\",\n      \"task_symbol\": \"T2\"\n    },\n    {\n      \"actor_symbol\": \"A\",\n      \"task_description\": \"initial of User\",\n      \"task_symbol\": \"S1\"\n    },\n    {\n      \"actor_symbol\": \"A\",\n      \"task_description\": \"end of User\",\n      \"task_symbol\": \"E1\"\n    },\n    {\n      \"actor_symbol\": \"B\",\n      \"task_description\": \"initial of System\",\n      \"task_symbol\": \"S2\"\n    },\n    {\n      \"actor_symbol\": \"B\",\n      \"task_description\": \"end of System\",\n      \"task_symbol\": \"E2\"\n    },\n    {\n      \"actor_symbol\": \"B\",\n      \"semantic_relation_label\": \"T1-related\",\n      \"task_symbol\": \"T2-r1\"\n    }\n  ],\n  \"task_types\": [\n    {\n      \"task_symbol\": \"T1\",\n      \"task_type\": \"action\"\n    },\n    {\n      \"task_symbol\": \"T1-r1\",\n      \"task_type\": \"message receiver\"\n    },\n    {\n      \"task_symbol\": \"T2\",\n      \"task_type\": \"action\"\n    },\n    {\n      \"task_symbol\": \"S1\",\n      \"task_type\": \"action\"\n    },\n    {\n      \"task_symbol\": \"E1\",\n      \"task_type\": \"action\"\n    },\n    {\n      \"task_symbol\": \"S2\",\n      \"task_type\": \"action\"\n    },\n    {\n      \"task_symbol\": \"E2\",\n      \"task_type\": \"action\"\n    }\n  ]\n}",
+    "FLOW": "{\"control_flow\": [{\"actor\": \"A\", \"from\": \"S1\", \"to\": \"T1\"}, {\"actor\": \"A\", \"from\": \"T1\", \"to\": \"T2-r1\"}, {\"actor\": \"B\", \"from\": \"S2\", \"to\": \"T2\"}, {\"actor\": \"B\", \"from\": \"T2\", \"to\": \"E2\"}, {\"actor\": \"A\", \"from\": \"T2-r1\", \"to\": \"E1-r1\"}, {\"actor\": \"A\", \"from\": \"E1-r1\", \"to\": \"E1\"}, {\"actor\": \"B\", \"from\": \"E2-r1\", \"to\": \"E2\"}], \"message_flow\": [{\"from_actor\": \"A\", \"to_actor\": \"B\", \"from\": \"T1\", \"to\": \"T2-r1\"}, {\"from_actor\": \"A\", \"to_actor\": \"B\", \"from\": \"T2\", \"to\": \"E2-r1\"}, {\"from_actor\": \"B\", \"to_actor\": \"A\", \"from\": \"T2\", \"to\": \"E1-r1\"}]}",
+    "REVISION": ""
+  },
+  "full_prompt": "Task: Revise task execution sequence based on requirement violations and counterexample trace.\n\nInput variables:\nREQUIREMENT: Default requirement: User submits order, system processes it.\nFORMATTASK: {\n  \"actor\": [\n    {\n      \"actor_name\": \"User\",\n      \"symbol\": \"A\"\n    },\n    {\n      \"actor_name\": \"System\",\n      \"symbol\": \"B\"\n    }\n  ],\n  \"tasks\": [\n    {\n      \"actor_symbol\": \"A\",\n      \"task_description\": \"User submits order\",\n      \"task_symbol\": \"T1\"\n    },\n    {\n      \"actor_symbol\": \"B\",\n      \"task_description\": \"System processes the order\",\n      \"task_symbol\": \"T2\"\n    },\n    {\n      \"actor_symbol\": \"A\",\n      \"task_description\": \"initial of User\",\n      \"task_symbol\": \"S1\"\n    },\n    {\n      \"actor_symbol\": \"A\",\n      \"task_description\": \"end of User\",\n      \"task_symbol\": \"E1\"\n    },\n    {\n      \"actor_symbol\": \"B\",\n      \"task_description\": \"initial of System\",\n      \"task_symbol\": \"S2\"\n    },\n    {\n      \"actor_symbol\": \"B\",\n      \"task_description\": \"end of System\",\n      \"task_symbol\": \"E2\"\n    },\n    {\n      \"actor_symbol\": \"B\",\n      \"semantic_relation_label\": \"T1-related\",\n      \"task_symbol\": \"T2-r1\"\n    }\n  ],\n  \"task_types\": [\n    {\n      \"task_symbol\": \"T1\",\n      \"task_type\": \"action\"\n    },\n    {\n      \"task_symbol\": \"T1-r1\",\n      \"task_type\": \"message receiver\"\n    },\n    {\n      \"task_symbol\": \"T2\",\n      \"task_type\": \"action\"\n    },\n    {\n      \"task_symbol\": \"S1\",\n      \"task_type\": \"action\"\n    },\n    {\n      \"task_symbol\": \"E1\",\n      \"task_type\": \"action\"\n    },\n    {\n      \"task_symbol\": \"S2\",\n      \"task_type\": \"action\"\n    },\n    {\n      \"task_symbol\": \"E2\",\n      \"task_type\": \"action\"\n    }\n  ]\n}\nFLOW: {\"control_flow\": [{\"actor\": \"A\", \"from\": \"S1\", \"to\": \"T1\"}, {\"actor\": \"A\", \"from\": \"T1\", \"to\": \"T2-r1\"}, {\"actor\": \"B\", \"from\": \"S2\", \"to\": \"T2\"}, {\"actor\": \"B\", \"from\": \"T2\", \"to\": \"E2\"}, {\"actor\": \"A\", \"from\": \"T2-r1\", \"to\": \"E1-r1\"}, {\"actor\": \"A\", \"from\": \"E1-r1\", \"to\": \"E1\"}, {\"actor\": \"B\", \"from\": \"E2-r1\", \"to\": \"E2\"}], \"message_flow\": [{\"from_actor\": \"A\", \"to_actor\": \"B\", \"from\": \"T1\", \"to\": \"T2-r1\"}, {\"from_actor\": \"A\", \"to_actor\": \"B\", \"from\": \"T2\", \"to\": \"E2-r1\"}, {\"from_actor\": \"B\", \"to_actor\": \"A\", \"from\": \"T2\", \"to\": \"E1-r1\"}]}\nREVISION: \n\nAnalyze the requirement description and the revision advice—which includes violated constraints and corresponding counterexample traces—to revise the original task execution sequence.\n\nStep 1: Interpret Inputs\n- Read the requirement description (Default requirement: User submits order, system processes it.) to understand the intended temporal and interaction semantics.\n- Parse the symbolic task definitions ({\n  \"actor\": [\n    {\n      \"actor_name\": \"User\",\n      \"symbol\": \"A\"\n    },\n    {\n      \"actor_name\": \"System\",\n      \"symbol\": \"B\"\n    }\n  ],\n  \"tasks\": [\n    {\n      \"actor_symbol\": \"A\",\n      \"task_description\": \"User submits order\",\n      \"task_symbol\": \"T1\"\n    },\n    {\n      \"actor_symbol\": \"B\",\n      \"task_description\": \"System processes the order\",\n      \"task_symbol\": \"T2\"\n    },\n    {\n      \"actor_symbol\": \"A\",\n      \"task_description\": \"initial of User\",\n      \"task_symbol\": \"S1\"\n    },\n    {\n      \"actor_symbol\": \"A\",\n      \"task_description\": \"end of User\",\n      \"task_symbol\": \"E1\"\n    },\n    {\n      \"actor_symbol\": \"B\",\n      \"task_description\": \"initial of System\",\n      \"task_symbol\": \"S2\"\n    },\n    {\n      \"actor_symbol\": \"B\",\n      \"task_description\": \"end of System\",\n      \"task_symbol\": \"E2\"\n    },\n    {\n      \"actor_symbol\": \"B\",\n      \"semantic_relation_label\": \"T1-related\",\n      \"task_symbol\": \"T2-r1\"\n    }\n  ],\n  \"task_types\": [\n    {\n      \"task_symbol\": \"T1\",\n      \"task_type\": \"action\"\n    },\n    {\n      \"task_symbol\": \"T1-r1\",\n      \"task_type\": \"message receiver\"\n    },\n    {\n      \"task_symbol\": \"T2\",\n      \"task_type\": \"action\"\n    },\n    {\n      \"task_symbol\": \"S1\",\n      \"task_type\": \"action\"\n    },\n    {\n      \"task_symbol\": \"E1\",\n      \"task_type\": \"action\"\n    },\n    {\n      \"task_symbol\": \"S2\",\n      \"task_type\": \"action\"\n    },\n    {\n      \"task_symbol\": \"E2\",\n      \"task_type\": \"action\"\n    }\n  ]\n}) to identify task types (e.g., action, message receiver, timer loop).\n- Examine the original flow ({\"control_flow\": [{\"actor\": \"A\", \"from\": \"S1\", \"to\": \"T1\"}, {\"actor\": \"A\", \"from\": \"T1\", \"to\": \"T2-r1\"}, {\"actor\": \"B\", \"from\": \"S2\", \"to\": \"T2\"}, {\"actor\": \"B\", \"from\": \"T2\", \"to\": \"E2\"}, {\"actor\": \"A\", \"from\": \"T2-r1\", \"to\": \"E1-r1\"}, {\"actor\": \"A\", \"from\": \"E1-r1\", \"to\": \"E1\"}, {\"actor\": \"B\", \"from\": \"E2-r1\", \"to\": \"E2\"}], \"message_flow\": [{\"from_actor\": \"A\", \"to_actor\": \"B\", \"from\": \"T1\", \"to\": \"T2-r1\"}, {\"from_actor\": \"A\", \"to_actor\": \"B\", \"from\": \"T2\", \"to\": \"E2-r1\"}, {\"from_actor\": \"B\", \"to_actor\": \"A\", \"from\": \"T2\", \"to\": \"E1-r1\"}]}) to extract current intra-actor and inter-actor control dependencies.\n- Interpret the revision advice (), which consists of violated CTL constraints and counterexample paths, identifying the cause of logical failures.\n\nStep 2: Apply Targeted Modifications\n- Modify the task execution order, add or remove tasks if necessary, or adjust message flow to eliminate violations while preserving process semantics.\n- Ensure logical consistency with respect to the original requirement.\n- Integrate cross-actor coordination (e.g., message sending/receiving) if required by the revised logic.\n\nStep 3: Output the Updated Flow\n- Return updated control_flow and message_flow JSON arrays.\n- All modifications must satisfy the original requirement and eliminate the violations mentioned in .\n\nOutput format requirements:\n- control_flow: JSON array format, each element must include: {\"actor\": <actor_id>, \"from\": <source_task_id>, \"to\": <target_task_id>}. Represents intra-actor execution order.\n- message_flow: JSON array format, each element must include: {\"from_actor\": <sender_actor_id>, \"to_actor\": <receiver_actor_id>, \"from\": <sending_task_id>, \"to\": <receiving_task_id>}. Represents cross-actor message dependencies.\n- output_constraints: must_remove_CTL_violations, must_preserve_logical_consistency, apply_revision_advice_strictly, no_comments_in_json\n- explanation: Briefly explain how the updated flow resolves the CTL violations and preserves the logical intent of the requirement.\n",
+  "llm_response": "```json\n{\n  \"control_flow\": [\n    {\"actor\": \"A\", \"from\": \"S1\", \"to\": \"T1\"},\n    {\"actor\": \"B\", \"from\": \"S2\", \"to\": \"T2\"},\n    {\"actor\": \"A\", \"from\": \"T1\", \"to\": \"T2-r1\"},\n    {\"actor\": \"B\", \"from\": \"T2\", \"to\": \"E2\"},\n    {\"actor\": \"A\", \"from\": \"T2-r1\", \"to\": \"E1-r1\"},\n    {\"actor\": \"A\", \"from\": \"E1-r1\", \"to\": \"E1\"},\n    {\"actor\": \"B\", \"from\": \"E2-r1\", \"to\": \"E2\"}\n  ],\n  \"message_flow\": [\n    {\"from_actor\": \"A\", \"to_actor\": \"B\", \"from\": \"T1\", \"to\": \"T2-r1\"},\n    {\"from_actor\": \"B\", \"to_actor\": \"A\", \"from\": \"T2\", \"to\": \"E1-r1\"}\n  ],\n  \"output_constraints\": {\n    \"must_remove_CTL_violations\": true,\n    \"must_preserve_logical_consistency\": true,\n    \"apply_revision_advice_strictly\": true\n  },\n  \"explanation\": \"The updated flow corrects the execution sequence by ensuring that the system begins processing the order immediately after the user submits it, which preserves the logical intent of the original requirement. The revised control flow eliminates prior violations by maintaining a direct sequence between task T1 and task T2, ensuring proper message notifications and preventing any misalignment in execution steps.\"\n}\n```",
+  "extracted_output": {
+    "control_flow": [
+      {
+        "actor": "A",
+        "from": "S1",
+        "to": "T1"
+      },
+      {
+        "actor": "B",
+        "from": "S2",
+        "to": "T2"
+      },
+      {
+        "actor": "A",
+        "from": "T1",
+        "to": "T2-r1"
+      },
+      {
+        "actor": "B",
+        "from": "T2",
+        "to": "E2"
+      },
+      {
+        "actor": "A",
+        "from": "T2-r1",
+        "to": "E1-r1"
+      },
+      {
+        "actor": "A",
+        "from": "E1-r1",
+        "to": "E1"
+      },
+      {
+        "actor": "B",
+        "from": "E2-r1",
+        "to": "E2"
+      }
+    ],
+    "message_flow": [
+      {
+        "from_actor": "A",
+        "to_actor": "B",
+        "from": "T1",
+        "to": "T2-r1"
+      },
+      {
+        "from_actor": "B",
+        "to_actor": "A",
+        "from": "T2",
+        "to": "E1-r1"
+      }
+    ]
+  }
+}

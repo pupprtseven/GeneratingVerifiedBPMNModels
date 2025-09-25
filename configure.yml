@@ -1,0 +1,53 @@
+WORKPLACE: "workplace"
+GENERATOR_PROMPT: "You are an expert in Business Process Management (BPM) and process analysis. Your task is to carefully analyze a given BPM requirement and identify the key components: actors, tasks, and their relationships. Your output must be well-structured, concise, and adhere strictly to the specified format."
+
+# Generation module configuration paths
+GENERATION:
+  SYMBOL_CONFIG_PATH: "generation/config/symbol.json"
+  TASK_CONFIG_PATH: "generation/config/task.json"
+  SEQ_CONFIG_PATH: "generation/config/seq.json"
+  GATE_CONFIG_PATH: "generation/config/gate.json"
+  REFINE_SEQ_CONFIG_PATH: "generation/config/refine_seq.json"
+
+# Verification module configuration paths
+VERIFICATION:
+  CTL_CONFIG_PATH: "verification/config/ctl.json"
+  DEFAULT_PETRI_NET_FILE: "bpmn_output_petri_net.pnml"
+  UNIFICATION_CONFIG_PATH: "benchmark/config/unification.json"
+  REQUIREMENT_CONFIG_PATH: "benchmark/config/requirement.json"
+
+# Output file names
+OUTPUT_FILES:
+  SYMBOL_OUTPUT_FILE: "symbol_output.json"
+  TASK_OUTPUT_FILE: "task_output.json"
+  SEQ_OUTPUT_FILE: "seq_output.json"
+  GATE_OUTPUT_FILE: "gate_output.json"
+  REFINED_SEQ_OUTPUT_FILE: "revised_seq_output.json"
+  CTL_OUTPUT_FILE: "ctl_output.json"
+  REVISION_FILE: "revision.json"
+  STANDARD_CTL_CONSTRAINTS_FILE: "standard_ctl_constraints.json"
+  UNIFICATION_OUTPUT_FILE: "unification_output.json"
+  BENCHMARK_SYMBOL_OUTPUT_FILE: "benchmark_symbol_output.json"
+  TARGET_SYMBOL_OUTPUT_FILE: "target_symbol_output.json"
+  REQUIREMENT_OUTPUT_FILE: "requirement_description.json"
+
+# Petri net configuration
+PETRI_NET:
+  DEFAULT_OUTPUT_FILE: "bpmn_output_petri_net.pnml"
+  PNML_NAMESPACE: "http://www.pnml.org/version-2009/grammar/pnmlcoremodel"
+  NET_ID: "bpmn_converted_net"
+  PAGE_ID: "page1"
+  NET_TYPE: "http://www.pnml.org/version-2009/grammar/pnmlcoremodel"
+  BPMN_INPUT_FILES:
+    ["bpmn_output.bpmn", "workflow.bpmn", "process.bpmn", "model.bpmn"]
+
+# BPMN to Petri net naming conventions
+NAMING_CONVENTIONS:
+  TRANSITION_PREFIX: "t_"
+  PLACE_PREFIX: "p_"
+  PRE_PLACE_PREFIX: "p_pre_"
+  POST_PLACE_PREFIX: "p_post_"
+  START_PLACE_PREFIX: "p_start_"
+  END_PLACE_PREFIX: "p_end_"
+  MESSAGE_PLACE_PREFIX: "p_msg_"
+  ARC_PREFIX: "arc_"

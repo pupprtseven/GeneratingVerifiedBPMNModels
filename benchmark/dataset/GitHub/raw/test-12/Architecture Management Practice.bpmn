@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="" exporter="Camunda Modeler" exporterVersion="5.23.0" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
+  <collaboration id="Collaboration_1">
+    <participant id="pool_1" name="Enterprise Architect" processRef="Process_1" />
+  </collaboration>
+  <process id="Process_1" isExecutable="false">
+    <startEvent id="Event_1vc6tyk">
+      <outgoing>Flow_1434ak5</outgoing>
+    </startEvent>
+    <intermediateThrowEvent id="messageIntermediateThrowEvent_3" name="Enterprise Architecture">
+      <incoming>sequenceFlow_9</incoming>
+      <messageEventDefinition id="MessageEventDefinition_3" />
+    </intermediateThrowEvent>
+    <subProcess id="subProcessCollapsed_0" name="Management of IT Architecture">
+      <incoming>Flow_1434ak5</incoming>
+      <outgoing>sequenceFlow_9</outgoing>
+    </subProcess>
+    <sequenceFlow id="Flow_1434ak5" sourceRef="Event_1vc6tyk" targetRef="subProcessCollapsed_0" />
+    <sequenceFlow id="sequenceFlow_9" sourceRef="subProcessCollapsed_0" targetRef="messageIntermediateThrowEvent_3" />
+  </process>
+  <bpmndi:BPMNDiagram id="diagram-0">
+    <bpmndi:BPMNPlane id="plane-0" bpmnElement="Collaboration_1">
+      <bpmndi:BPMNShape id="pool_1_di" bpmnElement="pool_1" isHorizontal="true">
+        <omgdc:Bounds x="157" y="81" width="1247" height="280" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1vc6tyk_di" bpmnElement="Event_1vc6tyk">
+        <omgdc:Bounds x="552" y="204" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageIntermediateThrowEvent_3_di" bpmnElement="messageIntermediateThrowEvent_3">
+        <omgdc:Bounds x="998" y="199" width="43" height="46" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="1103" y="210" width="59" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="subProcessCollapsed_0_di" bpmnElement="subProcessCollapsed_0">
+        <omgdc:Bounds x="658" y="164" width="274" height="115" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="sequenceFlow_9_di" bpmnElement="sequenceFlow_9">
+        <omgdi:waypoint x="932" y="219" />
+        <omgdi:waypoint x="965" y="219" />
+        <omgdi:waypoint x="965" y="221" />
+        <omgdi:waypoint x="998" y="221" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1434ak5_di" bpmnElement="Flow_1434ak5">
+        <omgdi:waypoint x="588" y="222" />
+        <omgdi:waypoint x="658" y="222" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="subProcessCollapsed_0" />
+  </bpmndi:BPMNDiagram>
+</definitions>

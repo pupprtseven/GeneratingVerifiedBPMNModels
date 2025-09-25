@@ -1,0 +1,289 @@
+business_model_idx,business_scenario,LTC,business_object
+test06_0,traffic accident insurance claim,"The traffic accident involves multiple parties with disputed responsibilities, causing a delay in the claims process.",send letter to customer
+test06_0,traffic accident insurance claim,"The accident occurs in a remote location, delaying accident investigation and site assessments, which affects the timeliness of the claims.",send letter to customer
+test06_0,traffic accident insurance claim,"The involved parties or witnesses provide false statements, complicating the claims verification process.",send letter to customer
+test06_0,traffic accident insurance claim,"Sudden legal changes adjust the compensation standards for traffic accidents, affecting the claims payout.",send letter to customer
+test06_0,traffic accident insurance claim,"The traffic accident involves cross-border claims, introducing complications related to international coordination and legal application.",send letter to customer
+test06_0,traffic accident insurance claim,"The accident victim fails to report the incident in a timely manner, causing the claim to exceed the allowable reporting period.",send letter to customer
+test06_0,traffic accident insurance claim,"Disputes arise over medical expenses following the traffic accident, causing uncertainty about the compensation amount.",send letter to customer
+test06_0,traffic accident insurance claim,"The two insurance companies involved in the accident dispute liability, halting the claims process.",send letter to customer
+test06_0,traffic accident insurance claim,"The vehicle repair takes an extended period, preventing the victim from using the vehicle on time, which impacts the claims processing.",send letter to customer
+test06_0,traffic accident insurance claim,"The insurance company faces financial issues due to an unexpected financial crisis, delaying compensation payments.",send letter to customer
+test06_0,traffic accident insurance claim,"The vehicle involved in the accident lacks valid insurance, complicating liability determination and extending the claims process.",send letter to customer
+test06_0,traffic accident insurance claim,"After the accident, the victim requests additional compensation that exceeds the original insurance coverage limit.",send letter to customer
+test06_0,traffic accident insurance claim,"The insurance company faces a cyberattack, resulting in the loss or delayed processing of claims information.",send letter to customer
+test06_0,traffic accident insurance claim,"Insufficient evidence at the accident scene makes liability determination difficult, affecting the claims process.",send letter to customer
+test06_0,traffic accident insurance claim,"The medical institution involved in the accident fails to provide timely injury reports, leading to missing claims documentation.",send letter to customer
+test06_0,traffic accident insurance claim,"The involved parties dispute the details of the accident, preventing agreement on the compensation amount.",send letter to customer
+test06_0,traffic accident insurance claim,"The traffic accident occurs under high-risk weather conditions, making the determination of liability more complex.",send letter to customer
+test06_0,traffic accident insurance claim,"After the accident, the insurance company investigates the authenticity of the accident report, causing delays in the claims process.",send letter to customer
+test06_1,traffic accident insurance claim,"The traffic accident involves multiple parties with disputed responsibilities, causing a delay in the claims process.",send a letter
+test06_1,traffic accident insurance claim,"The accident occurs in a remote location, delaying accident investigation and site assessments, which affects the timeliness of the claims.",send a letter
+test06_1,traffic accident insurance claim,"The involved parties or witnesses provide false statements, complicating the claims verification process.",send a letter
+test06_1,traffic accident insurance claim,"Sudden legal changes adjust the compensation standards for traffic accidents, affecting the claims payout.",send a letter
+test06_1,traffic accident insurance claim,"The traffic accident involves cross-border claims, introducing complications related to international coordination and legal application.",send a letter
+test06_1,traffic accident insurance claim,"The accident victim fails to report the incident in a timely manner, causing the claim to exceed the allowable reporting period.",send a letter
+test06_1,traffic accident insurance claim,"Disputes arise over medical expenses following the traffic accident, causing uncertainty about the compensation amount.",send a letter
+test06_1,traffic accident insurance claim,"The two insurance companies involved in the accident dispute liability, halting the claims process.",send a letter
+test06_1,traffic accident insurance claim,"The vehicle repair takes an extended period, preventing the victim from using the vehicle on time, which impacts the claims processing.",send a letter
+test06_1,traffic accident insurance claim,"The insurance company faces financial issues due to an unexpected financial crisis, delaying compensation payments.",send a letter
+test06_1,traffic accident insurance claim,"The vehicle involved in the accident lacks valid insurance, complicating liability determination and extending the claims process.",send a letter
+test06_1,traffic accident insurance claim,"After the accident, the victim requests additional compensation that exceeds the original insurance coverage limit.",send a letter
+test06_1,traffic accident insurance claim,"The insurance company faces a cyberattack, resulting in the loss or delayed processing of claims information.",send a letter
+test06_1,traffic accident insurance claim,"Insufficient evidence at the accident scene makes liability determination difficult, affecting the claims process.",send a letter
+test06_1,traffic accident insurance claim,"The medical institution involved in the accident fails to provide timely injury reports, leading to missing claims documentation.",send a letter
+test06_1,traffic accident insurance claim,"The involved parties dispute the details of the accident, preventing agreement on the compensation amount.",send a letter
+test06_1,traffic accident insurance claim,"The traffic accident occurs under high-risk weather conditions, making the determination of liability more complex.",send a letter
+test06_1,traffic accident insurance claim,"After the accident, the insurance company investigates the authenticity of the accident report, causing delays in the claims process.",send a letter
+test06_2,traffic accident insurance claim,"The traffic accident involves multiple parties with disputed responsibilities, causing a delay in the claims process.",send letter
+test06_2,traffic accident insurance claim,"The accident occurs in a remote location, delaying accident investigation and site assessments, which affects the timeliness of the claims.",send letter
+test06_2,traffic accident insurance claim,"The involved parties or witnesses provide false statements, complicating the claims verification process.",send letter
+test06_2,traffic accident insurance claim,"Sudden legal changes adjust the compensation standards for traffic accidents, affecting the claims payout.",send letter
+test06_2,traffic accident insurance claim,"The traffic accident involves cross-border claims, introducing complications related to international coordination and legal application.",send letter
+test06_2,traffic accident insurance claim,"The accident victim fails to report the incident in a timely manner, causing the claim to exceed the allowable reporting period.",send letter
+test06_2,traffic accident insurance claim,"Disputes arise over medical expenses following the traffic accident, causing uncertainty about the compensation amount.",send letter
+test06_2,traffic accident insurance claim,"The two insurance companies involved in the accident dispute liability, halting the claims process.",send letter
+test06_2,traffic accident insurance claim,"The vehicle repair takes an extended period, preventing the victim from using the vehicle on time, which impacts the claims processing.",send letter
+test06_2,traffic accident insurance claim,"The insurance company faces financial issues due to an unexpected financial crisis, delaying compensation payments.",send letter
+test06_2,traffic accident insurance claim,"The vehicle involved in the accident lacks valid insurance, complicating liability determination and extending the claims process.",send letter
+test06_2,traffic accident insurance claim,"After the accident, the victim requests additional compensation that exceeds the original insurance coverage limit.",send letter
+test06_2,traffic accident insurance claim,"The insurance company faces a cyberattack, resulting in the loss or delayed processing of claims information.",send letter
+test06_2,traffic accident insurance claim,"Insufficient evidence at the accident scene makes liability determination difficult, affecting the claims process.",send letter
+test06_2,traffic accident insurance claim,"The medical institution involved in the accident fails to provide timely injury reports, leading to missing claims documentation.",send letter
+test06_2,traffic accident insurance claim,"The involved parties dispute the details of the accident, preventing agreement on the compensation amount.",send letter
+test06_2,traffic accident insurance claim,"The traffic accident occurs under high-risk weather conditions, making the determination of liability more complex.",send letter
+test06_2,traffic accident insurance claim,"After the accident, the insurance company investigates the authenticity of the accident report, causing delays in the claims process.",send letter
+test06_3,traffic accident insurance claim,"The traffic accident involves multiple parties with disputed responsibilities, causing a delay in the claims process.",Send letter to customer
+test06_3,traffic accident insurance claim,"The accident occurs in a remote location, delaying accident investigation and site assessments, which affects the timeliness of the claims.",Send letter to customer
+test06_3,traffic accident insurance claim,"The involved parties or witnesses provide false statements, complicating the claims verification process.",Send letter to customer
+test06_3,traffic accident insurance claim,"Sudden legal changes adjust the compensation standards for traffic accidents, affecting the claims payout.",Send letter to customer
+test06_3,traffic accident insurance claim,"The traffic accident involves cross-border claims, introducing complications related to international coordination and legal application.",Send letter to customer
+test06_3,traffic accident insurance claim,"The accident victim fails to report the incident in a timely manner, causing the claim to exceed the allowable reporting period.",Send letter to customer
+test06_3,traffic accident insurance claim,"Disputes arise over medical expenses following the traffic accident, causing uncertainty about the compensation amount.",Send letter to customer
+test06_3,traffic accident insurance claim,"The two insurance companies involved in the accident dispute liability, halting the claims process.",Send letter to customer
+test06_3,traffic accident insurance claim,"The vehicle repair takes an extended period, preventing the victim from using the vehicle on time, which impacts the claims processing.",Send letter to customer
+test06_3,traffic accident insurance claim,"The insurance company faces financial issues due to an unexpected financial crisis, delaying compensation payments.",Send letter to customer
+test06_3,traffic accident insurance claim,"The vehicle involved in the accident lacks valid insurance, complicating liability determination and extending the claims process.",Send letter to customer
+test06_3,traffic accident insurance claim,"After the accident, the victim requests additional compensation that exceeds the original insurance coverage limit.",Send letter to customer
+test06_3,traffic accident insurance claim,"The insurance company faces a cyberattack, resulting in the loss or delayed processing of claims information.",Send letter to customer
+test06_3,traffic accident insurance claim,"Insufficient evidence at the accident scene makes liability determination difficult, affecting the claims process.",Send letter to customer
+test06_3,traffic accident insurance claim,"The medical institution involved in the accident fails to provide timely injury reports, leading to missing claims documentation.",Send letter to customer
+test06_3,traffic accident insurance claim,"The involved parties dispute the details of the accident, preventing agreement on the compensation amount.",Send letter to customer
+test06_3,traffic accident insurance claim,"The traffic accident occurs under high-risk weather conditions, making the determination of liability more complex.",Send letter to customer
+test06_3,traffic accident insurance claim,"After the accident, the insurance company investigates the authenticity of the accident report, causing delays in the claims process.",Send letter to customer
+test06_4,traffic accident insurance claim,"The traffic accident involves multiple parties with disputed responsibilities, causing a delay in the claims process.",inform customer
+test06_4,traffic accident insurance claim,"The accident occurs in a remote location, delaying accident investigation and site assessments, which affects the timeliness of the claims.",inform customer
+test06_4,traffic accident insurance claim,"The involved parties or witnesses provide false statements, complicating the claims verification process.",inform customer
+test06_4,traffic accident insurance claim,"Sudden legal changes adjust the compensation standards for traffic accidents, affecting the claims payout.",inform customer
+test06_4,traffic accident insurance claim,"The traffic accident involves cross-border claims, introducing complications related to international coordination and legal application.",inform customer
+test06_4,traffic accident insurance claim,"The accident victim fails to report the incident in a timely manner, causing the claim to exceed the allowable reporting period.",inform customer
+test06_4,traffic accident insurance claim,"Disputes arise over medical expenses following the traffic accident, causing uncertainty about the compensation amount.",inform customer
+test06_4,traffic accident insurance claim,"The two insurance companies involved in the accident dispute liability, halting the claims process.",inform customer
+test06_4,traffic accident insurance claim,"The vehicle repair takes an extended period, preventing the victim from using the vehicle on time, which impacts the claims processing.",inform customer
+test06_4,traffic accident insurance claim,"The insurance company faces financial issues due to an unexpected financial crisis, delaying compensation payments.",inform customer
+test06_4,traffic accident insurance claim,"The vehicle involved in the accident lacks valid insurance, complicating liability determination and extending the claims process.",inform customer
+test06_4,traffic accident insurance claim,"After the accident, the victim requests additional compensation that exceeds the original insurance coverage limit.",inform customer
+test06_4,traffic accident insurance claim,"The insurance company faces a cyberattack, resulting in the loss or delayed processing of claims information.",inform customer
+test06_4,traffic accident insurance claim,"Insufficient evidence at the accident scene makes liability determination difficult, affecting the claims process.",inform customer
+test06_4,traffic accident insurance claim,"The medical institution involved in the accident fails to provide timely injury reports, leading to missing claims documentation.",inform customer
+test06_4,traffic accident insurance claim,"The involved parties dispute the details of the accident, preventing agreement on the compensation amount.",inform customer
+test06_4,traffic accident insurance claim,"The traffic accident occurs under high-risk weather conditions, making the determination of liability more complex.",inform customer
+test06_4,traffic accident insurance claim,"After the accident, the insurance company investigates the authenticity of the accident report, causing delays in the claims process.",inform customer
+test06_5,traffic accident insurance claim,"The traffic accident involves multiple parties with disputed responsibilities, causing a delay in the claims process.",confirm claim
+test06_5,traffic accident insurance claim,"The accident occurs in a remote location, delaying accident investigation and site assessments, which affects the timeliness of the claims.",confirm claim
+test06_5,traffic accident insurance claim,"The involved parties or witnesses provide false statements, complicating the claims verification process.",confirm claim
+test06_5,traffic accident insurance claim,"Sudden legal changes adjust the compensation standards for traffic accidents, affecting the claims payout.",confirm claim
+test06_5,traffic accident insurance claim,"The traffic accident involves cross-border claims, introducing complications related to international coordination and legal application.",confirm claim
+test06_5,traffic accident insurance claim,"The accident victim fails to report the incident in a timely manner, causing the claim to exceed the allowable reporting period.",confirm claim
+test06_5,traffic accident insurance claim,"Disputes arise over medical expenses following the traffic accident, causing uncertainty about the compensation amount.",confirm claim
+test06_5,traffic accident insurance claim,"The two insurance companies involved in the accident dispute liability, halting the claims process.",confirm claim
+test06_5,traffic accident insurance claim,"The vehicle repair takes an extended period, preventing the victim from using the vehicle on time, which impacts the claims processing.",confirm claim
+test06_5,traffic accident insurance claim,"The insurance company faces financial issues due to an unexpected financial crisis, delaying compensation payments.",confirm claim
+test06_5,traffic accident insurance claim,"The vehicle involved in the accident lacks valid insurance, complicating liability determination and extending the claims process.",confirm claim
+test06_5,traffic accident insurance claim,"After the accident, the victim requests additional compensation that exceeds the original insurance coverage limit.",confirm claim
+test06_5,traffic accident insurance claim,"The insurance company faces a cyberattack, resulting in the loss or delayed processing of claims information.",confirm claim
+test06_5,traffic accident insurance claim,"Insufficient evidence at the accident scene makes liability determination difficult, affecting the claims process.",confirm claim
+test06_5,traffic accident insurance claim,"The medical institution involved in the accident fails to provide timely injury reports, leading to missing claims documentation.",confirm claim
+test06_5,traffic accident insurance claim,"The involved parties dispute the details of the accident, preventing agreement on the compensation amount.",confirm claim
+test06_5,traffic accident insurance claim,"The traffic accident occurs under high-risk weather conditions, making the determination of liability more complex.",confirm claim
+test06_5,traffic accident insurance claim,"After the accident, the insurance company investigates the authenticity of the accident report, causing delays in the claims process.",confirm claim
+test06_6,traffic accident insurance claim,"The traffic accident involves multiple parties with disputed responsibilities, causing a delay in the claims process.",notify customer
+test06_6,traffic accident insurance claim,"The accident occurs in a remote location, delaying accident investigation and site assessments, which affects the timeliness of the claims.",notify customer
+test06_6,traffic accident insurance claim,"The involved parties or witnesses provide false statements, complicating the claims verification process.",notify customer
+test06_6,traffic accident insurance claim,"Sudden legal changes adjust the compensation standards for traffic accidents, affecting the claims payout.",notify customer
+test06_6,traffic accident insurance claim,"The traffic accident involves cross-border claims, introducing complications related to international coordination and legal application.",notify customer
+test06_6,traffic accident insurance claim,"The accident victim fails to report the incident in a timely manner, causing the claim to exceed the allowable reporting period.",notify customer
+test06_6,traffic accident insurance claim,"Disputes arise over medical expenses following the traffic accident, causing uncertainty about the compensation amount.",notify customer
+test06_6,traffic accident insurance claim,"The two insurance companies involved in the accident dispute liability, halting the claims process.",notify customer
+test06_6,traffic accident insurance claim,"The vehicle repair takes an extended period, preventing the victim from using the vehicle on time, which impacts the claims processing.",notify customer
+test06_6,traffic accident insurance claim,"The insurance company faces financial issues due to an unexpected financial crisis, delaying compensation payments.",notify customer
+test06_6,traffic accident insurance claim,"The vehicle involved in the accident lacks valid insurance, complicating liability determination and extending the claims process.",notify customer
+test06_6,traffic accident insurance claim,"After the accident, the victim requests additional compensation that exceeds the original insurance coverage limit.",notify customer
+test06_6,traffic accident insurance claim,"The insurance company faces a cyberattack, resulting in the loss or delayed processing of claims information.",notify customer
+test06_6,traffic accident insurance claim,"Insufficient evidence at the accident scene makes liability determination difficult, affecting the claims process.",notify customer
+test06_6,traffic accident insurance claim,"The medical institution involved in the accident fails to provide timely injury reports, leading to missing claims documentation.",notify customer
+test06_6,traffic accident insurance claim,"The involved parties dispute the details of the accident, preventing agreement on the compensation amount.",notify customer
+test06_6,traffic accident insurance claim,"The traffic accident occurs under high-risk weather conditions, making the determination of liability more complex.",notify customer
+test06_6,traffic accident insurance claim,"After the accident, the insurance company investigates the authenticity of the accident report, causing delays in the claims process.",notify customer
+test06_7,traffic accident insurance claim,"The traffic accident involves multiple parties with disputed responsibilities, causing a delay in the claims process.",send a letter to the customer
+test06_7,traffic accident insurance claim,"The accident occurs in a remote location, delaying accident investigation and site assessments, which affects the timeliness of the claims.",send a letter to the customer
+test06_7,traffic accident insurance claim,"The involved parties or witnesses provide false statements, complicating the claims verification process.",send a letter to the customer
+test06_7,traffic accident insurance claim,"Sudden legal changes adjust the compensation standards for traffic accidents, affecting the claims payout.",send a letter to the customer
+test06_7,traffic accident insurance claim,"The traffic accident involves cross-border claims, introducing complications related to international coordination and legal application.",send a letter to the customer
+test06_7,traffic accident insurance claim,"The accident victim fails to report the incident in a timely manner, causing the claim to exceed the allowable reporting period.",send a letter to the customer
+test06_7,traffic accident insurance claim,"Disputes arise over medical expenses following the traffic accident, causing uncertainty about the compensation amount.",send a letter to the customer
+test06_7,traffic accident insurance claim,"The two insurance companies involved in the accident dispute liability, halting the claims process.",send a letter to the customer
+test06_7,traffic accident insurance claim,"The vehicle repair takes an extended period, preventing the victim from using the vehicle on time, which impacts the claims processing.",send a letter to the customer
+test06_7,traffic accident insurance claim,"The insurance company faces financial issues due to an unexpected financial crisis, delaying compensation payments.",send a letter to the customer
+test06_7,traffic accident insurance claim,"The vehicle involved in the accident lacks valid insurance, complicating liability determination and extending the claims process.",send a letter to the customer
+test06_7,traffic accident insurance claim,"After the accident, the victim requests additional compensation that exceeds the original insurance coverage limit.",send a letter to the customer
+test06_7,traffic accident insurance claim,"The insurance company faces a cyberattack, resulting in the loss or delayed processing of claims information.",send a letter to the customer
+test06_7,traffic accident insurance claim,"Insufficient evidence at the accident scene makes liability determination difficult, affecting the claims process.",send a letter to the customer
+test06_7,traffic accident insurance claim,"The medical institution involved in the accident fails to provide timely injury reports, leading to missing claims documentation.",send a letter to the customer
+test06_7,traffic accident insurance claim,"The involved parties dispute the details of the accident, preventing agreement on the compensation amount.",send a letter to the customer
+test06_7,traffic accident insurance claim,"The traffic accident occurs under high-risk weather conditions, making the determination of liability more complex.",send a letter to the customer
+test06_7,traffic accident insurance claim,"After the accident, the insurance company investigates the authenticity of the accident report, causing delays in the claims process.",send a letter to the customer
+test06_8,traffic accident insurance claim,"The traffic accident involves multiple parties with disputed responsibilities, causing a delay in the claims process.",send letter
+test06_8,traffic accident insurance claim,"The accident occurs in a remote location, delaying accident investigation and site assessments, which affects the timeliness of the claims.",send letter
+test06_8,traffic accident insurance claim,"The involved parties or witnesses provide false statements, complicating the claims verification process.",send letter
+test06_8,traffic accident insurance claim,"Sudden legal changes adjust the compensation standards for traffic accidents, affecting the claims payout.",send letter
+test06_8,traffic accident insurance claim,"The traffic accident involves cross-border claims, introducing complications related to international coordination and legal application.",send letter
+test06_8,traffic accident insurance claim,"The accident victim fails to report the incident in a timely manner, causing the claim to exceed the allowable reporting period.",send letter
+test06_8,traffic accident insurance claim,"Disputes arise over medical expenses following the traffic accident, causing uncertainty about the compensation amount.",send letter
+test06_8,traffic accident insurance claim,"The two insurance companies involved in the accident dispute liability, halting the claims process.",send letter
+test06_8,traffic accident insurance claim,"The vehicle repair takes an extended period, preventing the victim from using the vehicle on time, which impacts the claims processing.",send letter
+test06_8,traffic accident insurance claim,"The insurance company faces financial issues due to an unexpected financial crisis, delaying compensation payments.",send letter
+test06_8,traffic accident insurance claim,"The vehicle involved in the accident lacks valid insurance, complicating liability determination and extending the claims process.",send letter
+test06_8,traffic accident insurance claim,"After the accident, the victim requests additional compensation that exceeds the original insurance coverage limit.",send letter
+test06_8,traffic accident insurance claim,"The insurance company faces a cyberattack, resulting in the loss or delayed processing of claims information.",send letter
+test06_8,traffic accident insurance claim,"Insufficient evidence at the accident scene makes liability determination difficult, affecting the claims process.",send letter
+test06_8,traffic accident insurance claim,"The medical institution involved in the accident fails to provide timely injury reports, leading to missing claims documentation.",send letter
+test06_8,traffic accident insurance claim,"The involved parties dispute the details of the accident, preventing agreement on the compensation amount.",send letter
+test06_8,traffic accident insurance claim,"The traffic accident occurs under high-risk weather conditions, making the determination of liability more complex.",send letter
+test06_8,traffic accident insurance claim,"After the accident, the insurance company investigates the authenticity of the accident report, causing delays in the claims process.",send letter
+test06_9,traffic accident insurance claim,"The traffic accident involves multiple parties with disputed responsibilities, causing a delay in the claims process.",send letter
+test06_9,traffic accident insurance claim,"The accident occurs in a remote location, delaying accident investigation and site assessments, which affects the timeliness of the claims.",send letter
+test06_9,traffic accident insurance claim,"The involved parties or witnesses provide false statements, complicating the claims verification process.",send letter
+test06_9,traffic accident insurance claim,"Sudden legal changes adjust the compensation standards for traffic accidents, affecting the claims payout.",send letter
+test06_9,traffic accident insurance claim,"The traffic accident involves cross-border claims, introducing complications related to international coordination and legal application.",send letter
+test06_9,traffic accident insurance claim,"The accident victim fails to report the incident in a timely manner, causing the claim to exceed the allowable reporting period.",send letter
+test06_9,traffic accident insurance claim,"Disputes arise over medical expenses following the traffic accident, causing uncertainty about the compensation amount.",send letter
+test06_9,traffic accident insurance claim,"The two insurance companies involved in the accident dispute liability, halting the claims process.",send letter
+test06_9,traffic accident insurance claim,"The vehicle repair takes an extended period, preventing the victim from using the vehicle on time, which impacts the claims processing.",send letter
+test06_9,traffic accident insurance claim,"The insurance company faces financial issues due to an unexpected financial crisis, delaying compensation payments.",send letter
+test06_9,traffic accident insurance claim,"The vehicle involved in the accident lacks valid insurance, complicating liability determination and extending the claims process.",send letter
+test06_9,traffic accident insurance claim,"After the accident, the victim requests additional compensation that exceeds the original insurance coverage limit.",send letter
+test06_9,traffic accident insurance claim,"The insurance company faces a cyberattack, resulting in the loss or delayed processing of claims information.",send letter
+test06_9,traffic accident insurance claim,"Insufficient evidence at the accident scene makes liability determination difficult, affecting the claims process.",send letter
+test06_9,traffic accident insurance claim,"The medical institution involved in the accident fails to provide timely injury reports, leading to missing claims documentation.",send letter
+test06_9,traffic accident insurance claim,"The involved parties dispute the details of the accident, preventing agreement on the compensation amount.",send letter
+test06_9,traffic accident insurance claim,"The traffic accident occurs under high-risk weather conditions, making the determination of liability more complex.",send letter
+test06_9,traffic accident insurance claim,"After the accident, the insurance company investigates the authenticity of the accident report, causing delays in the claims process.",send letter
+test06_10,traffic accident insurance claim,"The traffic accident involves multiple parties with disputed responsibilities, causing a delay in the claims process.",send letter to customer
+test06_10,traffic accident insurance claim,"The accident occurs in a remote location, delaying accident investigation and site assessments, which affects the timeliness of the claims.",send letter to customer
+test06_10,traffic accident insurance claim,"The involved parties or witnesses provide false statements, complicating the claims verification process.",send letter to customer
+test06_10,traffic accident insurance claim,"Sudden legal changes adjust the compensation standards for traffic accidents, affecting the claims payout.",send letter to customer
+test06_10,traffic accident insurance claim,"The traffic accident involves cross-border claims, introducing complications related to international coordination and legal application.",send letter to customer
+test06_10,traffic accident insurance claim,"The accident victim fails to report the incident in a timely manner, causing the claim to exceed the allowable reporting period.",send letter to customer
+test06_10,traffic accident insurance claim,"Disputes arise over medical expenses following the traffic accident, causing uncertainty about the compensation amount.",send letter to customer
+test06_10,traffic accident insurance claim,"The two insurance companies involved in the accident dispute liability, halting the claims process.",send letter to customer
+test06_10,traffic accident insurance claim,"The vehicle repair takes an extended period, preventing the victim from using the vehicle on time, which impacts the claims processing.",send letter to customer
+test06_10,traffic accident insurance claim,"The insurance company faces financial issues due to an unexpected financial crisis, delaying compensation payments.",send letter to customer
+test06_10,traffic accident insurance claim,"The vehicle involved in the accident lacks valid insurance, complicating liability determination and extending the claims process.",send letter to customer
+test06_10,traffic accident insurance claim,"After the accident, the victim requests additional compensation that exceeds the original insurance coverage limit.",send letter to customer
+test06_10,traffic accident insurance claim,"The insurance company faces a cyberattack, resulting in the loss or delayed processing of claims information.",send letter to customer
+test06_10,traffic accident insurance claim,"Insufficient evidence at the accident scene makes liability determination difficult, affecting the claims process.",send letter to customer
+test06_10,traffic accident insurance claim,"The medical institution involved in the accident fails to provide timely injury reports, leading to missing claims documentation.",send letter to customer
+test06_10,traffic accident insurance claim,"The involved parties dispute the details of the accident, preventing agreement on the compensation amount.",send letter to customer
+test06_10,traffic accident insurance claim,"The traffic accident occurs under high-risk weather conditions, making the determination of liability more complex.",send letter to customer
+test06_10,traffic accident insurance claim,"After the accident, the insurance company investigates the authenticity of the accident report, causing delays in the claims process.",send letter to customer
+test06_11,traffic accident insurance claim,"The traffic accident involves multiple parties with disputed responsibilities, causing a delay in the claims process.",inform customer
+test06_11,traffic accident insurance claim,"The accident occurs in a remote location, delaying accident investigation and site assessments, which affects the timeliness of the claims.",inform customer
+test06_11,traffic accident insurance claim,"The involved parties or witnesses provide false statements, complicating the claims verification process.",inform customer
+test06_11,traffic accident insurance claim,"Sudden legal changes adjust the compensation standards for traffic accidents, affecting the claims payout.",inform customer
+test06_11,traffic accident insurance claim,"The traffic accident involves cross-border claims, introducing complications related to international coordination and legal application.",inform customer
+test06_11,traffic accident insurance claim,"The accident victim fails to report the incident in a timely manner, causing the claim to exceed the allowable reporting period.",inform customer
+test06_11,traffic accident insurance claim,"Disputes arise over medical expenses following the traffic accident, causing uncertainty about the compensation amount.",inform customer
+test06_11,traffic accident insurance claim,"The two insurance companies involved in the accident dispute liability, halting the claims process.",inform customer
+test06_11,traffic accident insurance claim,"The vehicle repair takes an extended period, preventing the victim from using the vehicle on time, which impacts the claims processing.",inform customer
+test06_11,traffic accident insurance claim,"The insurance company faces financial issues due to an unexpected financial crisis, delaying compensation payments.",inform customer
+test06_11,traffic accident insurance claim,"The vehicle involved in the accident lacks valid insurance, complicating liability determination and extending the claims process.",inform customer
+test06_11,traffic accident insurance claim,"After the accident, the victim requests additional compensation that exceeds the original insurance coverage limit.",inform customer
+test06_11,traffic accident insurance claim,"The insurance company faces a cyberattack, resulting in the loss or delayed processing of claims information.",inform customer
+test06_11,traffic accident insurance claim,"Insufficient evidence at the accident scene makes liability determination difficult, affecting the claims process.",inform customer
+test06_11,traffic accident insurance claim,"The medical institution involved in the accident fails to provide timely injury reports, leading to missing claims documentation.",inform customer
+test06_11,traffic accident insurance claim,"The involved parties dispute the details of the accident, preventing agreement on the compensation amount.",inform customer
+test06_11,traffic accident insurance claim,"The traffic accident occurs under high-risk weather conditions, making the determination of liability more complex.",inform customer
+test06_11,traffic accident insurance claim,"After the accident, the insurance company investigates the authenticity of the accident report, causing delays in the claims process.",inform customer
+test06_12,traffic accident insurance claim,"The traffic accident involves multiple parties with disputed responsibilities, causing a delay in the claims process.",send letter
+test06_12,traffic accident insurance claim,"The accident occurs in a remote location, delaying accident investigation and site assessments, which affects the timeliness of the claims.",send letter
+test06_12,traffic accident insurance claim,"The involved parties or witnesses provide false statements, complicating the claims verification process.",send letter
+test06_12,traffic accident insurance claim,"Sudden legal changes adjust the compensation standards for traffic accidents, affecting the claims payout.",send letter
+test06_12,traffic accident insurance claim,"The traffic accident involves cross-border claims, introducing complications related to international coordination and legal application.",send letter
+test06_12,traffic accident insurance claim,"The accident victim fails to report the incident in a timely manner, causing the claim to exceed the allowable reporting period.",send letter
+test06_12,traffic accident insurance claim,"Disputes arise over medical expenses following the traffic accident, causing uncertainty about the compensation amount.",send letter
+test06_12,traffic accident insurance claim,"The two insurance companies involved in the accident dispute liability, halting the claims process.",send letter
+test06_12,traffic accident insurance claim,"The vehicle repair takes an extended period, preventing the victim from using the vehicle on time, which impacts the claims processing.",send letter
+test06_12,traffic accident insurance claim,"The insurance company faces financial issues due to an unexpected financial crisis, delaying compensation payments.",send letter
+test06_12,traffic accident insurance claim,"The vehicle involved in the accident lacks valid insurance, complicating liability determination and extending the claims process.",send letter
+test06_12,traffic accident insurance claim,"After the accident, the victim requests additional compensation that exceeds the original insurance coverage limit.",send letter
+test06_12,traffic accident insurance claim,"The insurance company faces a cyberattack, resulting in the loss or delayed processing of claims information.",send letter
+test06_12,traffic accident insurance claim,"Insufficient evidence at the accident scene makes liability determination difficult, affecting the claims process.",send letter
+test06_12,traffic accident insurance claim,"The medical institution involved in the accident fails to provide timely injury reports, leading to missing claims documentation.",send letter
+test06_12,traffic accident insurance claim,"The involved parties dispute the details of the accident, preventing agreement on the compensation amount.",send letter
+test06_12,traffic accident insurance claim,"The traffic accident occurs under high-risk weather conditions, making the determination of liability more complex.",send letter
+test06_12,traffic accident insurance claim,"After the accident, the insurance company investigates the authenticity of the accident report, causing delays in the claims process.",send letter
+test06_13,traffic accident insurance claim,"The traffic accident involves multiple parties with disputed responsibilities, causing a delay in the claims process.",send Letter
+test06_13,traffic accident insurance claim,"The accident occurs in a remote location, delaying accident investigation and site assessments, which affects the timeliness of the claims.",send Letter
+test06_13,traffic accident insurance claim,"The involved parties or witnesses provide false statements, complicating the claims verification process.",send Letter
+test06_13,traffic accident insurance claim,"Sudden legal changes adjust the compensation standards for traffic accidents, affecting the claims payout.",send Letter
+test06_13,traffic accident insurance claim,"The traffic accident involves cross-border claims, introducing complications related to international coordination and legal application.",send Letter
+test06_13,traffic accident insurance claim,"The accident victim fails to report the incident in a timely manner, causing the claim to exceed the allowable reporting period.",send Letter
+test06_13,traffic accident insurance claim,"Disputes arise over medical expenses following the traffic accident, causing uncertainty about the compensation amount.",send Letter
+test06_13,traffic accident insurance claim,"The two insurance companies involved in the accident dispute liability, halting the claims process.",send Letter
+test06_13,traffic accident insurance claim,"The vehicle repair takes an extended period, preventing the victim from using the vehicle on time, which impacts the claims processing.",send Letter
+test06_13,traffic accident insurance claim,"The insurance company faces financial issues due to an unexpected financial crisis, delaying compensation payments.",send Letter
+test06_13,traffic accident insurance claim,"The vehicle involved in the accident lacks valid insurance, complicating liability determination and extending the claims process.",send Letter
+test06_13,traffic accident insurance claim,"After the accident, the victim requests additional compensation that exceeds the original insurance coverage limit.",send Letter
+test06_13,traffic accident insurance claim,"The insurance company faces a cyberattack, resulting in the loss or delayed processing of claims information.",send Letter
+test06_13,traffic accident insurance claim,"Insufficient evidence at the accident scene makes liability determination difficult, affecting the claims process.",send Letter
+test06_13,traffic accident insurance claim,"The medical institution involved in the accident fails to provide timely injury reports, leading to missing claims documentation.",send Letter
+test06_13,traffic accident insurance claim,"The involved parties dispute the details of the accident, preventing agreement on the compensation amount.",send Letter
+test06_13,traffic accident insurance claim,"The traffic accident occurs under high-risk weather conditions, making the determination of liability more complex.",send Letter
+test06_13,traffic accident insurance claim,"After the accident, the insurance company investigates the authenticity of the accident report, causing delays in the claims process.",send Letter
+test06_14,traffic accident insurance claim,"The traffic accident involves multiple parties with disputed responsibilities, causing a delay in the claims process.",reject claim and send letter
+test06_14,traffic accident insurance claim,"The accident occurs in a remote location, delaying accident investigation and site assessments, which affects the timeliness of the claims.",reject claim and send letter
+test06_14,traffic accident insurance claim,"The involved parties or witnesses provide false statements, complicating the claims verification process.",reject claim and send letter
+test06_14,traffic accident insurance claim,"Sudden legal changes adjust the compensation standards for traffic accidents, affecting the claims payout.",reject claim and send letter
+test06_14,traffic accident insurance claim,"The traffic accident involves cross-border claims, introducing complications related to international coordination and legal application.",reject claim and send letter
+test06_14,traffic accident insurance claim,"The accident victim fails to report the incident in a timely manner, causing the claim to exceed the allowable reporting period.",reject claim and send letter
+test06_14,traffic accident insurance claim,"Disputes arise over medical expenses following the traffic accident, causing uncertainty about the compensation amount.",reject claim and send letter
+test06_14,traffic accident insurance claim,"The two insurance companies involved in the accident dispute liability, halting the claims process.",reject claim and send letter
+test06_14,traffic accident insurance claim,"The vehicle repair takes an extended period, preventing the victim from using the vehicle on time, which impacts the claims processing.",reject claim and send letter
+test06_14,traffic accident insurance claim,"The insurance company faces financial issues due to an unexpected financial crisis, delaying compensation payments.",reject claim and send letter
+test06_14,traffic accident insurance claim,"The vehicle involved in the accident lacks valid insurance, complicating liability determination and extending the claims process.",reject claim and send letter
+test06_14,traffic accident insurance claim,"After the accident, the victim requests additional compensation that exceeds the original insurance coverage limit.",reject claim and send letter
+test06_14,traffic accident insurance claim,"The insurance company faces a cyberattack, resulting in the loss or delayed processing of claims information.",reject claim and send letter
+test06_14,traffic accident insurance claim,"Insufficient evidence at the accident scene makes liability determination difficult, affecting the claims process.",reject claim and send letter
+test06_14,traffic accident insurance claim,"The medical institution involved in the accident fails to provide timely injury reports, leading to missing claims documentation.",reject claim and send letter
+test06_14,traffic accident insurance claim,"The involved parties dispute the details of the accident, preventing agreement on the compensation amount.",reject claim and send letter
+test06_14,traffic accident insurance claim,"The traffic accident occurs under high-risk weather conditions, making the determination of liability more complex.",reject claim and send letter
+test06_14,traffic accident insurance claim,"After the accident, the insurance company investigates the authenticity of the accident report, causing delays in the claims process.",reject claim and send letter
+test06_15,traffic accident insurance claim,"The traffic accident involves multiple parties with disputed responsibilities, causing a delay in the claims process.",send Letter to customer
+test06_15,traffic accident insurance claim,"The accident occurs in a remote location, delaying accident investigation and site assessments, which affects the timeliness of the claims.",send Letter to customer
+test06_15,traffic accident insurance claim,"The involved parties or witnesses provide false statements, complicating the claims verification process.",send Letter to customer
+test06_15,traffic accident insurance claim,"Sudden legal changes adjust the compensation standards for traffic accidents, affecting the claims payout.",send Letter to customer
+test06_15,traffic accident insurance claim,"The traffic accident involves cross-border claims, introducing complications related to international coordination and legal application.",send Letter to customer
+test06_15,traffic accident insurance claim,"The accident victim fails to report the incident in a timely manner, causing the claim to exceed the allowable reporting period.",send Letter to customer
+test06_15,traffic accident insurance claim,"Disputes arise over medical expenses following the traffic accident, causing uncertainty about the compensation amount.",send Letter to customer
+test06_15,traffic accident insurance claim,"The two insurance companies involved in the accident dispute liability, halting the claims process.",send Letter to customer
+test06_15,traffic accident insurance claim,"The vehicle repair takes an extended period, preventing the victim from using the vehicle on time, which impacts the claims processing.",send Letter to customer
+test06_15,traffic accident insurance claim,"The insurance company faces financial issues due to an unexpected financial crisis, delaying compensation payments.",send Letter to customer
+test06_15,traffic accident insurance claim,"The vehicle involved in the accident lacks valid insurance, complicating liability determination and extending the claims process.",send Letter to customer
+test06_15,traffic accident insurance claim,"After the accident, the victim requests additional compensation that exceeds the original insurance coverage limit.",send Letter to customer
+test06_15,traffic accident insurance claim,"The insurance company faces a cyberattack, resulting in the loss or delayed processing of claims information.",send Letter to customer
+test06_15,traffic accident insurance claim,"Insufficient evidence at the accident scene makes liability determination difficult, affecting the claims process.",send Letter to customer
+test06_15,traffic accident insurance claim,"The medical institution involved in the accident fails to provide timely injury reports, leading to missing claims documentation.",send Letter to customer
+test06_15,traffic accident insurance claim,"The involved parties dispute the details of the accident, preventing agreement on the compensation amount.",send Letter to customer
+test06_15,traffic accident insurance claim,"The traffic accident occurs under high-risk weather conditions, making the determination of liability more complex.",send Letter to customer
+test06_15,traffic accident insurance claim,"After the accident, the insurance company investigates the authenticity of the accident report, causing delays in the claims process.",send Letter to customer

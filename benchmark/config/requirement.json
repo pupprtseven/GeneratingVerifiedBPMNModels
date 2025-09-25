@@ -1,0 +1,37 @@
+{
+    "variables": {
+        "BPMN_STRUCTURE": "JSON structure containing BPMN model information (lanes, participants, activities, gateways, events, flows)"
+    },
+    "name": "BPMN Requirement Description Generator",
+    "prompt": "You are a business process analysis expert. Analyze the provided BPMN model structure and generate a comprehensive requirement description that explains what business process this BPMN model represents.\n\nBPMN Structure:\n{BPMN_STRUCTURE}\n\nPlease analyze the BPMN structure and provide:\n1. A clear business process description\n2. The main actors/participants involved\n3. The key activities and their purposes\n4. The flow logic and decision points\n5. The overall business goal or objective\n\nFocus on understanding the business context and explaining what user requirements this BPMN model addresses. Return the results in the specified JSON format.",
+    "output": {
+        "business_process_name": "Name of the business process",
+        "business_description": "Detailed description of what the business process does",
+        "main_actors": [
+            "List of main actors/participants involved"
+        ],
+        "key_activities": [
+            "List of key activities with their purposes"
+        ],
+        "flow_logic": "Description of the process flow and logic",
+        "decision_points": [
+            "List of decision points and their conditions"
+        ],
+        "business_goal": "Overall business objective or goal",
+        "user_requirements": "What user requirements this process addresses",
+        "process_type": "Type of process (e.g., approval, workflow, service, etc.)",
+        "complexity_level": "Simple/Medium/Complex"
+    },
+    "format": {
+        "business_process_name": "String representing the name of the business process",
+        "business_description": "String containing detailed description of the business process",
+        "main_actors": "Array of strings representing main actors/participants",
+        "key_activities": "Array of strings describing key activities and their purposes",
+        "flow_logic": "String describing the process flow and logic",
+        "decision_points": "Array of strings describing decision points and conditions",
+        "business_goal": "String describing the overall business objective",
+        "user_requirements": "String describing what user requirements this process addresses",
+        "process_type": "String indicating the type of process",
+        "complexity_level": "String indicating complexity (Simple/Medium/Complex)"
+    }
+}

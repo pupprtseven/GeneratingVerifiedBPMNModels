@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="" exporter="Camunda Modeler" exporterVersion="5.23.0" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
+  <process id="Process_1" isExecutable="false">
+    <subProcess id="subProcessCollapsed_0" name="Application Development and Customizing">
+      <incoming>sequenceFlow_6</incoming>
+      <outgoing>sequenceFlow_5</outgoing>
+    </subProcess>
+    <startEvent id="messageStartEvent_1" name="Internal order in place">
+      <outgoing>sequenceFlow_6</outgoing>
+      <messageEventDefinition id="MessageEventDefinition_1" />
+    </startEvent>
+    <endEvent id="endEvent_2" name="Internal order processed">
+      <incoming>sequenceFlow_5</incoming>
+    </endEvent>
+    <sequenceFlow id="sequenceFlow_5" sourceRef="subProcessCollapsed_0" targetRef="endEvent_2" />
+    <sequenceFlow id="sequenceFlow_6" sourceRef="messageStartEvent_1" targetRef="subProcessCollapsed_0" />
+  </process>
+  <bpmndi:BPMNDiagram id="diagram-0">
+    <bpmndi:BPMNPlane id="plane-0" bpmnElement="Process_1">
+      <bpmndi:BPMNShape id="subProcessCollapsed_0_di" bpmnElement="subProcessCollapsed_0">
+        <omgdc:Bounds x="568" y="89" width="296" height="126" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageStartEvent_1_di" bpmnElement="messageStartEvent_1">
+        <omgdc:Bounds x="295" y="129" width="46" height="49" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="155" y="143" width="78" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="endEvent_2_di" bpmnElement="endEvent_2">
+        <omgdc:Bounds x="1101" y="128" width="45" height="48" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="1221" y="142" width="66" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="sequenceFlow_5_di" bpmnElement="sequenceFlow_5">
+        <omgdi:waypoint x="864.4128432108027" y="151.88225056264065" />
+        <omgdi:waypoint x="1101.4512828207053" y="151.6181245311328" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_6_di" bpmnElement="sequenceFlow_6">
+        <omgdi:waypoint x="340.7193998499625" y="150.85509377344337" />
+        <omgdi:waypoint x="568.2101725431357" y="149.9746736684171" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="subProcessCollapsed_0" />
+  </bpmndi:BPMNDiagram>
+</definitions>

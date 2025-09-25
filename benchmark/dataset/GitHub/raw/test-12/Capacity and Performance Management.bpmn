@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
+  <collaboration id="Collaboration_1">
+    <participant id="pool_1" name="Capacity Manager" processRef="Process_1" />
+  </collaboration>
+  <process id="Process_1">
+    <endEvent id="endEvent_0" name="Capacity trend unremarkable">
+      <incoming>sequenceFlow_36</incoming>
+    </endEvent>
+    <intermediateCatchEvent id="timerIntermediateEvent_2" name="Periodic due date of capacity- and performance analysis">
+      <outgoing>sequenceFlow_37</outgoing>
+      <timerEventDefinition id="TimerEventDefinition_2" />
+    </intermediateCatchEvent>
+    <intermediateCatchEvent id="timerIntermediateEvent_3" name="Reporting due date">
+      <outgoing>sequenceFlow_35</outgoing>
+      <timerEventDefinition id="TimerEventDefinition_3" />
+    </intermediateCatchEvent>
+    <subProcess id="subProcessCollapsed_4" name="Monitoring of Capacity and Performance">
+      <incoming>sequenceFlow_37</incoming>
+      <incoming>sequenceFlow_31</incoming>
+      <incoming>sequenceFlow_29</incoming>
+      <outgoing>sequenceFlow_30</outgoing>
+      <outgoing>sequenceFlow_32</outgoing>
+    </subProcess>
+    <subProcess id="subProcessCollapsed_5" name="Capacity and Performance Reporting">
+      <incoming>sequenceFlow_35</incoming>
+      <outgoing>sequenceFlow_27</outgoing>
+    </subProcess>
+    <intermediateCatchEvent id="timerIntermediateEvent_6" name="Periodic due date of capacity check">
+      <outgoing>sequenceFlow_33</outgoing>
+      <timerEventDefinition id="TimerEventDefinition_6" />
+    </intermediateCatchEvent>
+    <subProcess id="subProcessCollapsed_7" name="Capacity Prognosis">
+      <incoming>sequenceFlow_34</incoming>
+      <incoming>sequenceFlow_33</incoming>
+      <outgoing>sequenceFlow_28</outgoing>
+    </subProcess>
+    <endEvent id="messageEndEvent_8" name="Capacity and performance management report">
+      <incoming>sequenceFlow_27</incoming>
+      <messageEventDefinition id="MessageEventDefinition_8" />
+    </endEvent>
+    <endEvent id="messageEndEvent_9" name="Capacity and performance meets requirements">
+      <incoming>sequenceFlow_32</incoming>
+      <outgoing>sequenceFlow_36</outgoing>
+      <messageEventDefinition id="MessageEventDefinition_9" />
+    </endEvent>
+    <endEvent id="messageEndEvent_10" name="Capacity forecast">
+      <incoming>sequenceFlow_28</incoming>
+      <messageEventDefinition id="MessageEventDefinition_10" />
+    </endEvent>
+    <intermediateCatchEvent id="messageIntermediateCatchEvent_11" name="Capacity -, performance relevant occurrence">
+      <outgoing>sequenceFlow_29</outgoing>
+      <messageEventDefinition id="MessageEventDefinition_11" />
+    </intermediateCatchEvent>
+    <startEvent id="messageStartEvent_12" name="Capacity Request">
+      <outgoing>sequenceFlow_31</outgoing>
+      <messageEventDefinition id="MessageEventDefinition_12" />
+    </startEvent>
+    <startEvent id="messageStartEvent_13" name="Special capacity demand">
+      <outgoing>sequenceFlow_34</outgoing>
+      <messageEventDefinition id="MessageEventDefinition_13" />
+    </startEvent>
+    <endEvent id="endEvent_14" name="Recommendation for demand control in place">
+      <incoming>sequenceFlow_30</incoming>
+    </endEvent>
+    <sequenceFlow id="sequenceFlow_27" sourceRef="subProcessCollapsed_5" targetRef="messageEndEvent_8" />
+    <sequenceFlow id="sequenceFlow_28" sourceRef="subProcessCollapsed_7" targetRef="messageEndEvent_10" />
+    <sequenceFlow id="sequenceFlow_29" sourceRef="messageIntermediateCatchEvent_11" targetRef="subProcessCollapsed_4" />
+    <sequenceFlow id="sequenceFlow_30" sourceRef="subProcessCollapsed_4" targetRef="endEvent_14" />
+    <sequenceFlow id="sequenceFlow_31" sourceRef="messageStartEvent_12" targetRef="subProcessCollapsed_4" />
+    <sequenceFlow id="sequenceFlow_32" sourceRef="subProcessCollapsed_4" targetRef="messageEndEvent_9" />
+    <sequenceFlow id="sequenceFlow_33" sourceRef="timerIntermediateEvent_6" targetRef="subProcessCollapsed_7" />
+    <sequenceFlow id="sequenceFlow_34" sourceRef="messageStartEvent_13" targetRef="subProcessCollapsed_7" />
+    <sequenceFlow id="sequenceFlow_35" sourceRef="timerIntermediateEvent_3" targetRef="subProcessCollapsed_5" />
+    <sequenceFlow id="sequenceFlow_36" sourceRef="messageEndEvent_9" targetRef="endEvent_0" />
+    <sequenceFlow id="sequenceFlow_37" sourceRef="timerIntermediateEvent_2" targetRef="subProcessCollapsed_4" />
+  </process>
+  <bpmndi:BPMNDiagram id="diagram-0">
+    <bpmndi:BPMNPlane id="plane-0" bpmnElement="Collaboration_1">
+      <bpmndi:BPMNShape id="pool_1_di" bpmnElement="pool_1" isHorizontal="true">
+        <omgdc:Bounds x="20.112708177044258" y="18.59642910727682" width="1206.0385896474118" height="494.8743585896474" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="sequenceFlow_37_di" bpmnElement="sequenceFlow_37">
+        <omgdi:waypoint x="331.1064366091523" y="259.7141485371343" />
+        <omgdi:waypoint x="535.950847711928" y="259.20546136534136" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_36_di" bpmnElement="sequenceFlow_36">
+        <omgdi:waypoint x="896.7176594148536" y="263.4803900975243" />
+        <omgdi:waypoint x="908.916369092273" y="258.7652513128282" />
+        <omgdi:waypoint x="946.7548687171792" y="256.3392048012003" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_35_di" bpmnElement="sequenceFlow_35">
+        <omgdi:waypoint x="332.9259714928732" y="389.99675918979744" />
+        <omgdi:waypoint x="536.4497524381095" y="390.51522880720177" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_34_di" bpmnElement="sequenceFlow_34">
+        <omgdi:waypoint x="329.8640660165041" y="145.20084021005252" />
+        <omgdi:waypoint x="538.4453713428356" y="143.10739684921228" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_33_di" bpmnElement="sequenceFlow_33">
+        <omgdi:waypoint x="331.43903975994" y="102.39285821455364" />
+        <omgdi:waypoint x="538.4453713428356" y="104.18304576144035" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_32_di" bpmnElement="sequenceFlow_32">
+        <omgdi:waypoint x="734.2508027006752" y="275.2388897224306" />
+        <omgdi:waypoint x="868.3779144786197" y="277.4008102025506" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_31_di" bpmnElement="sequenceFlow_31">
+        <omgdi:waypoint x="410.1583795948987" y="277.27363840960237" />
+        <omgdi:waypoint x="535.950847711928" y="275.42475618904723" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_30_di" bpmnElement="sequenceFlow_30">
+        <omgdi:waypoint x="734.2508027006752" y="239.10253563390845" />
+        <omgdi:waypoint x="866.9692423105776" y="234.68087021755437" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_29_di" bpmnElement="sequenceFlow_29">
+        <omgdi:waypoint x="411.63552888222057" y="235.86454613653413" />
+        <omgdi:waypoint x="535.950847711928" y="236.7645311327832" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_28_di" bpmnElement="sequenceFlow_28">
+        <omgdi:waypoint x="732.9595198799699" y="123.04360090022504" />
+        <omgdi:waypoint x="946.0309677419355" y="123.45446361590398" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_27_di" bpmnElement="sequenceFlow_27">
+        <omgdi:waypoint x="732.2747486871717" y="389.4587246811703" />
+        <omgdi:waypoint x="868.2116129032257" y="389.6739384846211" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="endEvent_0_di" bpmnElement="endEvent_0">
+        <omgdc:Bounds x="946.7548687171792" y="240.70685671417854" width="30.09080270067517" height="32.67336834208552" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="982.7151387846961" y="247.89695423855963" width="161.42991747936983" height="21.325731432858213" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="timerIntermediateEvent_2_di" bpmnElement="timerIntermediateEvent_2">
+        <omgdc:Bounds x="294.69617404351084" y="239.8753488372093" width="36.41026256564141" height="36.30265566391598" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="95.0658064516129" y="241.68510127531883" width="198.56408102025503" height="33.32879219804951" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="timerIntermediateEvent_3_di" bpmnElement="timerIntermediateEvent_3">
+        <omgdc:Bounds x="294.3048762190548" y="373.0242160540135" width="38.62109527381845" height="36.058094523630906" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="182.88282070517627" y="382.22949737434357" width="110.19924981245312" height="18.22469617404351" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="subProcessCollapsed_4_di" bpmnElement="subProcessCollapsed_4">
+        <omgdc:Bounds x="535.950847711928" y="215.35075768942232" width="198.29995498874717" height="83.49317329332332" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="subProcessCollapsed_5_di" bpmnElement="subProcessCollapsed_5">
+        <omgdc:Bounds x="536.4497524381095" y="349.25287321830456" width="195.82499624906225" height="84.48120030007502" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="timerIntermediateEvent_6_di" bpmnElement="timerIntermediateEvent_6">
+        <omgdc:Bounds x="294.5103075768942" y="85.89965491372843" width="36.92873218304576" height="34.89398349587397" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="97.1690322580645" y="91.55390847711928" width="192.79243810952738" height="22.890922730682668" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="subProcessCollapsed_7_di" bpmnElement="subProcessCollapsed_7">
+        <omgdc:Bounds x="538.4453713428356" y="82.0258064516129" width="194.51414853713428" height="83.77686421605401" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageEndEvent_8_di" bpmnElement="messageEndEvent_8">
+        <omgdc:Bounds x="868.2116129032257" y="373.70898724681166" width="32.624456114028504" height="32.76141035258815" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="908.1729032258064" y="380.6349587396849" width="254.48054013503372" height="23.497434358589647" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageEndEvent_9_di" bpmnElement="messageEndEvent_9">
+        <omgdc:Bounds x="868.3779144786197" y="263.4803900975243" width="30.873398349587394" height="32.06685671417854" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="745.3049662415604" y="291.6831807951988" width="282.05725431357837" height="26.031087771942985" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageEndEvent_10_di" bpmnElement="messageEndEvent_10">
+        <omgdc:Bounds x="946.0309677419355" y="106.78517629407351" width="32.614673668417105" height="33.86682670667666" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="981.0129932483121" y="116.3132783195799" width="95.15384846211552" height="19.515978994748686" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageIntermediateCatchEvent_11_di" bpmnElement="messageIntermediateCatchEvent_11">
+        <omgdc:Bounds x="377.2111027756939" y="218.11918979744934" width="34.424426106526624" height="34.50268567141786" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="269.0368192048012" y="196.09890472618153" width="247.41761440360088" height="24.05503375843961" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageStartEvent_12_di" bpmnElement="messageStartEvent_12">
+        <omgdc:Bounds x="377.04480120030007" y="262.80540135033755" width="33.11357839459865" height="34.16030007501875" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="345.59423855963985" y="296.545056264066" width="95.96579144786196" height="18.08774193548387" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageStartEvent_13_di" bpmnElement="messageStartEvent_13">
+        <omgdc:Bounds x="295.89941485371344" y="129.83261815453864" width="33.964651162790695" height="34.52225056264066" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="152.22463615903976" y="134.68471117779444" width="137.92270067516878" height="24.006121530382593" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="endEvent_14_di" bpmnElement="endEvent_14">
+        <omgdc:Bounds x="866.9692423105776" y="219.11699924981244" width="33.49509377344336" height="32.31141785446361" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="749.6777194298575" y="196.9793248312078" width="266.23903975994" height="26.168042010502624" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="subProcessCollapsed_4" />
+  </bpmndi:BPMNDiagram>
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="subProcessCollapsed_5" />
+  </bpmndi:BPMNDiagram>
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="subProcessCollapsed_7" />
+  </bpmndi:BPMNDiagram>
+</definitions>

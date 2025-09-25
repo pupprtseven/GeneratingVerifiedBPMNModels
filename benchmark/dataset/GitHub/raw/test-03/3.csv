@@ -1,0 +1,818 @@
+business_model_idx,business_scenario,LTC,business_object
+test03_0,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",proceed claim handling
+test03_0,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",proceed claim handling
+test03_0,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",proceed claim handling
+test03_0,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,proceed claim handling
+test03_0,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",proceed claim handling
+test03_0,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",proceed claim handling
+test03_0,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",proceed claim handling
+test03_0,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,proceed claim handling
+test03_0,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,proceed claim handling
+test03_0,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,proceed claim handling
+test03_0,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,proceed claim handling
+test03_0,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",proceed claim handling
+test03_0,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",proceed claim handling
+test03_0,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",proceed claim handling
+test03_0,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",proceed claim handling
+test03_0,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,proceed claim handling
+test03_0,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",proceed claim handling
+test03_0,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",proceed claim handling
+test03_0,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",proceed claim handling
+test03_1,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",check recommendation
+test03_1,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",check recommendation
+test03_1,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",check recommendation
+test03_1,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,check recommendation
+test03_1,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",check recommendation
+test03_1,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",check recommendation
+test03_1,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",check recommendation
+test03_1,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,check recommendation
+test03_1,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,check recommendation
+test03_1,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,check recommendation
+test03_1,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,check recommendation
+test03_1,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",check recommendation
+test03_1,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",check recommendation
+test03_1,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",check recommendation
+test03_1,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",check recommendation
+test03_1,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,check recommendation
+test03_1,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",check recommendation
+test03_1,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",check recommendation
+test03_1,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",check recommendation
+test03_2,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",proceed recommendation
+test03_2,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",proceed recommendation
+test03_2,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",proceed recommendation
+test03_2,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,proceed recommendation
+test03_2,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",proceed recommendation
+test03_2,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",proceed recommendation
+test03_2,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",proceed recommendation
+test03_2,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,proceed recommendation
+test03_2,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,proceed recommendation
+test03_2,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,proceed recommendation
+test03_2,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,proceed recommendation
+test03_2,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",proceed recommendation
+test03_2,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",proceed recommendation
+test03_2,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",proceed recommendation
+test03_2,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",proceed recommendation
+test03_2,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,proceed recommendation
+test03_2,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",proceed recommendation
+test03_2,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",proceed recommendation
+test03_2,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",proceed recommendation
+test03_3,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",claim handling process
+test03_3,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",claim handling process
+test03_3,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",claim handling process
+test03_3,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,claim handling process
+test03_3,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",claim handling process
+test03_3,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",claim handling process
+test03_3,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",claim handling process
+test03_3,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,claim handling process
+test03_3,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,claim handling process
+test03_3,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,claim handling process
+test03_3,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,claim handling process
+test03_3,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",claim handling process
+test03_3,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",claim handling process
+test03_3,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",claim handling process
+test03_3,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",claim handling process
+test03_3,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,claim handling process
+test03_3,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",claim handling process
+test03_3,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",claim handling process
+test03_3,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",claim handling process
+test03_4,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",Proceed handling Process
+test03_4,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",Proceed handling Process
+test03_4,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",Proceed handling Process
+test03_4,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,Proceed handling Process
+test03_4,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",Proceed handling Process
+test03_4,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",Proceed handling Process
+test03_4,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",Proceed handling Process
+test03_4,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,Proceed handling Process
+test03_4,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,Proceed handling Process
+test03_4,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,Proceed handling Process
+test03_4,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,Proceed handling Process
+test03_4,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",Proceed handling Process
+test03_4,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",Proceed handling Process
+test03_4,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",Proceed handling Process
+test03_4,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",Proceed handling Process
+test03_4,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,Proceed handling Process
+test03_4,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",Proceed handling Process
+test03_4,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",Proceed handling Process
+test03_4,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",Proceed handling Process
+test03_5,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",proceed recommendation
+test03_5,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",proceed recommendation
+test03_5,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",proceed recommendation
+test03_5,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,proceed recommendation
+test03_5,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",proceed recommendation
+test03_5,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",proceed recommendation
+test03_5,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",proceed recommendation
+test03_5,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,proceed recommendation
+test03_5,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,proceed recommendation
+test03_5,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,proceed recommendation
+test03_5,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,proceed recommendation
+test03_5,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",proceed recommendation
+test03_5,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",proceed recommendation
+test03_5,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",proceed recommendation
+test03_5,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",proceed recommendation
+test03_5,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,proceed recommendation
+test03_5,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",proceed recommendation
+test03_5,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",proceed recommendation
+test03_5,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",proceed recommendation
+test03_6,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",proceed recommendation
+test03_6,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",proceed recommendation
+test03_6,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",proceed recommendation
+test03_6,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,proceed recommendation
+test03_6,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",proceed recommendation
+test03_6,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",proceed recommendation
+test03_6,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",proceed recommendation
+test03_6,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,proceed recommendation
+test03_6,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,proceed recommendation
+test03_6,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,proceed recommendation
+test03_6,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,proceed recommendation
+test03_6,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",proceed recommendation
+test03_6,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",proceed recommendation
+test03_6,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",proceed recommendation
+test03_6,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",proceed recommendation
+test03_6,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,proceed recommendation
+test03_6,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",proceed recommendation
+test03_6,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",proceed recommendation
+test03_6,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",proceed recommendation
+test03_7,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",Proceed process
+test03_7,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",Proceed process
+test03_7,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",Proceed process
+test03_7,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,Proceed process
+test03_7,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",Proceed process
+test03_7,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",Proceed process
+test03_7,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",Proceed process
+test03_7,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,Proceed process
+test03_7,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,Proceed process
+test03_7,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,Proceed process
+test03_7,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,Proceed process
+test03_7,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",Proceed process
+test03_7,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",Proceed process
+test03_7,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",Proceed process
+test03_7,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",Proceed process
+test03_7,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,Proceed process
+test03_7,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",Proceed process
+test03_7,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",Proceed process
+test03_7,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",Proceed process
+test03_8,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",check recommendation
+test03_8,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",check recommendation
+test03_8,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",check recommendation
+test03_8,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,check recommendation
+test03_8,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",check recommendation
+test03_8,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",check recommendation
+test03_8,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",check recommendation
+test03_8,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,check recommendation
+test03_8,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,check recommendation
+test03_8,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,check recommendation
+test03_8,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,check recommendation
+test03_8,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",check recommendation
+test03_8,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",check recommendation
+test03_8,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",check recommendation
+test03_8,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",check recommendation
+test03_8,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,check recommendation
+test03_8,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",check recommendation
+test03_8,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",check recommendation
+test03_8,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",check recommendation
+test03_9,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",proceed handling process
+test03_9,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",proceed handling process
+test03_9,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",proceed handling process
+test03_9,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,proceed handling process
+test03_9,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",proceed handling process
+test03_9,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",proceed handling process
+test03_9,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",proceed handling process
+test03_9,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,proceed handling process
+test03_9,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,proceed handling process
+test03_9,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,proceed handling process
+test03_9,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,proceed handling process
+test03_9,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",proceed handling process
+test03_9,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",proceed handling process
+test03_9,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",proceed handling process
+test03_9,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",proceed handling process
+test03_9,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,proceed handling process
+test03_9,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",proceed handling process
+test03_9,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",proceed handling process
+test03_9,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",proceed handling process
+test03_10,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",Proceed process
+test03_10,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",Proceed process
+test03_10,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",Proceed process
+test03_10,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,Proceed process
+test03_10,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",Proceed process
+test03_10,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",Proceed process
+test03_10,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",Proceed process
+test03_10,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,Proceed process
+test03_10,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,Proceed process
+test03_10,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,Proceed process
+test03_10,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,Proceed process
+test03_10,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",Proceed process
+test03_10,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",Proceed process
+test03_10,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",Proceed process
+test03_10,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",Proceed process
+test03_10,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,Proceed process
+test03_10,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",Proceed process
+test03_10,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",Proceed process
+test03_10,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",Proceed process
+test03_11,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",proceed claim handling
+test03_11,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",proceed claim handling
+test03_11,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",proceed claim handling
+test03_11,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,proceed claim handling
+test03_11,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",proceed claim handling
+test03_11,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",proceed claim handling
+test03_11,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",proceed claim handling
+test03_11,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,proceed claim handling
+test03_11,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,proceed claim handling
+test03_11,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,proceed claim handling
+test03_11,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,proceed claim handling
+test03_11,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",proceed claim handling
+test03_11,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",proceed claim handling
+test03_11,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",proceed claim handling
+test03_11,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",proceed claim handling
+test03_11,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,proceed claim handling
+test03_11,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",proceed claim handling
+test03_11,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",proceed claim handling
+test03_11,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",proceed claim handling
+test03_12,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",continue claim handeling process
+test03_12,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",continue claim handeling process
+test03_12,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",continue claim handeling process
+test03_12,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,continue claim handeling process
+test03_12,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",continue claim handeling process
+test03_12,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",continue claim handeling process
+test03_12,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",continue claim handeling process
+test03_12,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,continue claim handeling process
+test03_12,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,continue claim handeling process
+test03_12,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,continue claim handeling process
+test03_12,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,continue claim handeling process
+test03_12,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",continue claim handeling process
+test03_12,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",continue claim handeling process
+test03_12,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",continue claim handeling process
+test03_12,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",continue claim handeling process
+test03_12,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,continue claim handeling process
+test03_12,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",continue claim handeling process
+test03_12,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",continue claim handeling process
+test03_12,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",continue claim handeling process
+test03_13,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",proceed claim handling
+test03_13,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",proceed claim handling
+test03_13,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",proceed claim handling
+test03_13,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,proceed claim handling
+test03_13,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",proceed claim handling
+test03_13,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",proceed claim handling
+test03_13,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",proceed claim handling
+test03_13,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,proceed claim handling
+test03_13,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,proceed claim handling
+test03_13,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,proceed claim handling
+test03_13,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,proceed claim handling
+test03_13,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",proceed claim handling
+test03_13,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",proceed claim handling
+test03_13,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",proceed claim handling
+test03_13,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",proceed claim handling
+test03_13,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,proceed claim handling
+test03_13,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",proceed claim handling
+test03_13,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",proceed claim handling
+test03_13,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",proceed claim handling
+test03_14,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",check recommendation
+test03_14,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",check recommendation
+test03_14,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",check recommendation
+test03_14,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,check recommendation
+test03_14,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",check recommendation
+test03_14,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",check recommendation
+test03_14,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",check recommendation
+test03_14,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,check recommendation
+test03_14,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,check recommendation
+test03_14,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,check recommendation
+test03_14,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,check recommendation
+test03_14,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",check recommendation
+test03_14,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",check recommendation
+test03_14,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",check recommendation
+test03_14,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",check recommendation
+test03_14,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,check recommendation
+test03_14,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",check recommendation
+test03_14,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",check recommendation
+test03_14,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",check recommendation
+test03_15,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",check recommendation
+test03_15,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",check recommendation
+test03_15,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",check recommendation
+test03_15,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,check recommendation
+test03_15,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",check recommendation
+test03_15,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",check recommendation
+test03_15,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",check recommendation
+test03_15,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,check recommendation
+test03_15,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,check recommendation
+test03_15,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,check recommendation
+test03_15,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,check recommendation
+test03_15,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",check recommendation
+test03_15,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",check recommendation
+test03_15,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",check recommendation
+test03_15,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",check recommendation
+test03_15,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,check recommendation
+test03_15,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",check recommendation
+test03_15,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",check recommendation
+test03_15,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",check recommendation
+test03_16,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",check recommendation
+test03_16,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",check recommendation
+test03_16,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",check recommendation
+test03_16,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,check recommendation
+test03_16,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",check recommendation
+test03_16,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",check recommendation
+test03_16,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",check recommendation
+test03_16,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,check recommendation
+test03_16,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,check recommendation
+test03_16,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,check recommendation
+test03_16,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,check recommendation
+test03_16,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",check recommendation
+test03_16,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",check recommendation
+test03_16,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",check recommendation
+test03_16,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",check recommendation
+test03_16,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,check recommendation
+test03_16,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",check recommendation
+test03_16,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",check recommendation
+test03_16,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",check recommendation
+test03_17,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",proceed recommendation
+test03_17,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",proceed recommendation
+test03_17,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",proceed recommendation
+test03_17,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,proceed recommendation
+test03_17,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",proceed recommendation
+test03_17,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",proceed recommendation
+test03_17,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",proceed recommendation
+test03_17,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,proceed recommendation
+test03_17,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,proceed recommendation
+test03_17,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,proceed recommendation
+test03_17,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,proceed recommendation
+test03_17,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",proceed recommendation
+test03_17,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",proceed recommendation
+test03_17,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",proceed recommendation
+test03_17,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",proceed recommendation
+test03_17,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,proceed recommendation
+test03_17,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",proceed recommendation
+test03_17,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",proceed recommendation
+test03_17,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",proceed recommendation
+test03_18,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",handle proceeding process
+test03_18,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",handle proceeding process
+test03_18,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",handle proceeding process
+test03_18,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,handle proceeding process
+test03_18,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",handle proceeding process
+test03_18,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",handle proceeding process
+test03_18,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",handle proceeding process
+test03_18,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,handle proceeding process
+test03_18,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,handle proceeding process
+test03_18,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,handle proceeding process
+test03_18,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,handle proceeding process
+test03_18,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",handle proceeding process
+test03_18,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",handle proceeding process
+test03_18,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",handle proceeding process
+test03_18,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",handle proceeding process
+test03_18,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,handle proceeding process
+test03_18,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",handle proceeding process
+test03_18,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",handle proceeding process
+test03_18,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",handle proceeding process
+test03_19,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",proceed with claim handling
+test03_19,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",proceed with claim handling
+test03_19,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",proceed with claim handling
+test03_19,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,proceed with claim handling
+test03_19,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",proceed with claim handling
+test03_19,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",proceed with claim handling
+test03_19,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",proceed with claim handling
+test03_19,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,proceed with claim handling
+test03_19,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,proceed with claim handling
+test03_19,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,proceed with claim handling
+test03_19,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,proceed with claim handling
+test03_19,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",proceed with claim handling
+test03_19,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",proceed with claim handling
+test03_19,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",proceed with claim handling
+test03_19,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",proceed with claim handling
+test03_19,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,proceed with claim handling
+test03_19,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",proceed with claim handling
+test03_19,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",proceed with claim handling
+test03_19,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",proceed with claim handling
+test03_20,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",Proceed process
+test03_20,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",Proceed process
+test03_20,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",Proceed process
+test03_20,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,Proceed process
+test03_20,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",Proceed process
+test03_20,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",Proceed process
+test03_20,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",Proceed process
+test03_20,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,Proceed process
+test03_20,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,Proceed process
+test03_20,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,Proceed process
+test03_20,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,Proceed process
+test03_20,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",Proceed process
+test03_20,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",Proceed process
+test03_20,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",Proceed process
+test03_20,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",Proceed process
+test03_20,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,Proceed process
+test03_20,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",Proceed process
+test03_20,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",Proceed process
+test03_20,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",Proceed process
+test03_21,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",proceed claim handling
+test03_21,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",proceed claim handling
+test03_21,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",proceed claim handling
+test03_21,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,proceed claim handling
+test03_21,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",proceed claim handling
+test03_21,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",proceed claim handling
+test03_21,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",proceed claim handling
+test03_21,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,proceed claim handling
+test03_21,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,proceed claim handling
+test03_21,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,proceed claim handling
+test03_21,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,proceed claim handling
+test03_21,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",proceed claim handling
+test03_21,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",proceed claim handling
+test03_21,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",proceed claim handling
+test03_21,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",proceed claim handling
+test03_21,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,proceed claim handling
+test03_21,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",proceed claim handling
+test03_21,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",proceed claim handling
+test03_21,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",proceed claim handling
+test03_22,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",proceed claim handling
+test03_22,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",proceed claim handling
+test03_22,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",proceed claim handling
+test03_22,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,proceed claim handling
+test03_22,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",proceed claim handling
+test03_22,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",proceed claim handling
+test03_22,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",proceed claim handling
+test03_22,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,proceed claim handling
+test03_22,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,proceed claim handling
+test03_22,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,proceed claim handling
+test03_22,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,proceed claim handling
+test03_22,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",proceed claim handling
+test03_22,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",proceed claim handling
+test03_22,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",proceed claim handling
+test03_22,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",proceed claim handling
+test03_22,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,proceed claim handling
+test03_22,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",proceed claim handling
+test03_22,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",proceed claim handling
+test03_22,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",proceed claim handling
+test03_23,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",Proceed handling Process
+test03_23,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",Proceed handling Process
+test03_23,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",Proceed handling Process
+test03_23,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,Proceed handling Process
+test03_23,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",Proceed handling Process
+test03_23,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",Proceed handling Process
+test03_23,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",Proceed handling Process
+test03_23,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,Proceed handling Process
+test03_23,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,Proceed handling Process
+test03_23,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,Proceed handling Process
+test03_23,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,Proceed handling Process
+test03_23,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",Proceed handling Process
+test03_23,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",Proceed handling Process
+test03_23,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",Proceed handling Process
+test03_23,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",Proceed handling Process
+test03_23,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,Proceed handling Process
+test03_23,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",Proceed handling Process
+test03_23,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",Proceed handling Process
+test03_23,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",Proceed handling Process
+test03_24,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",continue handeling process
+test03_24,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",continue handeling process
+test03_24,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",continue handeling process
+test03_24,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,continue handeling process
+test03_24,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",continue handeling process
+test03_24,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",continue handeling process
+test03_24,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",continue handeling process
+test03_24,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,continue handeling process
+test03_24,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,continue handeling process
+test03_24,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,continue handeling process
+test03_24,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,continue handeling process
+test03_24,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",continue handeling process
+test03_24,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",continue handeling process
+test03_24,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",continue handeling process
+test03_24,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",continue handeling process
+test03_24,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,continue handeling process
+test03_24,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",continue handeling process
+test03_24,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",continue handeling process
+test03_24,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",continue handeling process
+test03_25,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",write settlement recommendation
+test03_25,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",write settlement recommendation
+test03_25,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",write settlement recommendation
+test03_25,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,write settlement recommendation
+test03_25,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",write settlement recommendation
+test03_25,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",write settlement recommendation
+test03_25,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",write settlement recommendation
+test03_25,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,write settlement recommendation
+test03_25,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,write settlement recommendation
+test03_25,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,write settlement recommendation
+test03_25,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,write settlement recommendation
+test03_25,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",write settlement recommendation
+test03_25,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",write settlement recommendation
+test03_25,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",write settlement recommendation
+test03_25,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",write settlement recommendation
+test03_25,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,write settlement recommendation
+test03_25,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",write settlement recommendation
+test03_25,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",write settlement recommendation
+test03_25,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",write settlement recommendation
+test03_26,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",check recommendation
+test03_26,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",check recommendation
+test03_26,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",check recommendation
+test03_26,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,check recommendation
+test03_26,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",check recommendation
+test03_26,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",check recommendation
+test03_26,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",check recommendation
+test03_26,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,check recommendation
+test03_26,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,check recommendation
+test03_26,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,check recommendation
+test03_26,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,check recommendation
+test03_26,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",check recommendation
+test03_26,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",check recommendation
+test03_26,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",check recommendation
+test03_26,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",check recommendation
+test03_26,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,check recommendation
+test03_26,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",check recommendation
+test03_26,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",check recommendation
+test03_26,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",check recommendation
+test03_27,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",proceed handling Process
+test03_27,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",proceed handling Process
+test03_27,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",proceed handling Process
+test03_27,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,proceed handling Process
+test03_27,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",proceed handling Process
+test03_27,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",proceed handling Process
+test03_27,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",proceed handling Process
+test03_27,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,proceed handling Process
+test03_27,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,proceed handling Process
+test03_27,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,proceed handling Process
+test03_27,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,proceed handling Process
+test03_27,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",proceed handling Process
+test03_27,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",proceed handling Process
+test03_27,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",proceed handling Process
+test03_27,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",proceed handling Process
+test03_27,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,proceed handling Process
+test03_27,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",proceed handling Process
+test03_27,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",proceed handling Process
+test03_27,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",proceed handling Process
+test03_28,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",check recommendation
+test03_28,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",check recommendation
+test03_28,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",check recommendation
+test03_28,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,check recommendation
+test03_28,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",check recommendation
+test03_28,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",check recommendation
+test03_28,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",check recommendation
+test03_28,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,check recommendation
+test03_28,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,check recommendation
+test03_28,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,check recommendation
+test03_28,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,check recommendation
+test03_28,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",check recommendation
+test03_28,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",check recommendation
+test03_28,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",check recommendation
+test03_28,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",check recommendation
+test03_28,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,check recommendation
+test03_28,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",check recommendation
+test03_28,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",check recommendation
+test03_28,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",check recommendation
+test03_29,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",First part of the claim the handling completed
+test03_29,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",First part of the claim the handling completed
+test03_29,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",First part of the claim the handling completed
+test03_29,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,First part of the claim the handling completed
+test03_29,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",First part of the claim the handling completed
+test03_29,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",First part of the claim the handling completed
+test03_29,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",First part of the claim the handling completed
+test03_29,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,First part of the claim the handling completed
+test03_29,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,First part of the claim the handling completed
+test03_29,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,First part of the claim the handling completed
+test03_29,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,First part of the claim the handling completed
+test03_29,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",First part of the claim the handling completed
+test03_29,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",First part of the claim the handling completed
+test03_29,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",First part of the claim the handling completed
+test03_29,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",First part of the claim the handling completed
+test03_29,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,First part of the claim the handling completed
+test03_29,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",First part of the claim the handling completed
+test03_29,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",First part of the claim the handling completed
+test03_29,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",First part of the claim the handling completed
+test03_30,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",Proceed handling Process
+test03_30,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",Proceed handling Process
+test03_30,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",Proceed handling Process
+test03_30,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,Proceed handling Process
+test03_30,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",Proceed handling Process
+test03_30,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",Proceed handling Process
+test03_30,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",Proceed handling Process
+test03_30,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,Proceed handling Process
+test03_30,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,Proceed handling Process
+test03_30,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,Proceed handling Process
+test03_30,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,Proceed handling Process
+test03_30,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",Proceed handling Process
+test03_30,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",Proceed handling Process
+test03_30,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",Proceed handling Process
+test03_30,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",Proceed handling Process
+test03_30,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,Proceed handling Process
+test03_30,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",Proceed handling Process
+test03_30,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",Proceed handling Process
+test03_30,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",Proceed handling Process
+test03_31,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",Proceed process
+test03_31,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",Proceed process
+test03_31,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",Proceed process
+test03_31,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,Proceed process
+test03_31,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",Proceed process
+test03_31,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",Proceed process
+test03_31,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",Proceed process
+test03_31,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,Proceed process
+test03_31,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,Proceed process
+test03_31,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,Proceed process
+test03_31,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,Proceed process
+test03_31,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",Proceed process
+test03_31,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",Proceed process
+test03_31,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",Proceed process
+test03_31,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",Proceed process
+test03_31,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,Proceed process
+test03_31,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",Proceed process
+test03_31,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",Proceed process
+test03_31,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",Proceed process
+test03_32,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",Proceed process
+test03_32,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",Proceed process
+test03_32,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",Proceed process
+test03_32,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,Proceed process
+test03_32,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",Proceed process
+test03_32,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",Proceed process
+test03_32,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",Proceed process
+test03_32,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,Proceed process
+test03_32,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,Proceed process
+test03_32,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,Proceed process
+test03_32,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,Proceed process
+test03_32,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",Proceed process
+test03_32,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",Proceed process
+test03_32,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",Proceed process
+test03_32,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",Proceed process
+test03_32,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,Proceed process
+test03_32,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",Proceed process
+test03_32,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",Proceed process
+test03_32,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",Proceed process
+test03_33,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",proceed recommendation
+test03_33,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",proceed recommendation
+test03_33,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",proceed recommendation
+test03_33,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,proceed recommendation
+test03_33,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",proceed recommendation
+test03_33,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",proceed recommendation
+test03_33,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",proceed recommendation
+test03_33,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,proceed recommendation
+test03_33,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,proceed recommendation
+test03_33,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,proceed recommendation
+test03_33,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,proceed recommendation
+test03_33,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",proceed recommendation
+test03_33,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",proceed recommendation
+test03_33,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",proceed recommendation
+test03_33,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",proceed recommendation
+test03_33,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,proceed recommendation
+test03_33,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",proceed recommendation
+test03_33,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",proceed recommendation
+test03_33,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",proceed recommendation
+test03_34,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",proceed recommendation
+test03_34,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",proceed recommendation
+test03_34,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",proceed recommendation
+test03_34,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,proceed recommendation
+test03_34,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",proceed recommendation
+test03_34,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",proceed recommendation
+test03_34,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",proceed recommendation
+test03_34,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,proceed recommendation
+test03_34,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,proceed recommendation
+test03_34,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,proceed recommendation
+test03_34,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,proceed recommendation
+test03_34,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",proceed recommendation
+test03_34,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",proceed recommendation
+test03_34,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",proceed recommendation
+test03_34,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",proceed recommendation
+test03_34,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,proceed recommendation
+test03_34,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",proceed recommendation
+test03_34,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",proceed recommendation
+test03_34,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",proceed recommendation
+test03_35,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",handle proceeding process
+test03_35,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",handle proceeding process
+test03_35,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",handle proceeding process
+test03_35,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,handle proceeding process
+test03_35,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",handle proceeding process
+test03_35,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",handle proceeding process
+test03_35,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",handle proceeding process
+test03_35,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,handle proceeding process
+test03_35,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,handle proceeding process
+test03_35,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,handle proceeding process
+test03_35,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,handle proceeding process
+test03_35,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",handle proceeding process
+test03_35,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",handle proceeding process
+test03_35,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",handle proceeding process
+test03_35,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",handle proceeding process
+test03_35,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,handle proceeding process
+test03_35,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",handle proceeding process
+test03_35,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",handle proceeding process
+test03_35,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",handle proceeding process
+test03_36,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",claim handling process
+test03_36,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",claim handling process
+test03_36,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",claim handling process
+test03_36,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,claim handling process
+test03_36,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",claim handling process
+test03_36,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",claim handling process
+test03_36,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",claim handling process
+test03_36,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,claim handling process
+test03_36,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,claim handling process
+test03_36,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,claim handling process
+test03_36,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,claim handling process
+test03_36,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",claim handling process
+test03_36,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",claim handling process
+test03_36,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",claim handling process
+test03_36,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",claim handling process
+test03_36,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,claim handling process
+test03_36,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",claim handling process
+test03_36,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",claim handling process
+test03_36,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",claim handling process
+test03_37,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",claim handling process
+test03_37,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",claim handling process
+test03_37,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",claim handling process
+test03_37,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,claim handling process
+test03_37,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",claim handling process
+test03_37,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",claim handling process
+test03_37,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",claim handling process
+test03_37,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,claim handling process
+test03_37,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,claim handling process
+test03_37,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,claim handling process
+test03_37,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,claim handling process
+test03_37,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",claim handling process
+test03_37,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",claim handling process
+test03_37,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",claim handling process
+test03_37,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",claim handling process
+test03_37,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,claim handling process
+test03_37,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",claim handling process
+test03_37,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",claim handling process
+test03_37,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",claim handling process
+test03_38,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",proceed claim handling
+test03_38,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",proceed claim handling
+test03_38,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",proceed claim handling
+test03_38,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,proceed claim handling
+test03_38,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",proceed claim handling
+test03_38,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",proceed claim handling
+test03_38,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",proceed claim handling
+test03_38,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,proceed claim handling
+test03_38,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,proceed claim handling
+test03_38,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,proceed claim handling
+test03_38,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,proceed claim handling
+test03_38,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",proceed claim handling
+test03_38,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",proceed claim handling
+test03_38,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",proceed claim handling
+test03_38,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",proceed claim handling
+test03_38,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,proceed claim handling
+test03_38,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",proceed claim handling
+test03_38,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",proceed claim handling
+test03_38,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",proceed claim handling
+test03_39,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",recommendation ok
+test03_39,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",recommendation ok
+test03_39,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",recommendation ok
+test03_39,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,recommendation ok
+test03_39,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",recommendation ok
+test03_39,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",recommendation ok
+test03_39,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",recommendation ok
+test03_39,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,recommendation ok
+test03_39,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,recommendation ok
+test03_39,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,recommendation ok
+test03_39,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,recommendation ok
+test03_39,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",recommendation ok
+test03_39,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",recommendation ok
+test03_39,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",recommendation ok
+test03_39,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",recommendation ok
+test03_39,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,recommendation ok
+test03_39,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",recommendation ok
+test03_39,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",recommendation ok
+test03_39,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",recommendation ok
+test03_40,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",handle proceeding process
+test03_40,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",handle proceeding process
+test03_40,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",handle proceeding process
+test03_40,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,handle proceeding process
+test03_40,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",handle proceeding process
+test03_40,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",handle proceeding process
+test03_40,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",handle proceeding process
+test03_40,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,handle proceeding process
+test03_40,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,handle proceeding process
+test03_40,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,handle proceeding process
+test03_40,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,handle proceeding process
+test03_40,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",handle proceeding process
+test03_40,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",handle proceeding process
+test03_40,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",handle proceeding process
+test03_40,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",handle proceeding process
+test03_40,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,handle proceeding process
+test03_40,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",handle proceeding process
+test03_40,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",handle proceeding process
+test03_40,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",handle proceeding process
+test03_41,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",claim handling process
+test03_41,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",claim handling process
+test03_41,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",claim handling process
+test03_41,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,claim handling process
+test03_41,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",claim handling process
+test03_41,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",claim handling process
+test03_41,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",claim handling process
+test03_41,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,claim handling process
+test03_41,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,claim handling process
+test03_41,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,claim handling process
+test03_41,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,claim handling process
+test03_41,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",claim handling process
+test03_41,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",claim handling process
+test03_41,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",claim handling process
+test03_41,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",claim handling process
+test03_41,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,claim handling process
+test03_41,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",claim handling process
+test03_41,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",claim handling process
+test03_41,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",claim handling process
+test03_42,credit risk assessment,"The client submits fraudulent claims materials, necessitating strengthened review processes.",proceed recommendation
+test03_42,credit risk assessment,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",proceed recommendation
+test03_42,credit risk assessment,"The insurance company’s system crashes, causing delays in claims processing.",proceed recommendation
+test03_42,credit risk assessment,Sudden changes in laws and regulations require a reevaluation of claims standards.,proceed recommendation
+test03_42,credit risk assessment,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",proceed recommendation
+test03_42,credit risk assessment,"The complexity of international claims increases, involving multiple countries' laws and currency conversion.",proceed recommendation
+test03_42,credit risk assessment,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",proceed recommendation
+test03_42,credit risk assessment,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,proceed recommendation
+test03_42,credit risk assessment,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,proceed recommendation
+test03_42,credit risk assessment,Issues with the client’s medical expense payments lead to delays in the claims process.,proceed recommendation
+test03_42,credit risk assessment,Policy changes result in certain claims no longer meeting the insurance terms.,proceed recommendation
+test03_42,credit risk assessment,"A technical failure causes the loss of claims application data, requiring manual recovery.",proceed recommendation
+test03_42,credit risk assessment,"Claims require external expert evaluations, extending the processing time.",proceed recommendation
+test03_42,credit risk assessment,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",proceed recommendation
+test03_42,credit risk assessment,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",proceed recommendation
+test03_42,credit risk assessment,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,proceed recommendation
+test03_42,credit risk assessment,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",proceed recommendation
+test03_42,credit risk assessment,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",proceed recommendation
+test03_42,credit risk assessment,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",proceed recommendation

@@ -1,0 +1,313 @@
+business_model_idx,business_scenario,LTC,business_object
+test08_0,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",results get filled
+test08_0,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,results get filled
+test08_0,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,results get filled
+test08_0,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,results get filled
+test08_0,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",results get filled
+test08_0,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",results get filled
+test08_0,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",results get filled
+test08_0,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",results get filled
+test08_0,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,results get filled
+test08_0,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,results get filled
+test08_0,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,results get filled
+test08_0,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,results get filled
+test08_1,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create report
+test08_1,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create report
+test08_1,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_1,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create report
+test08_1,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create report
+test08_1,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create report
+test08_1,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create report
+test08_1,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create report
+test08_1,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create report
+test08_1,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create report
+test08_1,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create report
+test08_1,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_2,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create report
+test08_2,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create report
+test08_2,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_2,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create report
+test08_2,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create report
+test08_2,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create report
+test08_2,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create report
+test08_2,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create report
+test08_2,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create report
+test08_2,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create report
+test08_2,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create report
+test08_2,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_3,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create report
+test08_3,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create report
+test08_3,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_3,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create report
+test08_3,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create report
+test08_3,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create report
+test08_3,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create report
+test08_3,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create report
+test08_3,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create report
+test08_3,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create report
+test08_3,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create report
+test08_3,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_4,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create Report
+test08_4,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create Report
+test08_4,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create Report
+test08_4,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create Report
+test08_4,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create Report
+test08_4,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create Report
+test08_4,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create Report
+test08_4,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create Report
+test08_4,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create Report
+test08_4,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create Report
+test08_4,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create Report
+test08_4,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create Report
+test08_5,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create a report
+test08_5,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create a report
+test08_5,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create a report
+test08_5,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create a report
+test08_5,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create a report
+test08_5,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create a report
+test08_5,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create a report
+test08_5,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create a report
+test08_5,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create a report
+test08_5,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create a report
+test08_5,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create a report
+test08_5,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create a report
+test08_6,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create report
+test08_6,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create report
+test08_6,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_6,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create report
+test08_6,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create report
+test08_6,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create report
+test08_6,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create report
+test08_6,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create report
+test08_6,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create report
+test08_6,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create report
+test08_6,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create report
+test08_6,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_7,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",Create report
+test08_7,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,Create report
+test08_7,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,Create report
+test08_7,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,Create report
+test08_7,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",Create report
+test08_7,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",Create report
+test08_7,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",Create report
+test08_7,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",Create report
+test08_7,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,Create report
+test08_7,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,Create report
+test08_7,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,Create report
+test08_7,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,Create report
+test08_8,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create report
+test08_8,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create report
+test08_8,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_8,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create report
+test08_8,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create report
+test08_8,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create report
+test08_8,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create report
+test08_8,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create report
+test08_8,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create report
+test08_8,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create report
+test08_8,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create report
+test08_8,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_9,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create report
+test08_9,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create report
+test08_9,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_9,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create report
+test08_9,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create report
+test08_9,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create report
+test08_9,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create report
+test08_9,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create report
+test08_9,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create report
+test08_9,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create report
+test08_9,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create report
+test08_9,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_10,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create report
+test08_10,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create report
+test08_10,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_10,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create report
+test08_10,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create report
+test08_10,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create report
+test08_10,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create report
+test08_10,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create report
+test08_10,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create report
+test08_10,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create report
+test08_10,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create report
+test08_10,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_11,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create a report
+test08_11,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create a report
+test08_11,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create a report
+test08_11,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create a report
+test08_11,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create a report
+test08_11,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create a report
+test08_11,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create a report
+test08_11,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create a report
+test08_11,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create a report
+test08_11,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create a report
+test08_11,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create a report
+test08_11,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create a report
+test08_12,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create report
+test08_12,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create report
+test08_12,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_12,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create report
+test08_12,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create report
+test08_12,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create report
+test08_12,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create report
+test08_12,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create report
+test08_12,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create report
+test08_12,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create report
+test08_12,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create report
+test08_12,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_13,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",Create report
+test08_13,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,Create report
+test08_13,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,Create report
+test08_13,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,Create report
+test08_13,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",Create report
+test08_13,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",Create report
+test08_13,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",Create report
+test08_13,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",Create report
+test08_13,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,Create report
+test08_13,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,Create report
+test08_13,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,Create report
+test08_13,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,Create report
+test08_14,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create Report
+test08_14,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create Report
+test08_14,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create Report
+test08_14,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create Report
+test08_14,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create Report
+test08_14,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create Report
+test08_14,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create Report
+test08_14,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create Report
+test08_14,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create Report
+test08_14,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create Report
+test08_14,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create Report
+test08_14,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create Report
+test08_15,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create report
+test08_15,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create report
+test08_15,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_15,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create report
+test08_15,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create report
+test08_15,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create report
+test08_15,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create report
+test08_15,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create report
+test08_15,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create report
+test08_15,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create report
+test08_15,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create report
+test08_15,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_16,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create report
+test08_16,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create report
+test08_16,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_16,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create report
+test08_16,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create report
+test08_16,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create report
+test08_16,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create report
+test08_16,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create report
+test08_16,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create report
+test08_16,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create report
+test08_16,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create report
+test08_16,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_17,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create report
+test08_17,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create report
+test08_17,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_17,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create report
+test08_17,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create report
+test08_17,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create report
+test08_17,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create report
+test08_17,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create report
+test08_17,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create report
+test08_17,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create report
+test08_17,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create report
+test08_17,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_18,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create report
+test08_18,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create report
+test08_18,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_18,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create report
+test08_18,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create report
+test08_18,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create report
+test08_18,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create report
+test08_18,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create report
+test08_18,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create report
+test08_18,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create report
+test08_18,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create report
+test08_18,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_19,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create report
+test08_19,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create report
+test08_19,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_19,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create report
+test08_19,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create report
+test08_19,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create report
+test08_19,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create report
+test08_19,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create report
+test08_19,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create report
+test08_19,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create report
+test08_19,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create report
+test08_19,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_20,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",Create report
+test08_20,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,Create report
+test08_20,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,Create report
+test08_20,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,Create report
+test08_20,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",Create report
+test08_20,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",Create report
+test08_20,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",Create report
+test08_20,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",Create report
+test08_20,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,Create report
+test08_20,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,Create report
+test08_20,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,Create report
+test08_20,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,Create report
+test08_21,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create Report
+test08_21,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create Report
+test08_21,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create Report
+test08_21,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create Report
+test08_21,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create Report
+test08_21,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create Report
+test08_21,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create Report
+test08_21,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create Report
+test08_21,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create Report
+test08_21,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create Report
+test08_21,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create Report
+test08_21,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create Report
+test08_22,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create report
+test08_22,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create report
+test08_22,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_22,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create report
+test08_22,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create report
+test08_22,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create report
+test08_22,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create report
+test08_22,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create report
+test08_22,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create report
+test08_22,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create report
+test08_22,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create report
+test08_22,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_23,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create report
+test08_23,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create report
+test08_23,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_23,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create report
+test08_23,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create report
+test08_23,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create report
+test08_23,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create report
+test08_23,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create report
+test08_23,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create report
+test08_23,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create report
+test08_23,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create report
+test08_23,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_24,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create report
+test08_24,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create report
+test08_24,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_24,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create report
+test08_24,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create report
+test08_24,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create report
+test08_24,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create report
+test08_24,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create report
+test08_24,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create report
+test08_24,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create report
+test08_24,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create report
+test08_24,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_25,hospital doctor performance evaluation,"Changes in performance evaluation standards are not communicated to doctors in time, causing confusion over the scoring criteria.",create report
+test08_25,hospital doctor performance evaluation,Certain patient records cannot be included in the doctor’s performance evaluation due to privacy protection issues.,create report
+test08_25,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report
+test08_25,hospital doctor performance evaluation,An external expert’s review of the performance evaluation plan leads to major changes in the doctor’s evaluation criteria.,create report
+test08_25,hospital doctor performance evaluation,"The hospital management system fails to accurately record the doctor’s actual working hours, impacting the evaluation results.",create report
+test08_25,hospital doctor performance evaluation,"Long-term overtime work leads to physical and mental exhaustion, negatively impacting the doctor’s performance evaluation.",create report
+test08_25,hospital doctor performance evaluation,"The performance evaluation metrics do not align with the actual workload, resulting in inaccurate ratings for doctors.",create report
+test08_25,hospital doctor performance evaluation,"An unexpected medical incident triggers an investigation, affecting the doctor’s performance evaluation.",create report
+test08_25,hospital doctor performance evaluation,Bias in department leadership’s evaluation leads to unfair performance assessments for doctors.,create report
+test08_25,hospital doctor performance evaluation,The doctor’s performance rating is affected by overwork during peak periods.,create report
+test08_25,hospital doctor performance evaluation,The doctor’s performance evaluation is impacted by unexpected absenteeism due to illness.,create report
+test08_25,hospital doctor performance evaluation,Internal system failures prevent the timely update of doctors' performance data.,create report

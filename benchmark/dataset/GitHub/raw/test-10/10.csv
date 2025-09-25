@@ -1,0 +1,169 @@
+business_model_idx,business_scenario,LTC,business_object
+test10_0,PhD application for university,"The university admissions committee is unable to meet on time due to unforeseen circumstances, causing delays in the admission decision.",send email
+test10_0,PhD application for university,"The applicant’s research proposal does not align with the university's research focus, leading to the rejection of their application.",send email
+test10_0,PhD application for university,"The university’s admissions office fails to respond to the applicant in a timely manner, causing uncertainty during the application process.",send email
+test10_0,PhD application for university,"The applicant misses the application deadline, leading to the loss of the opportunity to apply.",send email
+test10_0,PhD application for university,Synchronization issues in the system cause applicants to submit the same materials multiple times.,send email
+test10_0,PhD application for university,"The applicant's language proficiency scores do not meet the minimum requirements, resulting in a rejection.",send email
+test10_0,PhD application for university,"The research interests of the applicant do not align with the prospective supervisor’s research area, leading to a rejection.",send email
+test10_0,PhD application for university,The applicant fails to provide necessary academic transcripts or certificates as required.,send email
+test10_0,PhD application for university,Incorrect information on the application form leads to issues in processing the application materials.,send email
+test10_0,PhD application for university,"Recommendation letters are lost or not submitted on time, affecting the application review process.",send email
+test10_0,PhD application for university,"Application materials do not arrive on time, causing delays or rejection of the application.",send email
+test10_0,PhD application for university,"The application system crashes, preventing applicants from submitting their materials.",send email
+test10_1,PhD application for university,"The university admissions committee is unable to meet on time due to unforeseen circumstances, causing delays in the admission decision.",check outcome
+test10_1,PhD application for university,"The applicant’s research proposal does not align with the university's research focus, leading to the rejection of their application.",check outcome
+test10_1,PhD application for university,"The university’s admissions office fails to respond to the applicant in a timely manner, causing uncertainty during the application process.",check outcome
+test10_1,PhD application for university,"The applicant misses the application deadline, leading to the loss of the opportunity to apply.",check outcome
+test10_1,PhD application for university,Synchronization issues in the system cause applicants to submit the same materials multiple times.,check outcome
+test10_1,PhD application for university,"The applicant's language proficiency scores do not meet the minimum requirements, resulting in a rejection.",check outcome
+test10_1,PhD application for university,"The research interests of the applicant do not align with the prospective supervisor’s research area, leading to a rejection.",check outcome
+test10_1,PhD application for university,The applicant fails to provide necessary academic transcripts or certificates as required.,check outcome
+test10_1,PhD application for university,Incorrect information on the application form leads to issues in processing the application materials.,check outcome
+test10_1,PhD application for university,"Recommendation letters are lost or not submitted on time, affecting the application review process.",check outcome
+test10_1,PhD application for university,"Application materials do not arrive on time, causing delays or rejection of the application.",check outcome
+test10_1,PhD application for university,"The application system crashes, preventing applicants from submitting their materials.",check outcome
+test10_2,PhD application for university,"The university admissions committee is unable to meet on time due to unforeseen circumstances, causing delays in the admission decision.",notify admissions office of outcome
+test10_2,PhD application for university,"The applicant’s research proposal does not align with the university's research focus, leading to the rejection of their application.",notify admissions office of outcome
+test10_2,PhD application for university,"The university’s admissions office fails to respond to the applicant in a timely manner, causing uncertainty during the application process.",notify admissions office of outcome
+test10_2,PhD application for university,"The applicant misses the application deadline, leading to the loss of the opportunity to apply.",notify admissions office of outcome
+test10_2,PhD application for university,Synchronization issues in the system cause applicants to submit the same materials multiple times.,notify admissions office of outcome
+test10_2,PhD application for university,"The applicant's language proficiency scores do not meet the minimum requirements, resulting in a rejection.",notify admissions office of outcome
+test10_2,PhD application for university,"The research interests of the applicant do not align with the prospective supervisor’s research area, leading to a rejection.",notify admissions office of outcome
+test10_2,PhD application for university,The applicant fails to provide necessary academic transcripts or certificates as required.,notify admissions office of outcome
+test10_2,PhD application for university,Incorrect information on the application form leads to issues in processing the application materials.,notify admissions office of outcome
+test10_2,PhD application for university,"Recommendation letters are lost or not submitted on time, affecting the application review process.",notify admissions office of outcome
+test10_2,PhD application for university,"Application materials do not arrive on time, causing delays or rejection of the application.",notify admissions office of outcome
+test10_2,PhD application for university,"The application system crashes, preventing applicants from submitting their materials.",notify admissions office of outcome
+test10_3,PhD application for university,"The university admissions committee is unable to meet on time due to unforeseen circumstances, causing delays in the admission decision.",notify Selection outcomes
+test10_3,PhD application for university,"The applicant’s research proposal does not align with the university's research focus, leading to the rejection of their application.",notify Selection outcomes
+test10_3,PhD application for university,"The university’s admissions office fails to respond to the applicant in a timely manner, causing uncertainty during the application process.",notify Selection outcomes
+test10_3,PhD application for university,"The applicant misses the application deadline, leading to the loss of the opportunity to apply.",notify Selection outcomes
+test10_3,PhD application for university,Synchronization issues in the system cause applicants to submit the same materials multiple times.,notify Selection outcomes
+test10_3,PhD application for university,"The applicant's language proficiency scores do not meet the minimum requirements, resulting in a rejection.",notify Selection outcomes
+test10_3,PhD application for university,"The research interests of the applicant do not align with the prospective supervisor’s research area, leading to a rejection.",notify Selection outcomes
+test10_3,PhD application for university,The applicant fails to provide necessary academic transcripts or certificates as required.,notify Selection outcomes
+test10_3,PhD application for university,Incorrect information on the application form leads to issues in processing the application materials.,notify Selection outcomes
+test10_3,PhD application for university,"Recommendation letters are lost or not submitted on time, affecting the application review process.",notify Selection outcomes
+test10_3,PhD application for university,"Application materials do not arrive on time, causing delays or rejection of the application.",notify Selection outcomes
+test10_3,PhD application for university,"The application system crashes, preventing applicants from submitting their materials.",notify Selection outcomes
+test10_4,PhD application for university,"The university admissions committee is unable to meet on time due to unforeseen circumstances, causing delays in the admission decision.",check outcome
+test10_4,PhD application for university,"The applicant’s research proposal does not align with the university's research focus, leading to the rejection of their application.",check outcome
+test10_4,PhD application for university,"The university’s admissions office fails to respond to the applicant in a timely manner, causing uncertainty during the application process.",check outcome
+test10_4,PhD application for university,"The applicant misses the application deadline, leading to the loss of the opportunity to apply.",check outcome
+test10_4,PhD application for university,Synchronization issues in the system cause applicants to submit the same materials multiple times.,check outcome
+test10_4,PhD application for university,"The applicant's language proficiency scores do not meet the minimum requirements, resulting in a rejection.",check outcome
+test10_4,PhD application for university,"The research interests of the applicant do not align with the prospective supervisor’s research area, leading to a rejection.",check outcome
+test10_4,PhD application for university,The applicant fails to provide necessary academic transcripts or certificates as required.,check outcome
+test10_4,PhD application for university,Incorrect information on the application form leads to issues in processing the application materials.,check outcome
+test10_4,PhD application for university,"Recommendation letters are lost or not submitted on time, affecting the application review process.",check outcome
+test10_4,PhD application for university,"Application materials do not arrive on time, causing delays or rejection of the application.",check outcome
+test10_4,PhD application for university,"The application system crashes, preventing applicants from submitting their materials.",check outcome
+test10_5,PhD application for university,"The university admissions committee is unable to meet on time due to unforeseen circumstances, causing delays in the admission decision.",notify administration of Outcome
+test10_5,PhD application for university,"The applicant’s research proposal does not align with the university's research focus, leading to the rejection of their application.",notify administration of Outcome
+test10_5,PhD application for university,"The university’s admissions office fails to respond to the applicant in a timely manner, causing uncertainty during the application process.",notify administration of Outcome
+test10_5,PhD application for university,"The applicant misses the application deadline, leading to the loss of the opportunity to apply.",notify administration of Outcome
+test10_5,PhD application for university,Synchronization issues in the system cause applicants to submit the same materials multiple times.,notify administration of Outcome
+test10_5,PhD application for university,"The applicant's language proficiency scores do not meet the minimum requirements, resulting in a rejection.",notify administration of Outcome
+test10_5,PhD application for university,"The research interests of the applicant do not align with the prospective supervisor’s research area, leading to a rejection.",notify administration of Outcome
+test10_5,PhD application for university,The applicant fails to provide necessary academic transcripts or certificates as required.,notify administration of Outcome
+test10_5,PhD application for university,Incorrect information on the application form leads to issues in processing the application materials.,notify administration of Outcome
+test10_5,PhD application for university,"Recommendation letters are lost or not submitted on time, affecting the application review process.",notify administration of Outcome
+test10_5,PhD application for university,"Application materials do not arrive on time, causing delays or rejection of the application.",notify administration of Outcome
+test10_5,PhD application for university,"The application system crashes, preventing applicants from submitting their materials.",notify administration of Outcome
+test10_6,PhD application for university,"The university admissions committee is unable to meet on time due to unforeseen circumstances, causing delays in the admission decision.",review outcomes
+test10_6,PhD application for university,"The applicant’s research proposal does not align with the university's research focus, leading to the rejection of their application.",review outcomes
+test10_6,PhD application for university,"The university’s admissions office fails to respond to the applicant in a timely manner, causing uncertainty during the application process.",review outcomes
+test10_6,PhD application for university,"The applicant misses the application deadline, leading to the loss of the opportunity to apply.",review outcomes
+test10_6,PhD application for university,Synchronization issues in the system cause applicants to submit the same materials multiple times.,review outcomes
+test10_6,PhD application for university,"The applicant's language proficiency scores do not meet the minimum requirements, resulting in a rejection.",review outcomes
+test10_6,PhD application for university,"The research interests of the applicant do not align with the prospective supervisor’s research area, leading to a rejection.",review outcomes
+test10_6,PhD application for university,The applicant fails to provide necessary academic transcripts or certificates as required.,review outcomes
+test10_6,PhD application for university,Incorrect information on the application form leads to issues in processing the application materials.,review outcomes
+test10_6,PhD application for university,"Recommendation letters are lost or not submitted on time, affecting the application review process.",review outcomes
+test10_6,PhD application for university,"Application materials do not arrive on time, causing delays or rejection of the application.",review outcomes
+test10_6,PhD application for university,"The application system crashes, preventing applicants from submitting their materials.",review outcomes
+test10_7,PhD application for university,"The university admissions committee is unable to meet on time due to unforeseen circumstances, causing delays in the admission decision.",admission application
+test10_7,PhD application for university,"The applicant’s research proposal does not align with the university's research focus, leading to the rejection of their application.",admission application
+test10_7,PhD application for university,"The university’s admissions office fails to respond to the applicant in a timely manner, causing uncertainty during the application process.",admission application
+test10_7,PhD application for university,"The applicant misses the application deadline, leading to the loss of the opportunity to apply.",admission application
+test10_7,PhD application for university,Synchronization issues in the system cause applicants to submit the same materials multiple times.,admission application
+test10_7,PhD application for university,"The applicant's language proficiency scores do not meet the minimum requirements, resulting in a rejection.",admission application
+test10_7,PhD application for university,"The research interests of the applicant do not align with the prospective supervisor’s research area, leading to a rejection.",admission application
+test10_7,PhD application for university,The applicant fails to provide necessary academic transcripts or certificates as required.,admission application
+test10_7,PhD application for university,Incorrect information on the application form leads to issues in processing the application materials.,admission application
+test10_7,PhD application for university,"Recommendation letters are lost or not submitted on time, affecting the application review process.",admission application
+test10_7,PhD application for university,"Application materials do not arrive on time, causing delays or rejection of the application.",admission application
+test10_7,PhD application for university,"The application system crashes, preventing applicants from submitting their materials.",admission application
+test10_8,PhD application for university,"The university admissions committee is unable to meet on time due to unforeseen circumstances, causing delays in the admission decision.",check outcomes
+test10_8,PhD application for university,"The applicant’s research proposal does not align with the university's research focus, leading to the rejection of their application.",check outcomes
+test10_8,PhD application for university,"The university’s admissions office fails to respond to the applicant in a timely manner, causing uncertainty during the application process.",check outcomes
+test10_8,PhD application for university,"The applicant misses the application deadline, leading to the loss of the opportunity to apply.",check outcomes
+test10_8,PhD application for university,Synchronization issues in the system cause applicants to submit the same materials multiple times.,check outcomes
+test10_8,PhD application for university,"The applicant's language proficiency scores do not meet the minimum requirements, resulting in a rejection.",check outcomes
+test10_8,PhD application for university,"The research interests of the applicant do not align with the prospective supervisor’s research area, leading to a rejection.",check outcomes
+test10_8,PhD application for university,The applicant fails to provide necessary academic transcripts or certificates as required.,check outcomes
+test10_8,PhD application for university,Incorrect information on the application form leads to issues in processing the application materials.,check outcomes
+test10_8,PhD application for university,"Recommendation letters are lost or not submitted on time, affecting the application review process.",check outcomes
+test10_8,PhD application for university,"Application materials do not arrive on time, causing delays or rejection of the application.",check outcomes
+test10_8,PhD application for university,"The application system crashes, preventing applicants from submitting their materials.",check outcomes
+test10_9,PhD application for university,"The university admissions committee is unable to meet on time due to unforeseen circumstances, causing delays in the admission decision.",send outcomes to administrate office
+test10_9,PhD application for university,"The applicant’s research proposal does not align with the university's research focus, leading to the rejection of their application.",send outcomes to administrate office
+test10_9,PhD application for university,"The university’s admissions office fails to respond to the applicant in a timely manner, causing uncertainty during the application process.",send outcomes to administrate office
+test10_9,PhD application for university,"The applicant misses the application deadline, leading to the loss of the opportunity to apply.",send outcomes to administrate office
+test10_9,PhD application for university,Synchronization issues in the system cause applicants to submit the same materials multiple times.,send outcomes to administrate office
+test10_9,PhD application for university,"The applicant's language proficiency scores do not meet the minimum requirements, resulting in a rejection.",send outcomes to administrate office
+test10_9,PhD application for university,"The research interests of the applicant do not align with the prospective supervisor’s research area, leading to a rejection.",send outcomes to administrate office
+test10_9,PhD application for university,The applicant fails to provide necessary academic transcripts or certificates as required.,send outcomes to administrate office
+test10_9,PhD application for university,Incorrect information on the application form leads to issues in processing the application materials.,send outcomes to administrate office
+test10_9,PhD application for university,"Recommendation letters are lost or not submitted on time, affecting the application review process.",send outcomes to administrate office
+test10_9,PhD application for university,"Application materials do not arrive on time, causing delays or rejection of the application.",send outcomes to administrate office
+test10_9,PhD application for university,"The application system crashes, preventing applicants from submitting their materials.",send outcomes to administrate office
+test10_10,PhD application for university,"The university admissions committee is unable to meet on time due to unforeseen circumstances, causing delays in the admission decision.",send rejection or admission
+test10_10,PhD application for university,"The applicant’s research proposal does not align with the university's research focus, leading to the rejection of their application.",send rejection or admission
+test10_10,PhD application for university,"The university’s admissions office fails to respond to the applicant in a timely manner, causing uncertainty during the application process.",send rejection or admission
+test10_10,PhD application for university,"The applicant misses the application deadline, leading to the loss of the opportunity to apply.",send rejection or admission
+test10_10,PhD application for university,Synchronization issues in the system cause applicants to submit the same materials multiple times.,send rejection or admission
+test10_10,PhD application for university,"The applicant's language proficiency scores do not meet the minimum requirements, resulting in a rejection.",send rejection or admission
+test10_10,PhD application for university,"The research interests of the applicant do not align with the prospective supervisor’s research area, leading to a rejection.",send rejection or admission
+test10_10,PhD application for university,The applicant fails to provide necessary academic transcripts or certificates as required.,send rejection or admission
+test10_10,PhD application for university,Incorrect information on the application form leads to issues in processing the application materials.,send rejection or admission
+test10_10,PhD application for university,"Recommendation letters are lost or not submitted on time, affecting the application review process.",send rejection or admission
+test10_10,PhD application for university,"Application materials do not arrive on time, causing delays or rejection of the application.",send rejection or admission
+test10_10,PhD application for university,"The application system crashes, preventing applicants from submitting their materials.",send rejection or admission
+test10_11,PhD application for university,"The university admissions committee is unable to meet on time due to unforeseen circumstances, causing delays in the admission decision.",Check selection
+test10_11,PhD application for university,"The applicant’s research proposal does not align with the university's research focus, leading to the rejection of their application.",Check selection
+test10_11,PhD application for university,"The university’s admissions office fails to respond to the applicant in a timely manner, causing uncertainty during the application process.",Check selection
+test10_11,PhD application for university,"The applicant misses the application deadline, leading to the loss of the opportunity to apply.",Check selection
+test10_11,PhD application for university,Synchronization issues in the system cause applicants to submit the same materials multiple times.,Check selection
+test10_11,PhD application for university,"The applicant's language proficiency scores do not meet the minimum requirements, resulting in a rejection.",Check selection
+test10_11,PhD application for university,"The research interests of the applicant do not align with the prospective supervisor’s research area, leading to a rejection.",Check selection
+test10_11,PhD application for university,The applicant fails to provide necessary academic transcripts or certificates as required.,Check selection
+test10_11,PhD application for university,Incorrect information on the application form leads to issues in processing the application materials.,Check selection
+test10_11,PhD application for university,"Recommendation letters are lost or not submitted on time, affecting the application review process.",Check selection
+test10_11,PhD application for university,"Application materials do not arrive on time, causing delays or rejection of the application.",Check selection
+test10_11,PhD application for university,"The application system crashes, preventing applicants from submitting their materials.",Check selection
+test10_12,PhD application for university,"The university admissions committee is unable to meet on time due to unforeseen circumstances, causing delays in the admission decision.",check Outcome
+test10_12,PhD application for university,"The applicant’s research proposal does not align with the university's research focus, leading to the rejection of their application.",check Outcome
+test10_12,PhD application for university,"The university’s admissions office fails to respond to the applicant in a timely manner, causing uncertainty during the application process.",check Outcome
+test10_12,PhD application for university,"The applicant misses the application deadline, leading to the loss of the opportunity to apply.",check Outcome
+test10_12,PhD application for university,Synchronization issues in the system cause applicants to submit the same materials multiple times.,check Outcome
+test10_12,PhD application for university,"The applicant's language proficiency scores do not meet the minimum requirements, resulting in a rejection.",check Outcome
+test10_12,PhD application for university,"The research interests of the applicant do not align with the prospective supervisor’s research area, leading to a rejection.",check Outcome
+test10_12,PhD application for university,The applicant fails to provide necessary academic transcripts or certificates as required.,check Outcome
+test10_12,PhD application for university,Incorrect information on the application form leads to issues in processing the application materials.,check Outcome
+test10_12,PhD application for university,"Recommendation letters are lost or not submitted on time, affecting the application review process.",check Outcome
+test10_12,PhD application for university,"Application materials do not arrive on time, causing delays or rejection of the application.",check Outcome
+test10_12,PhD application for university,"The application system crashes, preventing applicants from submitting their materials.",check Outcome
+test10_13,PhD application for university,"The university admissions committee is unable to meet on time due to unforeseen circumstances, causing delays in the admission decision.",check the outcome
+test10_13,PhD application for university,"The applicant’s research proposal does not align with the university's research focus, leading to the rejection of their application.",check the outcome
+test10_13,PhD application for university,"The university’s admissions office fails to respond to the applicant in a timely manner, causing uncertainty during the application process.",check the outcome
+test10_13,PhD application for university,"The applicant misses the application deadline, leading to the loss of the opportunity to apply.",check the outcome
+test10_13,PhD application for university,Synchronization issues in the system cause applicants to submit the same materials multiple times.,check the outcome
+test10_13,PhD application for university,"The applicant's language proficiency scores do not meet the minimum requirements, resulting in a rejection.",check the outcome
+test10_13,PhD application for university,"The research interests of the applicant do not align with the prospective supervisor’s research area, leading to a rejection.",check the outcome
+test10_13,PhD application for university,The applicant fails to provide necessary academic transcripts or certificates as required.,check the outcome
+test10_13,PhD application for university,Incorrect information on the application form leads to issues in processing the application materials.,check the outcome
+test10_13,PhD application for university,"Recommendation letters are lost or not submitted on time, affecting the application review process.",check the outcome
+test10_13,PhD application for university,"Application materials do not arrive on time, causing delays or rejection of the application.",check the outcome
+test10_13,PhD application for university,"The application system crashes, preventing applicants from submitting their materials.",check the outcome

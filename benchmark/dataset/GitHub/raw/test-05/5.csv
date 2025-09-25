@@ -1,0 +1,305 @@
+business_model_idx,business_scenario,LTC,business_object
+test05_0,property rental damage compensation,"The tenant requests compensation for damages, but the landlord fails to provide evidence, leading to compensation disputes.",allocate hearing date
+test05_0,property rental damage compensation,"The landlord fails to specify damage compensation clauses in the rental contract, leading to inconsistent compensation standards.",allocate hearing date
+test05_0,property rental damage compensation,"A major natural disaster (e.g., fire, flood) causes a surge in property damage claims for rental properties.",allocate hearing date
+test05_0,property rental damage compensation,"The tenant fails to report repairs on time as stipulated in the contract, leading to aggravated damage and higher compensation amounts.",allocate hearing date
+test05_0,property rental damage compensation,Changes in the rental property insurance policy result in adjustments to the compensation standards.,allocate hearing date
+test05_0,property rental damage compensation,"Sudden government policy changes require regular inspections of all rental properties, affecting the compensation process.",allocate hearing date
+test05_0,property rental damage compensation,Ambiguous clauses in the rental contract cause disputes between the landlord and tenant regarding compensation responsibilities.,allocate hearing date
+test05_0,property rental damage compensation,"Sudden social unrest causes damage to rental properties, delaying the compensation process.",allocate hearing date
+test05_0,property rental damage compensation,"The tenant makes unauthorized modifications to the property, causing damage beyond normal use, increasing compensation amounts.",allocate hearing date
+test05_0,property rental damage compensation,"A major equipment failure in the property causes widespread water and electricity damage, increasing compensation liabilities.",allocate hearing date
+test05_0,property rental damage compensation,"The landlord's lack of maintenance leads to aging and damaged facilities, prompting the tenant to file a compensation claim.",allocate hearing date
+test05_0,property rental damage compensation,Accidental physical damage caused by the tenant leads the landlord to demand a high compensation amount.,allocate hearing date
+test05_0,property rental damage compensation,"Unauthorized renovation work in the rental property leads to damage, causing compensation disputes.",allocate hearing date
+test05_0,property rental damage compensation,"Unaddressed safety hazards (e.g., aging electrical wires, wall cracks) lead to accidents and subsequent compensation claims.",allocate hearing date
+test05_0,property rental damage compensation,"After the lease ends, the tenant discovers hidden damage in the property and requests compensation from the landlord.",allocate hearing date
+test05_0,property rental damage compensation,"Severe weather causes external property damage, and the tenant requests compensation for repair costs.",allocate hearing date
+test05_0,property rental damage compensation,"The tenant’s improper use of appliances or equipment causes property damage, leading the landlord to claim compensation.",allocate hearing date
+test05_0,property rental damage compensation,"The tenant leaves behind uncleaned items upon moving out, causing damage to the property and increasing compensation liability.",allocate hearing date
+test05_0,property rental damage compensation,"After the lease ends, the landlord fails to repair the property on time, causing damage to new tenants who request compensation.",allocate hearing date
+test05_1,property rental damage compensation,"The tenant requests compensation for damages, but the landlord fails to provide evidence, leading to compensation disputes.",set a hearing date
+test05_1,property rental damage compensation,"The landlord fails to specify damage compensation clauses in the rental contract, leading to inconsistent compensation standards.",set a hearing date
+test05_1,property rental damage compensation,"A major natural disaster (e.g., fire, flood) causes a surge in property damage claims for rental properties.",set a hearing date
+test05_1,property rental damage compensation,"The tenant fails to report repairs on time as stipulated in the contract, leading to aggravated damage and higher compensation amounts.",set a hearing date
+test05_1,property rental damage compensation,Changes in the rental property insurance policy result in adjustments to the compensation standards.,set a hearing date
+test05_1,property rental damage compensation,"Sudden government policy changes require regular inspections of all rental properties, affecting the compensation process.",set a hearing date
+test05_1,property rental damage compensation,Ambiguous clauses in the rental contract cause disputes between the landlord and tenant regarding compensation responsibilities.,set a hearing date
+test05_1,property rental damage compensation,"Sudden social unrest causes damage to rental properties, delaying the compensation process.",set a hearing date
+test05_1,property rental damage compensation,"The tenant makes unauthorized modifications to the property, causing damage beyond normal use, increasing compensation amounts.",set a hearing date
+test05_1,property rental damage compensation,"A major equipment failure in the property causes widespread water and electricity damage, increasing compensation liabilities.",set a hearing date
+test05_1,property rental damage compensation,"The landlord's lack of maintenance leads to aging and damaged facilities, prompting the tenant to file a compensation claim.",set a hearing date
+test05_1,property rental damage compensation,Accidental physical damage caused by the tenant leads the landlord to demand a high compensation amount.,set a hearing date
+test05_1,property rental damage compensation,"Unauthorized renovation work in the rental property leads to damage, causing compensation disputes.",set a hearing date
+test05_1,property rental damage compensation,"Unaddressed safety hazards (e.g., aging electrical wires, wall cracks) lead to accidents and subsequent compensation claims.",set a hearing date
+test05_1,property rental damage compensation,"After the lease ends, the tenant discovers hidden damage in the property and requests compensation from the landlord.",set a hearing date
+test05_1,property rental damage compensation,"Severe weather causes external property damage, and the tenant requests compensation for repair costs.",set a hearing date
+test05_1,property rental damage compensation,"The tenant’s improper use of appliances or equipment causes property damage, leading the landlord to claim compensation.",set a hearing date
+test05_1,property rental damage compensation,"The tenant leaves behind uncleaned items upon moving out, causing damage to the property and increasing compensation liability.",set a hearing date
+test05_1,property rental damage compensation,"After the lease ends, the landlord fails to repair the property on time, causing damage to new tenants who request compensation.",set a hearing date
+test05_2,property rental damage compensation,"The tenant requests compensation for damages, but the landlord fails to provide evidence, leading to compensation disputes.",Allocate hearing
+test05_2,property rental damage compensation,"The landlord fails to specify damage compensation clauses in the rental contract, leading to inconsistent compensation standards.",Allocate hearing
+test05_2,property rental damage compensation,"A major natural disaster (e.g., fire, flood) causes a surge in property damage claims for rental properties.",Allocate hearing
+test05_2,property rental damage compensation,"The tenant fails to report repairs on time as stipulated in the contract, leading to aggravated damage and higher compensation amounts.",Allocate hearing
+test05_2,property rental damage compensation,Changes in the rental property insurance policy result in adjustments to the compensation standards.,Allocate hearing
+test05_2,property rental damage compensation,"Sudden government policy changes require regular inspections of all rental properties, affecting the compensation process.",Allocate hearing
+test05_2,property rental damage compensation,Ambiguous clauses in the rental contract cause disputes between the landlord and tenant regarding compensation responsibilities.,Allocate hearing
+test05_2,property rental damage compensation,"Sudden social unrest causes damage to rental properties, delaying the compensation process.",Allocate hearing
+test05_2,property rental damage compensation,"The tenant makes unauthorized modifications to the property, causing damage beyond normal use, increasing compensation amounts.",Allocate hearing
+test05_2,property rental damage compensation,"A major equipment failure in the property causes widespread water and electricity damage, increasing compensation liabilities.",Allocate hearing
+test05_2,property rental damage compensation,"The landlord's lack of maintenance leads to aging and damaged facilities, prompting the tenant to file a compensation claim.",Allocate hearing
+test05_2,property rental damage compensation,Accidental physical damage caused by the tenant leads the landlord to demand a high compensation amount.,Allocate hearing
+test05_2,property rental damage compensation,"Unauthorized renovation work in the rental property leads to damage, causing compensation disputes.",Allocate hearing
+test05_2,property rental damage compensation,"Unaddressed safety hazards (e.g., aging electrical wires, wall cracks) lead to accidents and subsequent compensation claims.",Allocate hearing
+test05_2,property rental damage compensation,"After the lease ends, the tenant discovers hidden damage in the property and requests compensation from the landlord.",Allocate hearing
+test05_2,property rental damage compensation,"Severe weather causes external property damage, and the tenant requests compensation for repair costs.",Allocate hearing
+test05_2,property rental damage compensation,"The tenant’s improper use of appliances or equipment causes property damage, leading the landlord to claim compensation.",Allocate hearing
+test05_2,property rental damage compensation,"The tenant leaves behind uncleaned items upon moving out, causing damage to the property and increasing compensation liability.",Allocate hearing
+test05_2,property rental damage compensation,"After the lease ends, the landlord fails to repair the property on time, causing damage to new tenants who request compensation.",Allocate hearing
+test05_3,property rental damage compensation,"The tenant requests compensation for damages, but the landlord fails to provide evidence, leading to compensation disputes.",Allocate hearity date
+test05_3,property rental damage compensation,"The landlord fails to specify damage compensation clauses in the rental contract, leading to inconsistent compensation standards.",Allocate hearity date
+test05_3,property rental damage compensation,"A major natural disaster (e.g., fire, flood) causes a surge in property damage claims for rental properties.",Allocate hearity date
+test05_3,property rental damage compensation,"The tenant fails to report repairs on time as stipulated in the contract, leading to aggravated damage and higher compensation amounts.",Allocate hearity date
+test05_3,property rental damage compensation,Changes in the rental property insurance policy result in adjustments to the compensation standards.,Allocate hearity date
+test05_3,property rental damage compensation,"Sudden government policy changes require regular inspections of all rental properties, affecting the compensation process.",Allocate hearity date
+test05_3,property rental damage compensation,Ambiguous clauses in the rental contract cause disputes between the landlord and tenant regarding compensation responsibilities.,Allocate hearity date
+test05_3,property rental damage compensation,"Sudden social unrest causes damage to rental properties, delaying the compensation process.",Allocate hearity date
+test05_3,property rental damage compensation,"The tenant makes unauthorized modifications to the property, causing damage beyond normal use, increasing compensation amounts.",Allocate hearity date
+test05_3,property rental damage compensation,"A major equipment failure in the property causes widespread water and electricity damage, increasing compensation liabilities.",Allocate hearity date
+test05_3,property rental damage compensation,"The landlord's lack of maintenance leads to aging and damaged facilities, prompting the tenant to file a compensation claim.",Allocate hearity date
+test05_3,property rental damage compensation,Accidental physical damage caused by the tenant leads the landlord to demand a high compensation amount.,Allocate hearity date
+test05_3,property rental damage compensation,"Unauthorized renovation work in the rental property leads to damage, causing compensation disputes.",Allocate hearity date
+test05_3,property rental damage compensation,"Unaddressed safety hazards (e.g., aging electrical wires, wall cracks) lead to accidents and subsequent compensation claims.",Allocate hearity date
+test05_3,property rental damage compensation,"After the lease ends, the tenant discovers hidden damage in the property and requests compensation from the landlord.",Allocate hearity date
+test05_3,property rental damage compensation,"Severe weather causes external property damage, and the tenant requests compensation for repair costs.",Allocate hearity date
+test05_3,property rental damage compensation,"The tenant’s improper use of appliances or equipment causes property damage, leading the landlord to claim compensation.",Allocate hearity date
+test05_3,property rental damage compensation,"The tenant leaves behind uncleaned items upon moving out, causing damage to the property and increasing compensation liability.",Allocate hearity date
+test05_3,property rental damage compensation,"After the lease ends, the landlord fails to repair the property on time, causing damage to new tenants who request compensation.",Allocate hearity date
+test05_4,property rental damage compensation,"The tenant requests compensation for damages, but the landlord fails to provide evidence, leading to compensation disputes.",allocate hearing date
+test05_4,property rental damage compensation,"The landlord fails to specify damage compensation clauses in the rental contract, leading to inconsistent compensation standards.",allocate hearing date
+test05_4,property rental damage compensation,"A major natural disaster (e.g., fire, flood) causes a surge in property damage claims for rental properties.",allocate hearing date
+test05_4,property rental damage compensation,"The tenant fails to report repairs on time as stipulated in the contract, leading to aggravated damage and higher compensation amounts.",allocate hearing date
+test05_4,property rental damage compensation,Changes in the rental property insurance policy result in adjustments to the compensation standards.,allocate hearing date
+test05_4,property rental damage compensation,"Sudden government policy changes require regular inspections of all rental properties, affecting the compensation process.",allocate hearing date
+test05_4,property rental damage compensation,Ambiguous clauses in the rental contract cause disputes between the landlord and tenant regarding compensation responsibilities.,allocate hearing date
+test05_4,property rental damage compensation,"Sudden social unrest causes damage to rental properties, delaying the compensation process.",allocate hearing date
+test05_4,property rental damage compensation,"The tenant makes unauthorized modifications to the property, causing damage beyond normal use, increasing compensation amounts.",allocate hearing date
+test05_4,property rental damage compensation,"A major equipment failure in the property causes widespread water and electricity damage, increasing compensation liabilities.",allocate hearing date
+test05_4,property rental damage compensation,"The landlord's lack of maintenance leads to aging and damaged facilities, prompting the tenant to file a compensation claim.",allocate hearing date
+test05_4,property rental damage compensation,Accidental physical damage caused by the tenant leads the landlord to demand a high compensation amount.,allocate hearing date
+test05_4,property rental damage compensation,"Unauthorized renovation work in the rental property leads to damage, causing compensation disputes.",allocate hearing date
+test05_4,property rental damage compensation,"Unaddressed safety hazards (e.g., aging electrical wires, wall cracks) lead to accidents and subsequent compensation claims.",allocate hearing date
+test05_4,property rental damage compensation,"After the lease ends, the tenant discovers hidden damage in the property and requests compensation from the landlord.",allocate hearing date
+test05_4,property rental damage compensation,"Severe weather causes external property damage, and the tenant requests compensation for repair costs.",allocate hearing date
+test05_4,property rental damage compensation,"The tenant’s improper use of appliances or equipment causes property damage, leading the landlord to claim compensation.",allocate hearing date
+test05_4,property rental damage compensation,"The tenant leaves behind uncleaned items upon moving out, causing damage to the property and increasing compensation liability.",allocate hearing date
+test05_4,property rental damage compensation,"After the lease ends, the landlord fails to repair the property on time, causing damage to new tenants who request compensation.",allocate hearing date
+test05_5,property rental damage compensation,"The tenant requests compensation for damages, but the landlord fails to provide evidence, leading to compensation disputes.",allocate hearing date
+test05_5,property rental damage compensation,"The landlord fails to specify damage compensation clauses in the rental contract, leading to inconsistent compensation standards.",allocate hearing date
+test05_5,property rental damage compensation,"A major natural disaster (e.g., fire, flood) causes a surge in property damage claims for rental properties.",allocate hearing date
+test05_5,property rental damage compensation,"The tenant fails to report repairs on time as stipulated in the contract, leading to aggravated damage and higher compensation amounts.",allocate hearing date
+test05_5,property rental damage compensation,Changes in the rental property insurance policy result in adjustments to the compensation standards.,allocate hearing date
+test05_5,property rental damage compensation,"Sudden government policy changes require regular inspections of all rental properties, affecting the compensation process.",allocate hearing date
+test05_5,property rental damage compensation,Ambiguous clauses in the rental contract cause disputes between the landlord and tenant regarding compensation responsibilities.,allocate hearing date
+test05_5,property rental damage compensation,"Sudden social unrest causes damage to rental properties, delaying the compensation process.",allocate hearing date
+test05_5,property rental damage compensation,"The tenant makes unauthorized modifications to the property, causing damage beyond normal use, increasing compensation amounts.",allocate hearing date
+test05_5,property rental damage compensation,"A major equipment failure in the property causes widespread water and electricity damage, increasing compensation liabilities.",allocate hearing date
+test05_5,property rental damage compensation,"The landlord's lack of maintenance leads to aging and damaged facilities, prompting the tenant to file a compensation claim.",allocate hearing date
+test05_5,property rental damage compensation,Accidental physical damage caused by the tenant leads the landlord to demand a high compensation amount.,allocate hearing date
+test05_5,property rental damage compensation,"Unauthorized renovation work in the rental property leads to damage, causing compensation disputes.",allocate hearing date
+test05_5,property rental damage compensation,"Unaddressed safety hazards (e.g., aging electrical wires, wall cracks) lead to accidents and subsequent compensation claims.",allocate hearing date
+test05_5,property rental damage compensation,"After the lease ends, the tenant discovers hidden damage in the property and requests compensation from the landlord.",allocate hearing date
+test05_5,property rental damage compensation,"Severe weather causes external property damage, and the tenant requests compensation for repair costs.",allocate hearing date
+test05_5,property rental damage compensation,"The tenant’s improper use of appliances or equipment causes property damage, leading the landlord to claim compensation.",allocate hearing date
+test05_5,property rental damage compensation,"The tenant leaves behind uncleaned items upon moving out, causing damage to the property and increasing compensation liability.",allocate hearing date
+test05_5,property rental damage compensation,"After the lease ends, the landlord fails to repair the property on time, causing damage to new tenants who request compensation.",allocate hearing date
+test05_6,property rental damage compensation,"The tenant requests compensation for damages, but the landlord fails to provide evidence, leading to compensation disputes.",set hearing date
+test05_6,property rental damage compensation,"The landlord fails to specify damage compensation clauses in the rental contract, leading to inconsistent compensation standards.",set hearing date
+test05_6,property rental damage compensation,"A major natural disaster (e.g., fire, flood) causes a surge in property damage claims for rental properties.",set hearing date
+test05_6,property rental damage compensation,"The tenant fails to report repairs on time as stipulated in the contract, leading to aggravated damage and higher compensation amounts.",set hearing date
+test05_6,property rental damage compensation,Changes in the rental property insurance policy result in adjustments to the compensation standards.,set hearing date
+test05_6,property rental damage compensation,"Sudden government policy changes require regular inspections of all rental properties, affecting the compensation process.",set hearing date
+test05_6,property rental damage compensation,Ambiguous clauses in the rental contract cause disputes between the landlord and tenant regarding compensation responsibilities.,set hearing date
+test05_6,property rental damage compensation,"Sudden social unrest causes damage to rental properties, delaying the compensation process.",set hearing date
+test05_6,property rental damage compensation,"The tenant makes unauthorized modifications to the property, causing damage beyond normal use, increasing compensation amounts.",set hearing date
+test05_6,property rental damage compensation,"A major equipment failure in the property causes widespread water and electricity damage, increasing compensation liabilities.",set hearing date
+test05_6,property rental damage compensation,"The landlord's lack of maintenance leads to aging and damaged facilities, prompting the tenant to file a compensation claim.",set hearing date
+test05_6,property rental damage compensation,Accidental physical damage caused by the tenant leads the landlord to demand a high compensation amount.,set hearing date
+test05_6,property rental damage compensation,"Unauthorized renovation work in the rental property leads to damage, causing compensation disputes.",set hearing date
+test05_6,property rental damage compensation,"Unaddressed safety hazards (e.g., aging electrical wires, wall cracks) lead to accidents and subsequent compensation claims.",set hearing date
+test05_6,property rental damage compensation,"After the lease ends, the tenant discovers hidden damage in the property and requests compensation from the landlord.",set hearing date
+test05_6,property rental damage compensation,"Severe weather causes external property damage, and the tenant requests compensation for repair costs.",set hearing date
+test05_6,property rental damage compensation,"The tenant’s improper use of appliances or equipment causes property damage, leading the landlord to claim compensation.",set hearing date
+test05_6,property rental damage compensation,"The tenant leaves behind uncleaned items upon moving out, causing damage to the property and increasing compensation liability.",set hearing date
+test05_6,property rental damage compensation,"After the lease ends, the landlord fails to repair the property on time, causing damage to new tenants who request compensation.",set hearing date
+test05_7,property rental damage compensation,"The tenant requests compensation for damages, but the landlord fails to provide evidence, leading to compensation disputes.",allocate a hearing date
+test05_7,property rental damage compensation,"The landlord fails to specify damage compensation clauses in the rental contract, leading to inconsistent compensation standards.",allocate a hearing date
+test05_7,property rental damage compensation,"A major natural disaster (e.g., fire, flood) causes a surge in property damage claims for rental properties.",allocate a hearing date
+test05_7,property rental damage compensation,"The tenant fails to report repairs on time as stipulated in the contract, leading to aggravated damage and higher compensation amounts.",allocate a hearing date
+test05_7,property rental damage compensation,Changes in the rental property insurance policy result in adjustments to the compensation standards.,allocate a hearing date
+test05_7,property rental damage compensation,"Sudden government policy changes require regular inspections of all rental properties, affecting the compensation process.",allocate a hearing date
+test05_7,property rental damage compensation,Ambiguous clauses in the rental contract cause disputes between the landlord and tenant regarding compensation responsibilities.,allocate a hearing date
+test05_7,property rental damage compensation,"Sudden social unrest causes damage to rental properties, delaying the compensation process.",allocate a hearing date
+test05_7,property rental damage compensation,"The tenant makes unauthorized modifications to the property, causing damage beyond normal use, increasing compensation amounts.",allocate a hearing date
+test05_7,property rental damage compensation,"A major equipment failure in the property causes widespread water and electricity damage, increasing compensation liabilities.",allocate a hearing date
+test05_7,property rental damage compensation,"The landlord's lack of maintenance leads to aging and damaged facilities, prompting the tenant to file a compensation claim.",allocate a hearing date
+test05_7,property rental damage compensation,Accidental physical damage caused by the tenant leads the landlord to demand a high compensation amount.,allocate a hearing date
+test05_7,property rental damage compensation,"Unauthorized renovation work in the rental property leads to damage, causing compensation disputes.",allocate a hearing date
+test05_7,property rental damage compensation,"Unaddressed safety hazards (e.g., aging electrical wires, wall cracks) lead to accidents and subsequent compensation claims.",allocate a hearing date
+test05_7,property rental damage compensation,"After the lease ends, the tenant discovers hidden damage in the property and requests compensation from the landlord.",allocate a hearing date
+test05_7,property rental damage compensation,"Severe weather causes external property damage, and the tenant requests compensation for repair costs.",allocate a hearing date
+test05_7,property rental damage compensation,"The tenant’s improper use of appliances or equipment causes property damage, leading the landlord to claim compensation.",allocate a hearing date
+test05_7,property rental damage compensation,"The tenant leaves behind uncleaned items upon moving out, causing damage to the property and increasing compensation liability.",allocate a hearing date
+test05_7,property rental damage compensation,"After the lease ends, the landlord fails to repair the property on time, causing damage to new tenants who request compensation.",allocate a hearing date
+test05_8,property rental damage compensation,"The tenant requests compensation for damages, but the landlord fails to provide evidence, leading to compensation disputes.",cahier allocates a hearing date
+test05_8,property rental damage compensation,"The landlord fails to specify damage compensation clauses in the rental contract, leading to inconsistent compensation standards.",cahier allocates a hearing date
+test05_8,property rental damage compensation,"A major natural disaster (e.g., fire, flood) causes a surge in property damage claims for rental properties.",cahier allocates a hearing date
+test05_8,property rental damage compensation,"The tenant fails to report repairs on time as stipulated in the contract, leading to aggravated damage and higher compensation amounts.",cahier allocates a hearing date
+test05_8,property rental damage compensation,Changes in the rental property insurance policy result in adjustments to the compensation standards.,cahier allocates a hearing date
+test05_8,property rental damage compensation,"Sudden government policy changes require regular inspections of all rental properties, affecting the compensation process.",cahier allocates a hearing date
+test05_8,property rental damage compensation,Ambiguous clauses in the rental contract cause disputes between the landlord and tenant regarding compensation responsibilities.,cahier allocates a hearing date
+test05_8,property rental damage compensation,"Sudden social unrest causes damage to rental properties, delaying the compensation process.",cahier allocates a hearing date
+test05_8,property rental damage compensation,"The tenant makes unauthorized modifications to the property, causing damage beyond normal use, increasing compensation amounts.",cahier allocates a hearing date
+test05_8,property rental damage compensation,"A major equipment failure in the property causes widespread water and electricity damage, increasing compensation liabilities.",cahier allocates a hearing date
+test05_8,property rental damage compensation,"The landlord's lack of maintenance leads to aging and damaged facilities, prompting the tenant to file a compensation claim.",cahier allocates a hearing date
+test05_8,property rental damage compensation,Accidental physical damage caused by the tenant leads the landlord to demand a high compensation amount.,cahier allocates a hearing date
+test05_8,property rental damage compensation,"Unauthorized renovation work in the rental property leads to damage, causing compensation disputes.",cahier allocates a hearing date
+test05_8,property rental damage compensation,"Unaddressed safety hazards (e.g., aging electrical wires, wall cracks) lead to accidents and subsequent compensation claims.",cahier allocates a hearing date
+test05_8,property rental damage compensation,"After the lease ends, the tenant discovers hidden damage in the property and requests compensation from the landlord.",cahier allocates a hearing date
+test05_8,property rental damage compensation,"Severe weather causes external property damage, and the tenant requests compensation for repair costs.",cahier allocates a hearing date
+test05_8,property rental damage compensation,"The tenant’s improper use of appliances or equipment causes property damage, leading the landlord to claim compensation.",cahier allocates a hearing date
+test05_8,property rental damage compensation,"The tenant leaves behind uncleaned items upon moving out, causing damage to the property and increasing compensation liability.",cahier allocates a hearing date
+test05_8,property rental damage compensation,"After the lease ends, the landlord fails to repair the property on time, causing damage to new tenants who request compensation.",cahier allocates a hearing date
+test05_9,property rental damage compensation,"The tenant requests compensation for damages, but the landlord fails to provide evidence, leading to compensation disputes.",allocate hearing date
+test05_9,property rental damage compensation,"The landlord fails to specify damage compensation clauses in the rental contract, leading to inconsistent compensation standards.",allocate hearing date
+test05_9,property rental damage compensation,"A major natural disaster (e.g., fire, flood) causes a surge in property damage claims for rental properties.",allocate hearing date
+test05_9,property rental damage compensation,"The tenant fails to report repairs on time as stipulated in the contract, leading to aggravated damage and higher compensation amounts.",allocate hearing date
+test05_9,property rental damage compensation,Changes in the rental property insurance policy result in adjustments to the compensation standards.,allocate hearing date
+test05_9,property rental damage compensation,"Sudden government policy changes require regular inspections of all rental properties, affecting the compensation process.",allocate hearing date
+test05_9,property rental damage compensation,Ambiguous clauses in the rental contract cause disputes between the landlord and tenant regarding compensation responsibilities.,allocate hearing date
+test05_9,property rental damage compensation,"Sudden social unrest causes damage to rental properties, delaying the compensation process.",allocate hearing date
+test05_9,property rental damage compensation,"The tenant makes unauthorized modifications to the property, causing damage beyond normal use, increasing compensation amounts.",allocate hearing date
+test05_9,property rental damage compensation,"A major equipment failure in the property causes widespread water and electricity damage, increasing compensation liabilities.",allocate hearing date
+test05_9,property rental damage compensation,"The landlord's lack of maintenance leads to aging and damaged facilities, prompting the tenant to file a compensation claim.",allocate hearing date
+test05_9,property rental damage compensation,Accidental physical damage caused by the tenant leads the landlord to demand a high compensation amount.,allocate hearing date
+test05_9,property rental damage compensation,"Unauthorized renovation work in the rental property leads to damage, causing compensation disputes.",allocate hearing date
+test05_9,property rental damage compensation,"Unaddressed safety hazards (e.g., aging electrical wires, wall cracks) lead to accidents and subsequent compensation claims.",allocate hearing date
+test05_9,property rental damage compensation,"After the lease ends, the tenant discovers hidden damage in the property and requests compensation from the landlord.",allocate hearing date
+test05_9,property rental damage compensation,"Severe weather causes external property damage, and the tenant requests compensation for repair costs.",allocate hearing date
+test05_9,property rental damage compensation,"The tenant’s improper use of appliances or equipment causes property damage, leading the landlord to claim compensation.",allocate hearing date
+test05_9,property rental damage compensation,"The tenant leaves behind uncleaned items upon moving out, causing damage to the property and increasing compensation liability.",allocate hearing date
+test05_9,property rental damage compensation,"After the lease ends, the landlord fails to repair the property on time, causing damage to new tenants who request compensation.",allocate hearing date
+test05_10,property rental damage compensation,"The tenant requests compensation for damages, but the landlord fails to provide evidence, leading to compensation disputes.",allocate hearing date
+test05_10,property rental damage compensation,"The landlord fails to specify damage compensation clauses in the rental contract, leading to inconsistent compensation standards.",allocate hearing date
+test05_10,property rental damage compensation,"A major natural disaster (e.g., fire, flood) causes a surge in property damage claims for rental properties.",allocate hearing date
+test05_10,property rental damage compensation,"The tenant fails to report repairs on time as stipulated in the contract, leading to aggravated damage and higher compensation amounts.",allocate hearing date
+test05_10,property rental damage compensation,Changes in the rental property insurance policy result in adjustments to the compensation standards.,allocate hearing date
+test05_10,property rental damage compensation,"Sudden government policy changes require regular inspections of all rental properties, affecting the compensation process.",allocate hearing date
+test05_10,property rental damage compensation,Ambiguous clauses in the rental contract cause disputes between the landlord and tenant regarding compensation responsibilities.,allocate hearing date
+test05_10,property rental damage compensation,"Sudden social unrest causes damage to rental properties, delaying the compensation process.",allocate hearing date
+test05_10,property rental damage compensation,"The tenant makes unauthorized modifications to the property, causing damage beyond normal use, increasing compensation amounts.",allocate hearing date
+test05_10,property rental damage compensation,"A major equipment failure in the property causes widespread water and electricity damage, increasing compensation liabilities.",allocate hearing date
+test05_10,property rental damage compensation,"The landlord's lack of maintenance leads to aging and damaged facilities, prompting the tenant to file a compensation claim.",allocate hearing date
+test05_10,property rental damage compensation,Accidental physical damage caused by the tenant leads the landlord to demand a high compensation amount.,allocate hearing date
+test05_10,property rental damage compensation,"Unauthorized renovation work in the rental property leads to damage, causing compensation disputes.",allocate hearing date
+test05_10,property rental damage compensation,"Unaddressed safety hazards (e.g., aging electrical wires, wall cracks) lead to accidents and subsequent compensation claims.",allocate hearing date
+test05_10,property rental damage compensation,"After the lease ends, the tenant discovers hidden damage in the property and requests compensation from the landlord.",allocate hearing date
+test05_10,property rental damage compensation,"Severe weather causes external property damage, and the tenant requests compensation for repair costs.",allocate hearing date
+test05_10,property rental damage compensation,"The tenant’s improper use of appliances or equipment causes property damage, leading the landlord to claim compensation.",allocate hearing date
+test05_10,property rental damage compensation,"The tenant leaves behind uncleaned items upon moving out, causing damage to the property and increasing compensation liability.",allocate hearing date
+test05_10,property rental damage compensation,"After the lease ends, the landlord fails to repair the property on time, causing damage to new tenants who request compensation.",allocate hearing date
+test05_11,property rental damage compensation,"The tenant requests compensation for damages, but the landlord fails to provide evidence, leading to compensation disputes.",set hearing date
+test05_11,property rental damage compensation,"The landlord fails to specify damage compensation clauses in the rental contract, leading to inconsistent compensation standards.",set hearing date
+test05_11,property rental damage compensation,"A major natural disaster (e.g., fire, flood) causes a surge in property damage claims for rental properties.",set hearing date
+test05_11,property rental damage compensation,"The tenant fails to report repairs on time as stipulated in the contract, leading to aggravated damage and higher compensation amounts.",set hearing date
+test05_11,property rental damage compensation,Changes in the rental property insurance policy result in adjustments to the compensation standards.,set hearing date
+test05_11,property rental damage compensation,"Sudden government policy changes require regular inspections of all rental properties, affecting the compensation process.",set hearing date
+test05_11,property rental damage compensation,Ambiguous clauses in the rental contract cause disputes between the landlord and tenant regarding compensation responsibilities.,set hearing date
+test05_11,property rental damage compensation,"Sudden social unrest causes damage to rental properties, delaying the compensation process.",set hearing date
+test05_11,property rental damage compensation,"The tenant makes unauthorized modifications to the property, causing damage beyond normal use, increasing compensation amounts.",set hearing date
+test05_11,property rental damage compensation,"A major equipment failure in the property causes widespread water and electricity damage, increasing compensation liabilities.",set hearing date
+test05_11,property rental damage compensation,"The landlord's lack of maintenance leads to aging and damaged facilities, prompting the tenant to file a compensation claim.",set hearing date
+test05_11,property rental damage compensation,Accidental physical damage caused by the tenant leads the landlord to demand a high compensation amount.,set hearing date
+test05_11,property rental damage compensation,"Unauthorized renovation work in the rental property leads to damage, causing compensation disputes.",set hearing date
+test05_11,property rental damage compensation,"Unaddressed safety hazards (e.g., aging electrical wires, wall cracks) lead to accidents and subsequent compensation claims.",set hearing date
+test05_11,property rental damage compensation,"After the lease ends, the tenant discovers hidden damage in the property and requests compensation from the landlord.",set hearing date
+test05_11,property rental damage compensation,"Severe weather causes external property damage, and the tenant requests compensation for repair costs.",set hearing date
+test05_11,property rental damage compensation,"The tenant’s improper use of appliances or equipment causes property damage, leading the landlord to claim compensation.",set hearing date
+test05_11,property rental damage compensation,"The tenant leaves behind uncleaned items upon moving out, causing damage to the property and increasing compensation liability.",set hearing date
+test05_11,property rental damage compensation,"After the lease ends, the landlord fails to repair the property on time, causing damage to new tenants who request compensation.",set hearing date
+test05_12,property rental damage compensation,"The tenant requests compensation for damages, but the landlord fails to provide evidence, leading to compensation disputes.",allocate hearing date
+test05_12,property rental damage compensation,"The landlord fails to specify damage compensation clauses in the rental contract, leading to inconsistent compensation standards.",allocate hearing date
+test05_12,property rental damage compensation,"A major natural disaster (e.g., fire, flood) causes a surge in property damage claims for rental properties.",allocate hearing date
+test05_12,property rental damage compensation,"The tenant fails to report repairs on time as stipulated in the contract, leading to aggravated damage and higher compensation amounts.",allocate hearing date
+test05_12,property rental damage compensation,Changes in the rental property insurance policy result in adjustments to the compensation standards.,allocate hearing date
+test05_12,property rental damage compensation,"Sudden government policy changes require regular inspections of all rental properties, affecting the compensation process.",allocate hearing date
+test05_12,property rental damage compensation,Ambiguous clauses in the rental contract cause disputes between the landlord and tenant regarding compensation responsibilities.,allocate hearing date
+test05_12,property rental damage compensation,"Sudden social unrest causes damage to rental properties, delaying the compensation process.",allocate hearing date
+test05_12,property rental damage compensation,"The tenant makes unauthorized modifications to the property, causing damage beyond normal use, increasing compensation amounts.",allocate hearing date
+test05_12,property rental damage compensation,"A major equipment failure in the property causes widespread water and electricity damage, increasing compensation liabilities.",allocate hearing date
+test05_12,property rental damage compensation,"The landlord's lack of maintenance leads to aging and damaged facilities, prompting the tenant to file a compensation claim.",allocate hearing date
+test05_12,property rental damage compensation,Accidental physical damage caused by the tenant leads the landlord to demand a high compensation amount.,allocate hearing date
+test05_12,property rental damage compensation,"Unauthorized renovation work in the rental property leads to damage, causing compensation disputes.",allocate hearing date
+test05_12,property rental damage compensation,"Unaddressed safety hazards (e.g., aging electrical wires, wall cracks) lead to accidents and subsequent compensation claims.",allocate hearing date
+test05_12,property rental damage compensation,"After the lease ends, the tenant discovers hidden damage in the property and requests compensation from the landlord.",allocate hearing date
+test05_12,property rental damage compensation,"Severe weather causes external property damage, and the tenant requests compensation for repair costs.",allocate hearing date
+test05_12,property rental damage compensation,"The tenant’s improper use of appliances or equipment causes property damage, leading the landlord to claim compensation.",allocate hearing date
+test05_12,property rental damage compensation,"The tenant leaves behind uncleaned items upon moving out, causing damage to the property and increasing compensation liability.",allocate hearing date
+test05_12,property rental damage compensation,"After the lease ends, the landlord fails to repair the property on time, causing damage to new tenants who request compensation.",allocate hearing date
+test05_13,property rental damage compensation,"The tenant requests compensation for damages, but the landlord fails to provide evidence, leading to compensation disputes.",set hearing date
+test05_13,property rental damage compensation,"The landlord fails to specify damage compensation clauses in the rental contract, leading to inconsistent compensation standards.",set hearing date
+test05_13,property rental damage compensation,"A major natural disaster (e.g., fire, flood) causes a surge in property damage claims for rental properties.",set hearing date
+test05_13,property rental damage compensation,"The tenant fails to report repairs on time as stipulated in the contract, leading to aggravated damage and higher compensation amounts.",set hearing date
+test05_13,property rental damage compensation,Changes in the rental property insurance policy result in adjustments to the compensation standards.,set hearing date
+test05_13,property rental damage compensation,"Sudden government policy changes require regular inspections of all rental properties, affecting the compensation process.",set hearing date
+test05_13,property rental damage compensation,Ambiguous clauses in the rental contract cause disputes between the landlord and tenant regarding compensation responsibilities.,set hearing date
+test05_13,property rental damage compensation,"Sudden social unrest causes damage to rental properties, delaying the compensation process.",set hearing date
+test05_13,property rental damage compensation,"The tenant makes unauthorized modifications to the property, causing damage beyond normal use, increasing compensation amounts.",set hearing date
+test05_13,property rental damage compensation,"A major equipment failure in the property causes widespread water and electricity damage, increasing compensation liabilities.",set hearing date
+test05_13,property rental damage compensation,"The landlord's lack of maintenance leads to aging and damaged facilities, prompting the tenant to file a compensation claim.",set hearing date
+test05_13,property rental damage compensation,Accidental physical damage caused by the tenant leads the landlord to demand a high compensation amount.,set hearing date
+test05_13,property rental damage compensation,"Unauthorized renovation work in the rental property leads to damage, causing compensation disputes.",set hearing date
+test05_13,property rental damage compensation,"Unaddressed safety hazards (e.g., aging electrical wires, wall cracks) lead to accidents and subsequent compensation claims.",set hearing date
+test05_13,property rental damage compensation,"After the lease ends, the tenant discovers hidden damage in the property and requests compensation from the landlord.",set hearing date
+test05_13,property rental damage compensation,"Severe weather causes external property damage, and the tenant requests compensation for repair costs.",set hearing date
+test05_13,property rental damage compensation,"The tenant’s improper use of appliances or equipment causes property damage, leading the landlord to claim compensation.",set hearing date
+test05_13,property rental damage compensation,"The tenant leaves behind uncleaned items upon moving out, causing damage to the property and increasing compensation liability.",set hearing date
+test05_13,property rental damage compensation,"After the lease ends, the landlord fails to repair the property on time, causing damage to new tenants who request compensation.",set hearing date
+test05_14,property rental damage compensation,"The tenant requests compensation for damages, but the landlord fails to provide evidence, leading to compensation disputes.",allocate a hearing date
+test05_14,property rental damage compensation,"The landlord fails to specify damage compensation clauses in the rental contract, leading to inconsistent compensation standards.",allocate a hearing date
+test05_14,property rental damage compensation,"A major natural disaster (e.g., fire, flood) causes a surge in property damage claims for rental properties.",allocate a hearing date
+test05_14,property rental damage compensation,"The tenant fails to report repairs on time as stipulated in the contract, leading to aggravated damage and higher compensation amounts.",allocate a hearing date
+test05_14,property rental damage compensation,Changes in the rental property insurance policy result in adjustments to the compensation standards.,allocate a hearing date
+test05_14,property rental damage compensation,"Sudden government policy changes require regular inspections of all rental properties, affecting the compensation process.",allocate a hearing date
+test05_14,property rental damage compensation,Ambiguous clauses in the rental contract cause disputes between the landlord and tenant regarding compensation responsibilities.,allocate a hearing date
+test05_14,property rental damage compensation,"Sudden social unrest causes damage to rental properties, delaying the compensation process.",allocate a hearing date
+test05_14,property rental damage compensation,"The tenant makes unauthorized modifications to the property, causing damage beyond normal use, increasing compensation amounts.",allocate a hearing date
+test05_14,property rental damage compensation,"A major equipment failure in the property causes widespread water and electricity damage, increasing compensation liabilities.",allocate a hearing date
+test05_14,property rental damage compensation,"The landlord's lack of maintenance leads to aging and damaged facilities, prompting the tenant to file a compensation claim.",allocate a hearing date
+test05_14,property rental damage compensation,Accidental physical damage caused by the tenant leads the landlord to demand a high compensation amount.,allocate a hearing date
+test05_14,property rental damage compensation,"Unauthorized renovation work in the rental property leads to damage, causing compensation disputes.",allocate a hearing date
+test05_14,property rental damage compensation,"Unaddressed safety hazards (e.g., aging electrical wires, wall cracks) lead to accidents and subsequent compensation claims.",allocate a hearing date
+test05_14,property rental damage compensation,"After the lease ends, the tenant discovers hidden damage in the property and requests compensation from the landlord.",allocate a hearing date
+test05_14,property rental damage compensation,"Severe weather causes external property damage, and the tenant requests compensation for repair costs.",allocate a hearing date
+test05_14,property rental damage compensation,"The tenant’s improper use of appliances or equipment causes property damage, leading the landlord to claim compensation.",allocate a hearing date
+test05_14,property rental damage compensation,"The tenant leaves behind uncleaned items upon moving out, causing damage to the property and increasing compensation liability.",allocate a hearing date
+test05_14,property rental damage compensation,"After the lease ends, the landlord fails to repair the property on time, causing damage to new tenants who request compensation.",allocate a hearing date
+test05_15,property rental damage compensation,"The tenant requests compensation for damages, but the landlord fails to provide evidence, leading to compensation disputes.",allocate a hearing date
+test05_15,property rental damage compensation,"The landlord fails to specify damage compensation clauses in the rental contract, leading to inconsistent compensation standards.",allocate a hearing date
+test05_15,property rental damage compensation,"A major natural disaster (e.g., fire, flood) causes a surge in property damage claims for rental properties.",allocate a hearing date
+test05_15,property rental damage compensation,"The tenant fails to report repairs on time as stipulated in the contract, leading to aggravated damage and higher compensation amounts.",allocate a hearing date
+test05_15,property rental damage compensation,Changes in the rental property insurance policy result in adjustments to the compensation standards.,allocate a hearing date
+test05_15,property rental damage compensation,"Sudden government policy changes require regular inspections of all rental properties, affecting the compensation process.",allocate a hearing date
+test05_15,property rental damage compensation,Ambiguous clauses in the rental contract cause disputes between the landlord and tenant regarding compensation responsibilities.,allocate a hearing date
+test05_15,property rental damage compensation,"Sudden social unrest causes damage to rental properties, delaying the compensation process.",allocate a hearing date
+test05_15,property rental damage compensation,"The tenant makes unauthorized modifications to the property, causing damage beyond normal use, increasing compensation amounts.",allocate a hearing date
+test05_15,property rental damage compensation,"A major equipment failure in the property causes widespread water and electricity damage, increasing compensation liabilities.",allocate a hearing date
+test05_15,property rental damage compensation,"The landlord's lack of maintenance leads to aging and damaged facilities, prompting the tenant to file a compensation claim.",allocate a hearing date
+test05_15,property rental damage compensation,Accidental physical damage caused by the tenant leads the landlord to demand a high compensation amount.,allocate a hearing date
+test05_15,property rental damage compensation,"Unauthorized renovation work in the rental property leads to damage, causing compensation disputes.",allocate a hearing date
+test05_15,property rental damage compensation,"Unaddressed safety hazards (e.g., aging electrical wires, wall cracks) lead to accidents and subsequent compensation claims.",allocate a hearing date
+test05_15,property rental damage compensation,"After the lease ends, the tenant discovers hidden damage in the property and requests compensation from the landlord.",allocate a hearing date
+test05_15,property rental damage compensation,"Severe weather causes external property damage, and the tenant requests compensation for repair costs.",allocate a hearing date
+test05_15,property rental damage compensation,"The tenant’s improper use of appliances or equipment causes property damage, leading the landlord to claim compensation.",allocate a hearing date
+test05_15,property rental damage compensation,"The tenant leaves behind uncleaned items upon moving out, causing damage to the property and increasing compensation liability.",allocate a hearing date
+test05_15,property rental damage compensation,"After the lease ends, the landlord fails to repair the property on time, causing damage to new tenants who request compensation.",allocate a hearing date

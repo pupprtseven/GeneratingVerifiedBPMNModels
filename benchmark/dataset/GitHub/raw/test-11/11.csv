@@ -1,0 +1,559 @@
+business_model_idx,business_scenario,LTC,business_object
+test11_0,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,Proceed order
+test11_0,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",Proceed order
+test11_0,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",Proceed order
+test11_0,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",Proceed order
+test11_0,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,Proceed order
+test11_0,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",Proceed order
+test11_0,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,Proceed order
+test11_0,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",Proceed order
+test11_0,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",Proceed order
+test11_0,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",Proceed order
+test11_0,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,Proceed order
+test11_0,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",Proceed order
+test11_0,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,Proceed order
+test11_0,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",Proceed order
+test11_0,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,Proceed order
+test11_0,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",Proceed order
+test11_0,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",Proceed order
+test11_0,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",Proceed order
+test11_1,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,process order
+test11_1,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",process order
+test11_1,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",process order
+test11_1,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",process order
+test11_1,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,process order
+test11_1,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",process order
+test11_1,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,process order
+test11_1,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",process order
+test11_1,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",process order
+test11_1,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",process order
+test11_1,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,process order
+test11_1,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",process order
+test11_1,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,process order
+test11_1,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",process order
+test11_1,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,process order
+test11_1,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",process order
+test11_1,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",process order
+test11_1,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",process order
+test11_2,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,process the order normally
+test11_2,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",process the order normally
+test11_2,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",process the order normally
+test11_2,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",process the order normally
+test11_2,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,process the order normally
+test11_2,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",process the order normally
+test11_2,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,process the order normally
+test11_2,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",process the order normally
+test11_2,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",process the order normally
+test11_2,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",process the order normally
+test11_2,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,process the order normally
+test11_2,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",process the order normally
+test11_2,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,process the order normally
+test11_2,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",process the order normally
+test11_2,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,process the order normally
+test11_2,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",process the order normally
+test11_2,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",process the order normally
+test11_2,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",process the order normally
+test11_3,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,process order
+test11_3,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",process order
+test11_3,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",process order
+test11_3,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",process order
+test11_3,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,process order
+test11_3,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",process order
+test11_3,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,process order
+test11_3,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",process order
+test11_3,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",process order
+test11_3,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",process order
+test11_3,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,process order
+test11_3,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",process order
+test11_3,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,process order
+test11_3,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",process order
+test11_3,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,process order
+test11_3,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",process order
+test11_3,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",process order
+test11_3,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",process order
+test11_4,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,send confirmation
+test11_4,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",send confirmation
+test11_4,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",send confirmation
+test11_4,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",send confirmation
+test11_4,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,send confirmation
+test11_4,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",send confirmation
+test11_4,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,send confirmation
+test11_4,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",send confirmation
+test11_4,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",send confirmation
+test11_4,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",send confirmation
+test11_4,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,send confirmation
+test11_4,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",send confirmation
+test11_4,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,send confirmation
+test11_4,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",send confirmation
+test11_4,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,send confirmation
+test11_4,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",send confirmation
+test11_4,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",send confirmation
+test11_4,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",send confirmation
+test11_5,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,process order
+test11_5,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",process order
+test11_5,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",process order
+test11_5,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",process order
+test11_5,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,process order
+test11_5,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",process order
+test11_5,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,process order
+test11_5,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",process order
+test11_5,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",process order
+test11_5,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",process order
+test11_5,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,process order
+test11_5,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",process order
+test11_5,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,process order
+test11_5,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",process order
+test11_5,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,process order
+test11_5,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",process order
+test11_5,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",process order
+test11_5,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",process order
+test11_6,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,order process
+test11_6,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",order process
+test11_6,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",order process
+test11_6,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",order process
+test11_6,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,order process
+test11_6,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",order process
+test11_6,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,order process
+test11_6,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",order process
+test11_6,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",order process
+test11_6,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",order process
+test11_6,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,order process
+test11_6,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",order process
+test11_6,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,order process
+test11_6,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",order process
+test11_6,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,order process
+test11_6,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",order process
+test11_6,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",order process
+test11_6,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",order process
+test11_7,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,proceed the order
+test11_7,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",proceed the order
+test11_7,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",proceed the order
+test11_7,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",proceed the order
+test11_7,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,proceed the order
+test11_7,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",proceed the order
+test11_7,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,proceed the order
+test11_7,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",proceed the order
+test11_7,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",proceed the order
+test11_7,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",proceed the order
+test11_7,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,proceed the order
+test11_7,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",proceed the order
+test11_7,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,proceed the order
+test11_7,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",proceed the order
+test11_7,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,proceed the order
+test11_7,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",proceed the order
+test11_7,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",proceed the order
+test11_7,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",proceed the order
+test11_8,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,process completed
+test11_8,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",process completed
+test11_8,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",process completed
+test11_8,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",process completed
+test11_8,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,process completed
+test11_8,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",process completed
+test11_8,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,process completed
+test11_8,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",process completed
+test11_8,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",process completed
+test11_8,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",process completed
+test11_8,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,process completed
+test11_8,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",process completed
+test11_8,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,process completed
+test11_8,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",process completed
+test11_8,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,process completed
+test11_8,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",process completed
+test11_8,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",process completed
+test11_8,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",process completed
+test11_9,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,process completed
+test11_9,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",process completed
+test11_9,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",process completed
+test11_9,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",process completed
+test11_9,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,process completed
+test11_9,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",process completed
+test11_9,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,process completed
+test11_9,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",process completed
+test11_9,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",process completed
+test11_9,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",process completed
+test11_9,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,process completed
+test11_9,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",process completed
+test11_9,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,process completed
+test11_9,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",process completed
+test11_9,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,process completed
+test11_9,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",process completed
+test11_9,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",process completed
+test11_9,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",process completed
+test11_10,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,send confirmation
+test11_10,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",send confirmation
+test11_10,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",send confirmation
+test11_10,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",send confirmation
+test11_10,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,send confirmation
+test11_10,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",send confirmation
+test11_10,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,send confirmation
+test11_10,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",send confirmation
+test11_10,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",send confirmation
+test11_10,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",send confirmation
+test11_10,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,send confirmation
+test11_10,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",send confirmation
+test11_10,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,send confirmation
+test11_10,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",send confirmation
+test11_10,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,send confirmation
+test11_10,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",send confirmation
+test11_10,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",send confirmation
+test11_10,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",send confirmation
+test11_11,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,process completed
+test11_11,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",process completed
+test11_11,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",process completed
+test11_11,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",process completed
+test11_11,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,process completed
+test11_11,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",process completed
+test11_11,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,process completed
+test11_11,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",process completed
+test11_11,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",process completed
+test11_11,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",process completed
+test11_11,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,process completed
+test11_11,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",process completed
+test11_11,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,process completed
+test11_11,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",process completed
+test11_11,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,process completed
+test11_11,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",process completed
+test11_11,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",process completed
+test11_11,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",process completed
+test11_12,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,confirm order
+test11_12,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",confirm order
+test11_12,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",confirm order
+test11_12,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",confirm order
+test11_12,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,confirm order
+test11_12,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",confirm order
+test11_12,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,confirm order
+test11_12,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",confirm order
+test11_12,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",confirm order
+test11_12,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",confirm order
+test11_12,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,confirm order
+test11_12,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",confirm order
+test11_12,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,confirm order
+test11_12,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",confirm order
+test11_12,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,confirm order
+test11_12,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",confirm order
+test11_12,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",confirm order
+test11_12,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",confirm order
+test11_13,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,process order
+test11_13,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",process order
+test11_13,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",process order
+test11_13,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",process order
+test11_13,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,process order
+test11_13,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",process order
+test11_13,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,process order
+test11_13,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",process order
+test11_13,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",process order
+test11_13,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",process order
+test11_13,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,process order
+test11_13,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",process order
+test11_13,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,process order
+test11_13,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",process order
+test11_13,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,process order
+test11_13,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",process order
+test11_13,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",process order
+test11_13,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",process order
+test11_14,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,process order
+test11_14,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",process order
+test11_14,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",process order
+test11_14,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",process order
+test11_14,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,process order
+test11_14,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",process order
+test11_14,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,process order
+test11_14,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",process order
+test11_14,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",process order
+test11_14,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",process order
+test11_14,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,process order
+test11_14,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",process order
+test11_14,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,process order
+test11_14,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",process order
+test11_14,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,process order
+test11_14,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",process order
+test11_14,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",process order
+test11_14,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",process order
+test11_15,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,process order normally
+test11_15,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",process order normally
+test11_15,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",process order normally
+test11_15,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",process order normally
+test11_15,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,process order normally
+test11_15,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",process order normally
+test11_15,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,process order normally
+test11_15,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",process order normally
+test11_15,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",process order normally
+test11_15,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",process order normally
+test11_15,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,process order normally
+test11_15,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",process order normally
+test11_15,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,process order normally
+test11_15,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",process order normally
+test11_15,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,process order normally
+test11_15,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",process order normally
+test11_15,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",process order normally
+test11_15,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",process order normally
+test11_16,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,send confirmation
+test11_16,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",send confirmation
+test11_16,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",send confirmation
+test11_16,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",send confirmation
+test11_16,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,send confirmation
+test11_16,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",send confirmation
+test11_16,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,send confirmation
+test11_16,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",send confirmation
+test11_16,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",send confirmation
+test11_16,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",send confirmation
+test11_16,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,send confirmation
+test11_16,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",send confirmation
+test11_16,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,send confirmation
+test11_16,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",send confirmation
+test11_16,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,send confirmation
+test11_16,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",send confirmation
+test11_16,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",send confirmation
+test11_16,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",send confirmation
+test11_17,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,order processed
+test11_17,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",order processed
+test11_17,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",order processed
+test11_17,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",order processed
+test11_17,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,order processed
+test11_17,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",order processed
+test11_17,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,order processed
+test11_17,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",order processed
+test11_17,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",order processed
+test11_17,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",order processed
+test11_17,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,order processed
+test11_17,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",order processed
+test11_17,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,order processed
+test11_17,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",order processed
+test11_17,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,order processed
+test11_17,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",order processed
+test11_17,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",order processed
+test11_17,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",order processed
+test11_18,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,process order
+test11_18,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",process order
+test11_18,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",process order
+test11_18,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",process order
+test11_18,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,process order
+test11_18,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",process order
+test11_18,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,process order
+test11_18,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",process order
+test11_18,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",process order
+test11_18,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",process order
+test11_18,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,process order
+test11_18,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",process order
+test11_18,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,process order
+test11_18,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",process order
+test11_18,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,process order
+test11_18,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",process order
+test11_18,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",process order
+test11_18,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",process order
+test11_19,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,process order
+test11_19,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",process order
+test11_19,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",process order
+test11_19,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",process order
+test11_19,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,process order
+test11_19,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",process order
+test11_19,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,process order
+test11_19,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",process order
+test11_19,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",process order
+test11_19,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",process order
+test11_19,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,process order
+test11_19,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",process order
+test11_19,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,process order
+test11_19,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",process order
+test11_19,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,process order
+test11_19,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",process order
+test11_19,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",process order
+test11_19,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",process order
+test11_20,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,proceed the order
+test11_20,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",proceed the order
+test11_20,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",proceed the order
+test11_20,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",proceed the order
+test11_20,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,proceed the order
+test11_20,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",proceed the order
+test11_20,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,proceed the order
+test11_20,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",proceed the order
+test11_20,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",proceed the order
+test11_20,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",proceed the order
+test11_20,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,proceed the order
+test11_20,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",proceed the order
+test11_20,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,proceed the order
+test11_20,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",proceed the order
+test11_20,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,proceed the order
+test11_20,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",proceed the order
+test11_20,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",proceed the order
+test11_20,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",proceed the order
+test11_21,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,process order normally
+test11_21,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",process order normally
+test11_21,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",process order normally
+test11_21,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",process order normally
+test11_21,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,process order normally
+test11_21,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",process order normally
+test11_21,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,process order normally
+test11_21,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",process order normally
+test11_21,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",process order normally
+test11_21,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",process order normally
+test11_21,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,process order normally
+test11_21,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",process order normally
+test11_21,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,process order normally
+test11_21,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",process order normally
+test11_21,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,process order normally
+test11_21,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",process order normally
+test11_21,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",process order normally
+test11_21,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",process order normally
+test11_22,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,confirm order
+test11_22,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",confirm order
+test11_22,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",confirm order
+test11_22,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",confirm order
+test11_22,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,confirm order
+test11_22,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",confirm order
+test11_22,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,confirm order
+test11_22,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",confirm order
+test11_22,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",confirm order
+test11_22,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",confirm order
+test11_22,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,confirm order
+test11_22,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",confirm order
+test11_22,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,confirm order
+test11_22,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",confirm order
+test11_22,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,confirm order
+test11_22,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",confirm order
+test11_22,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",confirm order
+test11_22,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",confirm order
+test11_23,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,process order
+test11_23,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",process order
+test11_23,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",process order
+test11_23,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",process order
+test11_23,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,process order
+test11_23,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",process order
+test11_23,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,process order
+test11_23,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",process order
+test11_23,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",process order
+test11_23,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",process order
+test11_23,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,process order
+test11_23,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",process order
+test11_23,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,process order
+test11_23,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",process order
+test11_23,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,process order
+test11_23,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",process order
+test11_23,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",process order
+test11_23,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",process order
+test11_24,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,proceed the order
+test11_24,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",proceed the order
+test11_24,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",proceed the order
+test11_24,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",proceed the order
+test11_24,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,proceed the order
+test11_24,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",proceed the order
+test11_24,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,proceed the order
+test11_24,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",proceed the order
+test11_24,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",proceed the order
+test11_24,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",proceed the order
+test11_24,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,proceed the order
+test11_24,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",proceed the order
+test11_24,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,proceed the order
+test11_24,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",proceed the order
+test11_24,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,proceed the order
+test11_24,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",proceed the order
+test11_24,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",proceed the order
+test11_24,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",proceed the order
+test11_25,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,order conformation
+test11_25,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",order conformation
+test11_25,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",order conformation
+test11_25,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",order conformation
+test11_25,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,order conformation
+test11_25,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",order conformation
+test11_25,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,order conformation
+test11_25,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",order conformation
+test11_25,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",order conformation
+test11_25,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",order conformation
+test11_25,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,order conformation
+test11_25,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",order conformation
+test11_25,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,order conformation
+test11_25,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",order conformation
+test11_25,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,order conformation
+test11_25,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",order conformation
+test11_25,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",order conformation
+test11_25,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",order conformation
+test11_26,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,process order normally
+test11_26,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",process order normally
+test11_26,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",process order normally
+test11_26,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",process order normally
+test11_26,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,process order normally
+test11_26,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",process order normally
+test11_26,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,process order normally
+test11_26,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",process order normally
+test11_26,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",process order normally
+test11_26,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",process order normally
+test11_26,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,process order normally
+test11_26,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",process order normally
+test11_26,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,process order normally
+test11_26,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",process order normally
+test11_26,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,process order normally
+test11_26,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",process order normally
+test11_26,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",process order normally
+test11_26,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",process order normally
+test11_27,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,process the order
+test11_27,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",process the order
+test11_27,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",process the order
+test11_27,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",process the order
+test11_27,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,process the order
+test11_27,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",process the order
+test11_27,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,process the order
+test11_27,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",process the order
+test11_27,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",process the order
+test11_27,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",process the order
+test11_27,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,process the order
+test11_27,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",process the order
+test11_27,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,process the order
+test11_27,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",process the order
+test11_27,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,process the order
+test11_27,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",process the order
+test11_27,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",process the order
+test11_27,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",process the order
+test11_28,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,process the order normally
+test11_28,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",process the order normally
+test11_28,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",process the order normally
+test11_28,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",process the order normally
+test11_28,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,process the order normally
+test11_28,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",process the order normally
+test11_28,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,process the order normally
+test11_28,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",process the order normally
+test11_28,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",process the order normally
+test11_28,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",process the order normally
+test11_28,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,process the order normally
+test11_28,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",process the order normally
+test11_28,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,process the order normally
+test11_28,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",process the order normally
+test11_28,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,process the order normally
+test11_28,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",process the order normally
+test11_28,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",process the order normally
+test11_28,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",process the order normally
+test11_29,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,proceed order
+test11_29,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",proceed order
+test11_29,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",proceed order
+test11_29,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",proceed order
+test11_29,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,proceed order
+test11_29,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",proceed order
+test11_29,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,proceed order
+test11_29,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",proceed order
+test11_29,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",proceed order
+test11_29,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",proceed order
+test11_29,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,proceed order
+test11_29,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",proceed order
+test11_29,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,proceed order
+test11_29,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",proceed order
+test11_29,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,proceed order
+test11_29,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",proceed order
+test11_29,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",proceed order
+test11_29,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",proceed order
+test11_30,order processing between supplier and retailer,Incompatibility between the retailer’s order processing system and the supplier’s system results in incorrect information transmission.,process order
+test11_30,order processing between supplier and retailer,"The supplier’s shipping document does not match the actual shipment, resulting in the retailer receiving incorrect products.",process order
+test11_30,order processing between supplier and retailer,"Price changes are not communicated to the retailer in time, leading to incorrect order pricing.",process order
+test11_30,order processing between supplier and retailer,"The supplier fails to ship orders on time, causing inventory shortages for the retailer.",process order
+test11_30,order processing between supplier and retailer,A technical failure in the order system prevents orders from being processed correctly.,process order
+test11_30,order processing between supplier and retailer,"Supplier inventory data is not updated in real-time, causing overselling of orders by the retailer.",process order
+test11_30,order processing between supplier and retailer,Incomplete order information submitted by the retailer leads to delays in processing.,process order
+test11_30,order processing between supplier and retailer,"Orders are lost or damaged during shipping, affecting the retailer’s sales.",process order
+test11_30,order processing between supplier and retailer,"The supplier is unable to provide certain products, causing partial stockouts in the retailer’s order.",process order
+test11_30,order processing between supplier and retailer,"The supplier fails to deliver according to the agreed-upon schedule, preventing the retailer from selling on time.",process order
+test11_30,order processing between supplier and retailer,Delayed payment from the retailer prevents the order from being processed.,process order
+test11_30,order processing between supplier and retailer,"The retailer orders products that do not match actual demand, leading to overstock or stockouts.",process order
+test11_30,order processing between supplier and retailer,Delays in transmitting order information in the supply chain cause the retailer to not receive goods on time.,process order
+test11_30,order processing between supplier and retailer,"The retailer processes a large volume of orders during promotions, causing the supplier to fail to fulfill shipments on time.",process order
+test11_30,order processing between supplier and retailer,Incorrect invoicing information from the supplier prevents the retailer from completing the payment process.,process order
+test11_30,order processing between supplier and retailer,"The retailer fails to process return requests on time, leading to confusion in return logistics.",process order
+test11_30,order processing between supplier and retailer,"The supplier is unable to meet the retailer’s custom product requirements, causing the order to be unfulfilled.",process order
+test11_30,order processing between supplier and retailer,"The products provided by the supplier do not meet quality standards, causing the retailer to reject the order.",process order

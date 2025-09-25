@@ -1,0 +1,25 @@
+{
+    "variables": [
+        "REQUIREMENT",
+        "FORMATTASK",
+        "FLOW",
+        "REVISION"
+    ],
+    "name": "Revise task execution sequence based on requirement violations and counterexample trace.",
+    "prompt": "Analyze the requirement description and the revision advice—which includes violated constraints and corresponding counterexample traces—to revise the original task execution sequence.\n\nStep 1: Interpret Inputs\n- Read the requirement description ($REQUIREMENT) to understand the intended temporal and interaction semantics.\n- Parse the symbolic task definitions ($FORMATTASK) to identify task types (e.g., action, message receiver, timer loop).\n- Examine the original flow ($FLOW) to extract current intra-actor and inter-actor control dependencies.\n- Interpret the revision advice ($REVISION), which consists of violated CTL constraints and counterexample paths, identifying the cause of logical failures.\n\nStep 2: Apply Targeted Modifications\n- Modify the task execution order, add or remove tasks if necessary, or adjust message flow to eliminate violations while preserving process semantics.\n- Ensure logical consistency with respect to the original requirement.\n- Integrate cross-actor coordination (e.g., message sending/receiving) if required by the revised logic.\n\nStep 3: Output the Updated Flow\n- Return updated control_flow and message_flow JSON arrays.\n- All modifications must satisfy the original requirement and eliminate the violations mentioned in $REVISION.",
+    "output": [
+        "control_flow",
+        "message_flow"
+    ],
+    "format": {
+        "control_flow": "JSON array format, each element must include: {\"actor\": <actor_id>, \"from\": <source_task_id>, \"to\": <target_task_id>}. Represents intra-actor execution order.",
+        "message_flow": "JSON array format, each element must include: {\"from_actor\": <sender_actor_id>, \"to_actor\": <receiver_actor_id>, \"from\": <sending_task_id>, \"to\": <receiving_task_id>}. Represents cross-actor message dependencies.",
+        "output_constraints": [
+            "must_remove_CTL_violations",
+            "must_preserve_logical_consistency",
+            "apply_revision_advice_strictly",
+            "no_comments_in_json"
+        ],
+        "explanation": "Briefly explain how the updated flow resolves the CTL violations and preserves the logical intent of the requirement."
+    }
+}

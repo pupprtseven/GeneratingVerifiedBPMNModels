@@ -1,0 +1,115 @@
+business_model_idx,business_scenario,LTC,business_object
+test12_00,Actualization of Qualification Requirements,"Updates to qualification requirements are not communicated on time, causing applicants to fail to submit materials according to the new criteria.",Communicate actualized Qualification Plan
+test12_00,Actualization of Qualification Requirements,"The updated version of qualification requirements is not synchronized in the system, leading applicants to submit outdated qualification documents.",Communicate actualized Qualification Plan
+test12_01,Architecture Management Practice,"Architecture management tools are not updated on time, causing project progress and architectural changes to be inadequately tracked.",Management of IT Architecture
+test12_01,Architecture Management Practice,"Different teams use varying standards in architectural design, leading to inconsistencies in the overall architecture.",Management of IT Architecture
+test12_02,Assessment of IT Service Strategy,"The IT service strategy assessment fails to consider the latest technological trends, making the strategy less forward-looking.",Consolidate strategic evaluation
+test12_02,Assessment of IT Service Strategy,"The IT service strategy assessment fails to consider the latest technological trends, making the strategy less forward-looking.",Consolidate strategic evaluation
+test12_03,Availability Management,"System monitoring tools fail to detect service interruptions in time, causing delays in the availability assessment.",Trigger analysis of reasons
+test12_03,Availability Management,"The availability metrics defined in the Service Level Agreement (SLA) do not match the actual service capabilities, leading to customer dissatisfaction.",Trigger analysis of reasons
+test12_04,Availability Testing,"The testing environment differs significantly from the production environment, leading to inaccurate availability test results.",Document test for ralatal ty
+test12_04,Availability Testing,"The testing tools fail to simulate real traffic under high load conditions, making it impossible to accurately assess service availability.",Document test for ralatal ty
+test12_05,Capacity and Performance Management,"Capacity planning fails to anticipate sudden traffic spikes, resulting in performance bottlenecks during peak periods.",Capacity and Performance Reporting
+test12_05,Capacity and Performance Management,"Performance monitoring tools fail to capture key performance metrics in real time, preventing timely identification of system performance issues.",Capacity and Performance Reporting
+test12_06,Capacity Prognosis,"The forecasting model fails to accurately reflect business growth trends, leading to discrepancies in capacity demand predictions.",Document capacity requirements
+test12_06,Capacity Prognosis,"Incomplete or inaccurate historical data results in unreliable capacity prognosis, failing to guide resource planning effectively.",Document capacity requirements
+test12_07,Care for Customer Relations,"Customer complaints are not responded to promptly, resulting in a decline in customer satisfaction.",Document customer feedback
+test12_07,Care for Customer Relations,Poor communication within the customer service team leads to a misunderstanding and failure to meet customer needs accurately.,Document customer feedback
+test12_08,Change of Organization and Location,"Organizational restructuring is not communicated to employees on time, causing confusion in job responsibilities.",Inform Business Unit
+test12_08,Change of Organization and Location,"The infrastructure at the new location does not meet expectations, leading to decreased work efficiency after the relocation.
+
+
+
+
+
+",Inform Business Unit
+test12_09,Change Review an Reporting,Lack of participation from key stakeholders during the change review process results in incomplete reporting.,Trigger analysis of reasons
+test12_09,Change Review an Reporting,"Change review reports are not submitted on time, causing project delays and postponed decision-making.",Trigger analysis of reasons
+test12_10,Contingency Planning,"The contingency plan does not account for unexpected technical issues, leading to ineffective response to system failures.",create request for change to implement precautions
+test12_10,Contingency Planning,"Key personnel are unavailable to respond promptly during emergencies, causing delays in the contingency response.",create request for change to implement precautions
+test12_11,Continual Improvement and IT Quality Management Practice,"IT quality management standards are not updated according to the latest industry requirements, leading to compliance issues.",Validation of IT Security
+test12_11,Continual Improvement and IT Quality Management Practice,"The continual improvement plan fails to assess existing issues in a timely manner, leading to delays in the quality management process.",Validation of IT Security
+test12_12,Contract Conclusion for IT Standard Services,"Contract terms fail to cover all service details, leading to disputes over service delivery later on.",Perform feasibility check for the required changes
+test12_12,Contract Conclusion for IT Standard Services,"The contract approval process is too slow, causing delays in the signing of service agreements with clients.",Perform feasibility check for the required changes
+test12_13,Criticality analysis for IT Assets,"The asset analysis fails to account for the latest technological updates, making the evaluation results obsolete.",Risk measures for IT assets
+test12_13,Criticality analysis for IT Assets,"Failure to accurately identify critical IT assets, resulting in ineffective response during emergencies.",Risk measures for IT assets
+test12_14,Customer Satisfaction Surveys,"The survey design is unclear, leading to inaccurate customer feedback.",Consolidate and document survey results
+test12_14,Customer Satisfaction Surveys,"Survey results are not analyzed and communicated in time, missing opportunities for service improvement.",Consolidate and document survey results
+test12_15,Definition of IT Technology Portfolio,"The technology portfolio definition fails to account for future business needs, resulting in a mismatch between technology direction and actual requirements.",Define IT technology portfolio projects
+test12_15,Definition of IT Technology Portfolio,"The potential of emerging technologies is not adequately evaluated, leading to missed opportunities for technological innovation.",Define IT technology portfolio projects
+test12_16,Definition of Test Procedures,"Test procedures are poorly defined, leading to inconsistencies during test execution.",Create test model
+test12_16,Definition of Test Procedures,"Test procedures fail to cover all business scenarios, resulting in missed important test cases.",Create test model
+test12_17,demand recording,"The demand recording system malfunctions, leading to inaccurate recording of customer demands.",Inform Demand Carrier
+test12_17,demand recording,"The demand recording contains incomplete information, leading to gaps in the subsequent processing stages.",Inform Demand Carrier
+test12_18,Event Monitoring,"Monitoring tools fail to capture critical events in time, resulting in delayed responses.",Create incident
+test12_18,Event Monitoring,"The event monitoring system¡¯s alert settings are inaccurate, leading to false alarms or missed events.",Create incident
+test12_19,Incident and Request Registration,"Customer information is entered incorrectly during incident and request registration, causing delays in subsequent processing.",inform Initiator
+test12_19,Incident and Request Registration,"The registration system fails to automatically classify incidents and requests, leading to manual misassignments.",inform Initiator
+test12_20,Incident Tracking and Closure,"The incident tracking system fails to update statuses in real time, leaving teams unable to track the latest progress.",Inform user
+test12_20,Incident Tracking and Closure,"Incidents are closed without proper verification, leading to unresolved issues.",Inform user
+test12_21,Information Security Practice,Information security policies are not updated in time to address new types of cyberattacks.,Validation of IT Security
+test12_21,Information Security Practice,"Employees have not received adequate information security training, leading to security vulnerabilities.",Validation of IT Security
+test12_22,Inventory for IT Assets,"The IT asset inventory management system malfunctions, leading to inaccurate asset records.",Communicate Changes to the CMS
+test12_22,Inventory for IT Assets,"Asset categorization is unclear, making it difficult to effectively track and manage IT assets.",Communicate Changes to the CMS
+test12_23,IT Forecast,"The IT demand forecasting model fails to account for unforeseen events, leading to inadequate resource allocation.",Check for necessary profitability actions internally
+test12_23,IT Forecast,Incomplete historical data results in inaccurate IT resource demand forecasts.,Check for necessary profitability actions internally
+test12_24,IT Profitability Analysis,Lack of accurate calculation for IT service costs leads to distorted profitability analysis results.,Handover to service level management
+test12_24,IT Profitability Analysis,"IT projects fail to account for indirect costs, resulting in incomplete profitability analysis.",Handover to service level management
+test12_25,Knowledge Management Practice,"The knowledge management system fails to update in a timely manner, leading to outdated information.",Knowledge Management
+test12_25,Knowledge Management Practice,"Employees do not actively engage in knowledge sharing, leading to a lack of content in the knowledge base.",Knowledge Management
+test12_26,Measurement and Reporting Practice,"Key performance indicators are not measured accurately, leading to incorrect reporting results.",Process Review
+test12_26,Measurement and Reporting Practice,"The reporting generation tools are unstable, causing delays in report generation.",Process Review
+test12_27,Minor Deployments,"Minor deployments are not sufficiently tested, causing issues in the production environment.",perform operational rollout
+test12_27,Minor Deployments,Poor communication during the deployment process leads to wasted resources and time.,perform operational rollout
+test12_28,Organizational Change Management,"Employees are unable to adapt to organizational changes, leading to decreased productivity.",Organizational Change Management
+test12_28,Organizational Change Management,"The change management plan fails to fully consider the needs of various departments, making the change process difficult.",Organizational Change Management
+test12_29,Portfolio Management Practice,"Portfolio management is not adjusted in a timely manner, leading to resource allocation that does not align with business priorities.",Review and Maintenance of the Service Portfolio
+test12_29,Portfolio Management Practice,"Project changes are not incorporated into portfolio updates, leading to strategic misalignment.",Review and Maintenance of the Service Portfolio
+test12_30,Process Controlling,"Process control fails to detect anomalies in a timely manner, leading to inefficiencies in the process.",Implement immediate impovement
+test12_30,Process Controlling,"Process metrics are poorly designed, preventing effective implementation of control measures.",Implement immediate impovement
+test12_31,Registration and Classification of Changes,"The change registration system fails to classify changes accurately, leading to confusion in change management.",Determine approval authority
+test12_31,Registration and Classification of Changes,Incomplete change records hinder subsequent analysis and decision-making.,Determine approval authority
+test12_32,Review and Maintenance of the Service Portfolio,"The service portfolio is not reviewed and updated regularly, resulting in outdated services still in operation.",decide about immediately required actions
+test12_32,Review and Maintenance of the Service Portfolio,"The actual benefits of services are not evaluated, leading to resource waste on inefficient services.",decide about immediately required actions
+test12_33,Review of Major Problems,"Major problem reviews fail to address root causes, resulting in issues not being fully resolved.",Handover improvement proposals to continual service improvement
+test12_33,Review of Major Problems,"The review process lacks cross-departmental collaboration, leading to incomplete solutions.",Handover improvement proposals to continual service improvement
+test12_34,Review of Service Design,"Service design fails to consider actual operational requirements, causing the service to be unable to function properly.",Check obstacles for the request far change
+test12_34,Review of Service Design,"Key features are missed during design reviews, causing the service to fail in meeting customer needs.",Check obstacles for the request far change
+test12_35,Risk Evaluation for IT-Services,"The risk evaluation for IT services does not consider emerging technologies, leading to incomplete assessments.",Consolidate risk management concept for the IT-Service
+test12_35,Risk Evaluation for IT-Services,"During risk evaluation, business impact is not sufficiently analyzed, resulting in an underestimation of risks.",Consolidate risk management concept for the IT-Service
+test12_36,Risk Evaluation,"Risk evaluation models are not adapted to the fast-changing market environment, resulting in inaccurate predictions.",Classify risks
+test12_36,Risk Evaluation,Lack of consideration for external factors leads to a one-sided risk evaluation.,Classify risks
+test12_37,Risk Management Practice,"Risk management measures fail to cover all critical risk points, resulting in inadequate control of key risks.",Risk Prevention Activities
+test12_37,Risk Management Practice,Risk management strategies are not updated in time to address newly emerging threats.,Risk Prevention Activities
+test12_38,Risk Monitoring and Reporting,"The risk monitoring system fails to report the latest risk data in a timely manner, causing delays in decision-making.",Communicate risk log
+test12_38,Risk Monitoring and Reporting,"The monitoring reports do not cover all departments, leading to a lack of a holistic view.",Communicate risk log
+test12_39,Security Review and Reporting,"The security review does not cover all critical systems, leading to undetected potential vulnerabilities.",Communicate security management report
+test12_39,Security Review and Reporting,"The security report is not submitted on time, preventing timely protective actions.",Communicate security management report
+test12_40,Service Approval,"The service approval process is cumbersome, causing delays in the launch of new services.",Inform requester
+test12_40,Service Approval,"The service approval criteria are not updated in time, resulting in services being approved that do not meet new requirements.",Inform requester
+test12_41,Service Catalogue Management Practice,"The service catalogue is not updated in a timely manner, leading to customers not having access to the latest service information.",Service Catalogue Management
+test12_41,Service Catalogue Management Practice,Poor service categorization makes it difficult for customers to find the services they need.,Service Catalogue Management
+test12_42,Service Continuity Management Review and Reporting,"The service continuity review does not cover key business processes, leading to slow recovery during business interruptions.",Communicate IT service Continuity Report
+test12_42,Service Continuity Management Review and Reporting,"The service continuity report lacks detailed recovery plans, resulting in inefficient emergency response.",Communicate IT service Continuity Report
+test12_43,Service Deisgn,"Service design fails to fully consider user needs, resulting in numerous issues after the service launch.",Check for required adaption of guideline service design
+test12_43,Service Deisgn,"The design phase overlooks technical feasibility, causing difficulties during later implementation.",Check for required adaption of guideline service design
+test12_44,Service Financial Management Practice,"Service financial management fails to account for all cost factors, leading to budget overruns.",IT Financial Reporting
+test12_44,Service Financial Management Practice,"Financial reports are delayed, preventing timely adjustments to the service pricing strategy.",IT Financial Reporting
+test12_45,Service Level Review and Reporting,"The service level review does not adequately measure customer satisfaction, failing to identify potential issues.",Communicate service level report
+test12_45,Service Level Review and Reporting,"The service report does not cover all key performance indicators, resulting in incomplete service quality assessments.",Communicate service level report
+test12_46,Profitability Management,"Profitability management fails to accurately predict market demand shifts, resulting in a revenue decline.",Profitability Management
+test12_46,Profitability Management,"The impact of new products on the profitability of existing services is not evaluated, leading to inefficient resource allocation.",Profitability Management
+test12_47,Software Development and Management Practice,"The software development process does not respond quickly to market demand changes, causing product delays.",Application Development and Customizing
+test12_47,Software Development and Management Practice,Poor collaboration between the development and operations teams extends the release cycle.,Application Development and Customizing
+test12_48,Strategy Management,"Strategy management fails to adjust in response to competitor changes, resulting in a loss of market share.",Requirement Request
+test12_48,Strategy Management,Unclear strategic objectives lead to misalignment in departmental execution.,Requirement Request
+test12_49,Supplier Management Practice,"Supplier management does not regularly evaluate supplier performance, increasing supply chain risks.",Implementation of IT Service Strategy
+test12_49,Supplier Management Practice,"Supplier contracts fail to cover all potential risks, leading to legal disputes.",Implementation of IT Service Strategy
+test12_50,Supplier Selection,"Supplier selection is not based on comprehensive evaluation criteria, leading to the choice of unsuitable suppliers.",check offer
+test12_50,Supplier Selection,"The supplier selection process lacks market trend forecasting, causing chosen suppliers to be unable to adapt to demand changes.",check offer
+test12_51,User Permission Request,"User permission requests are not processed in a timely manner, preventing employees from accessing necessary resources.",check for additional not available licenses
+test12_51,User Permission Request,"The permission allocation process is not effectively monitored, leading to permission abuse.",check for additional not available licenses
+test12_52,Validation of IT Security,"IT security validation does not cover all systems and applications, resulting in unrecognized potential vulnerabilities.",Check for execution of security controls according to schedule
+test12_52,Validation of IT Security,"Emerging security threats are not considered during validation, leading to insufficient protective measures.",Check for execution of security controls according to schedule
+test12_53,Workforce and Talent Management Practice,"Talent management does not adjust in time to address technological changes, leading to outdated employee skills.",Monitoring of Activities for Personnel Qualification
+test12_53,Workforce and Talent Management Practice,"Employee performance evaluation criteria do not adapt to changes in organizational goals, leading to inaccurate assessments.",Monitoring of Activities for Personnel Qualification

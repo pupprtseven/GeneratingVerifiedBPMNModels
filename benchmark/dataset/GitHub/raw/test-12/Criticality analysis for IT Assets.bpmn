@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="" exporter="Camunda Modeler" exporterVersion="5.23.0" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
+  <collaboration id="Collaboration_1">
+    <participant id="pool_4" name="Risikoanalyse und Kritikalitatsbewertung durchgeführt" processRef="Process_4" />
+  </collaboration>
+  <process id="Process_4" isExecutable="false">
+    <task id="task_0" name="Analyze own risks of the IT asset">
+      <incoming>sequenceFlow_24</incoming>
+      <outgoing>sequenceFlow_25</outgoing>
+    </task>
+    <task id="task_1" name="Set criticality">
+      <incoming>sequenceFlow_25</incoming>
+      <outgoing>sequenceFlow_22</outgoing>
+    </task>
+    <task id="task_2" name="Determine highest criticality within dependencies">
+      <incoming>sequenceFlow_23</incoming>
+      <outgoing>sequenceFlow_24</outgoing>
+    </task>
+    <task id="task_3" name="Determine dependency on higher-level and lower-level IT assets">
+      <incoming>sequenceFlow_20</incoming>
+      <outgoing>sequenceFlow_23</outgoing>
+    </task>
+    <subProcess id="subProcessCollapsed_5" name="Risk measures for IT assets">
+      <incoming>sequenceFlow_21</incoming>
+      <outgoing>sequenceFlow_19</outgoing>
+    </subProcess>
+    <intermediateCatchEvent id="timerIntermediateEvent_7" name="Risk measures for the IT-Asset currently released">
+      <incoming>sequenceFlow_19</incoming>
+      <timerEventDefinition id="TimerEventDefinition_7" />
+    </intermediateCatchEvent>
+    <intermediateCatchEvent id="messageIntermediateCatchEvent_10" name="Risk analysis and criticality assessment performed">
+      <incoming>sequenceFlow_22</incoming>
+      <outgoing>sequenceFlow_21</outgoing>
+      <messageEventDefinition id="MessageEventDefinition_10" />
+    </intermediateCatchEvent>
+    <startEvent id="messageStartEvent_11" name="Criticality analysis required for IT-Asset">
+      <outgoing>sequenceFlow_20</outgoing>
+      <messageEventDefinition id="MessageEventDefinition_11" />
+    </startEvent>
+    <sequenceFlow id="sequenceFlow_24" sourceRef="task_2" targetRef="task_0" />
+    <sequenceFlow id="sequenceFlow_25" sourceRef="task_0" targetRef="task_1" />
+    <sequenceFlow id="sequenceFlow_22" sourceRef="task_1" targetRef="messageIntermediateCatchEvent_10" />
+    <sequenceFlow id="sequenceFlow_23" sourceRef="task_3" targetRef="task_2" />
+    <sequenceFlow id="sequenceFlow_20" sourceRef="messageStartEvent_11" targetRef="task_3" />
+    <sequenceFlow id="sequenceFlow_21" sourceRef="messageIntermediateCatchEvent_10" targetRef="subProcessCollapsed_5" />
+    <sequenceFlow id="sequenceFlow_19" sourceRef="subProcessCollapsed_5" targetRef="timerIntermediateEvent_7" />
+  </process>
+  <bpmndi:BPMNDiagram id="diagram-0">
+    <bpmndi:BPMNPlane id="plane-0" bpmnElement="Collaboration_1">
+      <bpmndi:BPMNShape id="pool_4_di" bpmnElement="pool_4" isHorizontal="true">
+        <omgdc:Bounds x="155" y="78" width="1070" height="327" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task_0_di" bpmnElement="task_0">
+        <omgdc:Bounds x="569" y="216" width="92" height="74" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task_1_di" bpmnElement="task_1">
+        <omgdc:Bounds x="702" y="216" width="91" height="73" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task_2_di" bpmnElement="task_2">
+        <omgdc:Bounds x="439" y="217" width="91" height="71" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task_3_di" bpmnElement="task_3">
+        <omgdc:Bounds x="307" y="216" width="92" height="73" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="subProcessCollapsed_5_di" bpmnElement="subProcessCollapsed_5">
+        <omgdc:Bounds x="901" y="214" width="91" height="77" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="timerIntermediateEvent_7_di" bpmnElement="timerIntermediateEvent_7">
+        <omgdc:Bounds x="1032" y="237" width="29" height="31" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="1004" y="263" width="89" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageIntermediateCatchEvent_10_di" bpmnElement="messageIntermediateCatchEvent_10">
+        <omgdc:Bounds x="833" y="237" width="29" height="31" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="805" y="199" width="86" height="53" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageStartEvent_11_di" bpmnElement="messageStartEvent_11">
+        <omgdc:Bounds x="221" y="239" width="27" height="28" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="195" y="264" width="84" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="sequenceFlow_19_di" bpmnElement="sequenceFlow_19">
+        <omgdi:waypoint x="991.4300375093773" y="253.9369842460615" />
+        <omgdi:waypoint x="1031.7532783195797" y="252.02940735183796" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_20_di" bpmnElement="sequenceFlow_20">
+        <omgdi:waypoint x="248.3652513128282" y="251.09029257314327" />
+        <omgdi:waypoint x="306.9034058514628" y="250.64030007501873" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_21_di" bpmnElement="sequenceFlow_21">
+        <omgdi:waypoint x="861.5876369092273" y="250.8066016504126" />
+        <omgdi:waypoint x="900.6391597899475" y="251.64789197299322" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_22_di" bpmnElement="sequenceFlow_22">
+        <omgdi:waypoint x="792.6116129032258" y="250.8848612153038" />
+        <omgdi:waypoint x="832.6707276819204" y="250.9044261065266" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_23_di" bpmnElement="sequenceFlow_23">
+        <omgdi:waypoint x="399.1812153038259" y="251.4522430607652" />
+        <omgdi:waypoint x="438.8392498124531" y="251.41311327831957" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_24_di" bpmnElement="sequenceFlow_24">
+        <omgdi:waypoint x="529.581215303826" y="250.40552138034505" />
+        <omgdi:waypoint x="569.307726931733" y="250.4837809452363" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_25_di" bpmnElement="sequenceFlow_25">
+        <omgdi:waypoint x="661.2920630157539" y="250.72834208552138" />
+        <omgdi:waypoint x="701.9576894223555" y="251.57941485371342" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="subProcessCollapsed_5" />
+  </bpmndi:BPMNDiagram>
+</definitions>

@@ -1,0 +1,681 @@
+business_model_idx,business_scenario,LTC,business_object
+test04_0,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,claim processed
+test04_0,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",claim processed
+test04_0,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",claim processed
+test04_0,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",claim processed
+test04_0,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,claim processed
+test04_0,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",claim processed
+test04_0,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",claim processed
+test04_0,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",claim processed
+test04_0,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,claim processed
+test04_0,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,claim processed
+test04_0,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,claim processed
+test04_0,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,claim processed
+test04_0,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",claim processed
+test04_0,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",claim processed
+test04_0,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",claim processed
+test04_0,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",claim processed
+test04_0,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,claim processed
+test04_0,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",claim processed
+test04_0,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",claim processed
+test04_0,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",claim processed
+test04_1,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,claim accepted
+test04_1,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",claim accepted
+test04_1,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",claim accepted
+test04_1,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",claim accepted
+test04_1,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,claim accepted
+test04_1,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",claim accepted
+test04_1,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",claim accepted
+test04_1,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",claim accepted
+test04_1,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,claim accepted
+test04_1,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,claim accepted
+test04_1,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,claim accepted
+test04_1,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,claim accepted
+test04_1,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",claim accepted
+test04_1,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",claim accepted
+test04_1,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",claim accepted
+test04_1,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",claim accepted
+test04_1,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,claim accepted
+test04_1,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",claim accepted
+test04_1,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",claim accepted
+test04_1,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",claim accepted
+test04_2,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,request completed
+test04_2,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",request completed
+test04_2,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",request completed
+test04_2,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",request completed
+test04_2,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,request completed
+test04_2,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",request completed
+test04_2,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",request completed
+test04_2,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",request completed
+test04_2,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,request completed
+test04_2,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,request completed
+test04_2,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,request completed
+test04_2,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,request completed
+test04_2,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",request completed
+test04_2,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",request completed
+test04_2,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",request completed
+test04_2,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",request completed
+test04_2,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,request completed
+test04_2,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",request completed
+test04_2,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",request completed
+test04_2,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",request completed
+test04_3,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,claimprocessed
+test04_3,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",claimprocessed
+test04_3,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",claimprocessed
+test04_3,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",claimprocessed
+test04_3,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,claimprocessed
+test04_3,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",claimprocessed
+test04_3,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",claimprocessed
+test04_3,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",claimprocessed
+test04_3,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,claimprocessed
+test04_3,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,claimprocessed
+test04_3,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,claimprocessed
+test04_3,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,claimprocessed
+test04_3,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",claimprocessed
+test04_3,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",claimprocessed
+test04_3,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",claimprocessed
+test04_3,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",claimprocessed
+test04_3,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,claimprocessed
+test04_3,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",claimprocessed
+test04_3,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",claimprocessed
+test04_3,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",claimprocessed
+test04_4,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,check complet
+test04_4,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",check complet
+test04_4,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",check complet
+test04_4,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",check complet
+test04_4,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,check complet
+test04_4,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",check complet
+test04_4,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",check complet
+test04_4,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",check complet
+test04_4,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,check complet
+test04_4,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,check complet
+test04_4,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,check complet
+test04_4,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,check complet
+test04_4,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",check complet
+test04_4,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",check complet
+test04_4,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",check complet
+test04_4,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",check complet
+test04_4,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,check complet
+test04_4,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",check complet
+test04_4,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",check complet
+test04_4,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",check complet
+test04_5,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,Claim processed
+test04_5,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",Claim processed
+test04_5,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",Claim processed
+test04_5,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",Claim processed
+test04_5,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,Claim processed
+test04_5,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",Claim processed
+test04_5,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",Claim processed
+test04_5,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",Claim processed
+test04_5,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,Claim processed
+test04_5,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,Claim processed
+test04_5,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,Claim processed
+test04_5,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,Claim processed
+test04_5,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",Claim processed
+test04_5,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",Claim processed
+test04_5,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",Claim processed
+test04_5,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",Claim processed
+test04_5,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,Claim processed
+test04_5,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",Claim processed
+test04_5,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",Claim processed
+test04_5,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",Claim processed
+test04_6,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,Proceed handling Process
+test04_6,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",Proceed handling Process
+test04_6,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",Proceed handling Process
+test04_6,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",Proceed handling Process
+test04_6,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,Proceed handling Process
+test04_6,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",Proceed handling Process
+test04_6,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",Proceed handling Process
+test04_6,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",Proceed handling Process
+test04_6,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,Proceed handling Process
+test04_6,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,Proceed handling Process
+test04_6,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,Proceed handling Process
+test04_6,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,Proceed handling Process
+test04_6,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",Proceed handling Process
+test04_6,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",Proceed handling Process
+test04_6,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",Proceed handling Process
+test04_6,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",Proceed handling Process
+test04_6,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,Proceed handling Process
+test04_6,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",Proceed handling Process
+test04_6,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",Proceed handling Process
+test04_6,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",Proceed handling Process
+test04_7,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,claim processed
+test04_7,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",claim processed
+test04_7,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",claim processed
+test04_7,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",claim processed
+test04_7,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,claim processed
+test04_7,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",claim processed
+test04_7,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",claim processed
+test04_7,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",claim processed
+test04_7,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,claim processed
+test04_7,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,claim processed
+test04_7,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,claim processed
+test04_7,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,claim processed
+test04_7,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",claim processed
+test04_7,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",claim processed
+test04_7,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",claim processed
+test04_7,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",claim processed
+test04_7,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,claim processed
+test04_7,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",claim processed
+test04_7,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",claim processed
+test04_7,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",claim processed
+test04_8,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,process claim
+test04_8,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",process claim
+test04_8,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",process claim
+test04_8,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",process claim
+test04_8,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,process claim
+test04_8,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",process claim
+test04_8,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",process claim
+test04_8,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",process claim
+test04_8,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,process claim
+test04_8,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,process claim
+test04_8,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,process claim
+test04_8,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,process claim
+test04_8,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",process claim
+test04_8,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",process claim
+test04_8,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",process claim
+test04_8,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",process claim
+test04_8,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,process claim
+test04_8,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",process claim
+test04_8,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",process claim
+test04_8,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",process claim
+test04_9,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,handle proceeding process
+test04_9,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",handle proceeding process
+test04_9,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",handle proceeding process
+test04_9,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",handle proceeding process
+test04_9,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,handle proceeding process
+test04_9,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",handle proceeding process
+test04_9,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",handle proceeding process
+test04_9,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",handle proceeding process
+test04_9,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,handle proceeding process
+test04_9,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,handle proceeding process
+test04_9,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,handle proceeding process
+test04_9,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,handle proceeding process
+test04_9,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",handle proceeding process
+test04_9,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",handle proceeding process
+test04_9,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",handle proceeding process
+test04_9,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",handle proceeding process
+test04_9,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,handle proceeding process
+test04_9,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",handle proceeding process
+test04_9,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",handle proceeding process
+test04_9,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",handle proceeding process
+test04_10,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,process claim
+test04_10,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",process claim
+test04_10,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",process claim
+test04_10,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",process claim
+test04_10,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,process claim
+test04_10,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",process claim
+test04_10,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",process claim
+test04_10,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",process claim
+test04_10,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,process claim
+test04_10,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,process claim
+test04_10,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,process claim
+test04_10,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,process claim
+test04_10,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",process claim
+test04_10,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",process claim
+test04_10,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",process claim
+test04_10,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",process claim
+test04_10,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,process claim
+test04_10,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",process claim
+test04_10,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",process claim
+test04_10,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",process claim
+test04_11,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,inform to update
+test04_11,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",inform to update
+test04_11,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",inform to update
+test04_11,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",inform to update
+test04_11,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,inform to update
+test04_11,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",inform to update
+test04_11,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",inform to update
+test04_11,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",inform to update
+test04_11,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,inform to update
+test04_11,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,inform to update
+test04_11,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,inform to update
+test04_11,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,inform to update
+test04_11,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",inform to update
+test04_11,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",inform to update
+test04_11,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",inform to update
+test04_11,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",inform to update
+test04_11,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,inform to update
+test04_11,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",inform to update
+test04_11,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",inform to update
+test04_11,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",inform to update
+test04_12,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,handle claim
+test04_12,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",handle claim
+test04_12,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",handle claim
+test04_12,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",handle claim
+test04_12,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,handle claim
+test04_12,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",handle claim
+test04_12,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",handle claim
+test04_12,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",handle claim
+test04_12,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,handle claim
+test04_12,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,handle claim
+test04_12,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,handle claim
+test04_12,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,handle claim
+test04_12,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",handle claim
+test04_12,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",handle claim
+test04_12,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",handle claim
+test04_12,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",handle claim
+test04_12,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,handle claim
+test04_12,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",handle claim
+test04_12,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",handle claim
+test04_12,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",handle claim
+test04_13,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,Claim processed
+test04_13,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",Claim processed
+test04_13,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",Claim processed
+test04_13,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",Claim processed
+test04_13,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,Claim processed
+test04_13,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",Claim processed
+test04_13,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",Claim processed
+test04_13,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",Claim processed
+test04_13,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,Claim processed
+test04_13,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,Claim processed
+test04_13,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,Claim processed
+test04_13,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,Claim processed
+test04_13,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",Claim processed
+test04_13,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",Claim processed
+test04_13,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",Claim processed
+test04_13,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",Claim processed
+test04_13,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,Claim processed
+test04_13,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",Claim processed
+test04_13,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",Claim processed
+test04_13,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",Claim processed
+test04_14,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,Proceed handling Process
+test04_14,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",Proceed handling Process
+test04_14,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",Proceed handling Process
+test04_14,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",Proceed handling Process
+test04_14,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,Proceed handling Process
+test04_14,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",Proceed handling Process
+test04_14,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",Proceed handling Process
+test04_14,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",Proceed handling Process
+test04_14,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,Proceed handling Process
+test04_14,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,Proceed handling Process
+test04_14,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,Proceed handling Process
+test04_14,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,Proceed handling Process
+test04_14,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",Proceed handling Process
+test04_14,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",Proceed handling Process
+test04_14,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",Proceed handling Process
+test04_14,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",Proceed handling Process
+test04_14,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,Proceed handling Process
+test04_14,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",Proceed handling Process
+test04_14,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",Proceed handling Process
+test04_14,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",Proceed handling Process
+test04_15,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,claim completed
+test04_15,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",claim completed
+test04_15,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",claim completed
+test04_15,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",claim completed
+test04_15,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,claim completed
+test04_15,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",claim completed
+test04_15,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",claim completed
+test04_15,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",claim completed
+test04_15,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,claim completed
+test04_15,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,claim completed
+test04_15,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,claim completed
+test04_15,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,claim completed
+test04_15,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",claim completed
+test04_15,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",claim completed
+test04_15,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",claim completed
+test04_15,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",claim completed
+test04_15,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,claim completed
+test04_15,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",claim completed
+test04_15,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",claim completed
+test04_15,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",claim completed
+test04_16,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,process claim
+test04_16,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",process claim
+test04_16,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",process claim
+test04_16,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",process claim
+test04_16,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,process claim
+test04_16,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",process claim
+test04_16,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",process claim
+test04_16,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",process claim
+test04_16,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,process claim
+test04_16,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,process claim
+test04_16,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,process claim
+test04_16,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,process claim
+test04_16,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",process claim
+test04_16,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",process claim
+test04_16,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",process claim
+test04_16,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",process claim
+test04_16,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,process claim
+test04_16,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",process claim
+test04_16,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",process claim
+test04_16,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",process claim
+test04_17,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,Handle claim
+test04_17,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",Handle claim
+test04_17,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",Handle claim
+test04_17,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",Handle claim
+test04_17,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,Handle claim
+test04_17,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",Handle claim
+test04_17,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",Handle claim
+test04_17,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",Handle claim
+test04_17,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,Handle claim
+test04_17,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,Handle claim
+test04_17,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,Handle claim
+test04_17,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,Handle claim
+test04_17,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",Handle claim
+test04_17,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",Handle claim
+test04_17,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",Handle claim
+test04_17,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",Handle claim
+test04_17,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,Handle claim
+test04_17,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",Handle claim
+test04_17,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",Handle claim
+test04_17,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",Handle claim
+test04_18,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,handle claim
+test04_18,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",handle claim
+test04_18,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",handle claim
+test04_18,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",handle claim
+test04_18,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,handle claim
+test04_18,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",handle claim
+test04_18,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",handle claim
+test04_18,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",handle claim
+test04_18,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,handle claim
+test04_18,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,handle claim
+test04_18,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,handle claim
+test04_18,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,handle claim
+test04_18,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",handle claim
+test04_18,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",handle claim
+test04_18,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",handle claim
+test04_18,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",handle claim
+test04_18,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,handle claim
+test04_18,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",handle claim
+test04_18,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",handle claim
+test04_18,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",handle claim
+test04_19,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,claimprocessed
+test04_19,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",claimprocessed
+test04_19,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",claimprocessed
+test04_19,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",claimprocessed
+test04_19,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,claimprocessed
+test04_19,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",claimprocessed
+test04_19,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",claimprocessed
+test04_19,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",claimprocessed
+test04_19,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,claimprocessed
+test04_19,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,claimprocessed
+test04_19,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,claimprocessed
+test04_19,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,claimprocessed
+test04_19,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",claimprocessed
+test04_19,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",claimprocessed
+test04_19,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",claimprocessed
+test04_19,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",claimprocessed
+test04_19,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,claimprocessed
+test04_19,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",claimprocessed
+test04_19,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",claimprocessed
+test04_19,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",claimprocessed
+test04_20,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,check complet
+test04_20,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",check complet
+test04_20,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",check complet
+test04_20,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",check complet
+test04_20,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,check complet
+test04_20,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",check complet
+test04_20,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",check complet
+test04_20,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",check complet
+test04_20,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,check complet
+test04_20,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,check complet
+test04_20,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,check complet
+test04_20,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,check complet
+test04_20,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",check complet
+test04_20,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",check complet
+test04_20,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",check complet
+test04_20,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",check complet
+test04_20,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,check complet
+test04_20,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",check complet
+test04_20,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",check complet
+test04_20,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",check complet
+test04_21,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,check recommendation
+test04_21,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",check recommendation
+test04_21,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",check recommendation
+test04_21,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",check recommendation
+test04_21,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,check recommendation
+test04_21,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",check recommendation
+test04_21,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",check recommendation
+test04_21,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",check recommendation
+test04_21,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,check recommendation
+test04_21,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,check recommendation
+test04_21,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,check recommendation
+test04_21,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,check recommendation
+test04_21,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",check recommendation
+test04_21,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",check recommendation
+test04_21,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",check recommendation
+test04_21,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",check recommendation
+test04_21,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,check recommendation
+test04_21,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",check recommendation
+test04_21,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",check recommendation
+test04_21,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",check recommendation
+test04_22,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,check recommendation
+test04_22,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",check recommendation
+test04_22,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",check recommendation
+test04_22,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",check recommendation
+test04_22,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,check recommendation
+test04_22,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",check recommendation
+test04_22,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",check recommendation
+test04_22,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",check recommendation
+test04_22,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,check recommendation
+test04_22,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,check recommendation
+test04_22,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,check recommendation
+test04_22,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,check recommendation
+test04_22,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",check recommendation
+test04_22,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",check recommendation
+test04_22,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",check recommendation
+test04_22,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",check recommendation
+test04_22,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,check recommendation
+test04_22,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",check recommendation
+test04_22,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",check recommendation
+test04_22,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",check recommendation
+test04_23,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,proceed recommendation
+test04_23,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",proceed recommendation
+test04_23,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",proceed recommendation
+test04_23,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",proceed recommendation
+test04_23,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,proceed recommendation
+test04_23,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",proceed recommendation
+test04_23,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",proceed recommendation
+test04_23,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",proceed recommendation
+test04_23,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,proceed recommendation
+test04_23,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,proceed recommendation
+test04_23,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,proceed recommendation
+test04_23,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,proceed recommendation
+test04_23,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",proceed recommendation
+test04_23,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",proceed recommendation
+test04_23,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",proceed recommendation
+test04_23,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",proceed recommendation
+test04_23,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,proceed recommendation
+test04_23,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",proceed recommendation
+test04_23,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",proceed recommendation
+test04_23,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",proceed recommendation
+test04_24,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,finish
+test04_24,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",finish
+test04_24,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",finish
+test04_24,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",finish
+test04_24,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,finish
+test04_24,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",finish
+test04_24,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",finish
+test04_24,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",finish
+test04_24,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,finish
+test04_24,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,finish
+test04_24,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,finish
+test04_24,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,finish
+test04_24,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",finish
+test04_24,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",finish
+test04_24,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",finish
+test04_24,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",finish
+test04_24,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,finish
+test04_24,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",finish
+test04_24,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",finish
+test04_24,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",finish
+test04_25,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,proceed handling Process
+test04_25,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",proceed handling Process
+test04_25,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",proceed handling Process
+test04_25,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",proceed handling Process
+test04_25,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,proceed handling Process
+test04_25,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",proceed handling Process
+test04_25,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",proceed handling Process
+test04_25,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",proceed handling Process
+test04_25,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,proceed handling Process
+test04_25,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,proceed handling Process
+test04_25,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,proceed handling Process
+test04_25,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,proceed handling Process
+test04_25,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",proceed handling Process
+test04_25,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",proceed handling Process
+test04_25,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",proceed handling Process
+test04_25,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",proceed handling Process
+test04_25,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,proceed handling Process
+test04_25,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",proceed handling Process
+test04_25,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",proceed handling Process
+test04_25,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",proceed handling Process
+test04_26,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,claim process
+test04_26,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",claim process
+test04_26,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",claim process
+test04_26,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",claim process
+test04_26,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,claim process
+test04_26,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",claim process
+test04_26,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",claim process
+test04_26,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",claim process
+test04_26,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,claim process
+test04_26,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,claim process
+test04_26,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,claim process
+test04_26,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,claim process
+test04_26,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",claim process
+test04_26,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",claim process
+test04_26,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",claim process
+test04_26,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",claim process
+test04_26,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,claim process
+test04_26,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",claim process
+test04_26,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",claim process
+test04_26,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",claim process
+test04_27,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,inform to update
+test04_27,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",inform to update
+test04_27,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",inform to update
+test04_27,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",inform to update
+test04_27,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,inform to update
+test04_27,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",inform to update
+test04_27,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",inform to update
+test04_27,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",inform to update
+test04_27,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,inform to update
+test04_27,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,inform to update
+test04_27,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,inform to update
+test04_27,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,inform to update
+test04_27,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",inform to update
+test04_27,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",inform to update
+test04_27,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",inform to update
+test04_27,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",inform to update
+test04_27,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,inform to update
+test04_27,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",inform to update
+test04_27,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",inform to update
+test04_27,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",inform to update
+test04_28,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,claim accepted
+test04_28,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",claim accepted
+test04_28,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",claim accepted
+test04_28,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",claim accepted
+test04_28,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,claim accepted
+test04_28,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",claim accepted
+test04_28,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",claim accepted
+test04_28,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",claim accepted
+test04_28,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,claim accepted
+test04_28,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,claim accepted
+test04_28,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,claim accepted
+test04_28,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,claim accepted
+test04_28,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",claim accepted
+test04_28,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",claim accepted
+test04_28,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",claim accepted
+test04_28,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",claim accepted
+test04_28,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,claim accepted
+test04_28,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",claim accepted
+test04_28,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",claim accepted
+test04_28,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",claim accepted
+test04_29,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,inform claim
+test04_29,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",inform claim
+test04_29,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",inform claim
+test04_29,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",inform claim
+test04_29,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,inform claim
+test04_29,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",inform claim
+test04_29,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",inform claim
+test04_29,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",inform claim
+test04_29,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,inform claim
+test04_29,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,inform claim
+test04_29,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,inform claim
+test04_29,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,inform claim
+test04_29,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",inform claim
+test04_29,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",inform claim
+test04_29,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",inform claim
+test04_29,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",inform claim
+test04_29,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,inform claim
+test04_29,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",inform claim
+test04_29,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",inform claim
+test04_29,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",inform claim
+test04_30,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,finish
+test04_30,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",finish
+test04_30,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",finish
+test04_30,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",finish
+test04_30,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,finish
+test04_30,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",finish
+test04_30,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",finish
+test04_30,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",finish
+test04_30,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,finish
+test04_30,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,finish
+test04_30,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,finish
+test04_30,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,finish
+test04_30,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",finish
+test04_30,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",finish
+test04_30,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",finish
+test04_30,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",finish
+test04_30,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,finish
+test04_30,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",finish
+test04_30,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",finish
+test04_30,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",finish
+test04_31,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,accept claim
+test04_31,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",accept claim
+test04_31,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",accept claim
+test04_31,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",accept claim
+test04_31,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,accept claim
+test04_31,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",accept claim
+test04_31,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",accept claim
+test04_31,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",accept claim
+test04_31,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,accept claim
+test04_31,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,accept claim
+test04_31,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,accept claim
+test04_31,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,accept claim
+test04_31,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",accept claim
+test04_31,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",accept claim
+test04_31,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",accept claim
+test04_31,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",accept claim
+test04_31,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,accept claim
+test04_31,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",accept claim
+test04_31,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",accept claim
+test04_31,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",accept claim
+test04_32,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,claim accepted
+test04_32,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",claim accepted
+test04_32,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",claim accepted
+test04_32,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",claim accepted
+test04_32,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,claim accepted
+test04_32,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",claim accepted
+test04_32,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",claim accepted
+test04_32,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",claim accepted
+test04_32,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,claim accepted
+test04_32,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,claim accepted
+test04_32,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,claim accepted
+test04_32,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,claim accepted
+test04_32,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",claim accepted
+test04_32,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",claim accepted
+test04_32,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",claim accepted
+test04_32,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",claim accepted
+test04_32,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,claim accepted
+test04_32,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",claim accepted
+test04_32,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",claim accepted
+test04_32,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",claim accepted
+test04_33,SAP-based insurance claims processing,A failure in the SAP system’s interface with the bank payment system causes delays in claims payments.,request completed
+test04_33,SAP-based insurance claims processing,"The client submits fraudulent claims materials, necessitating strengthened review processes.",request completed
+test04_33,SAP-based insurance claims processing,"Natural disasters (e.g., earthquakes, floods) lead to a surge in claims applications.",request completed
+test04_33,SAP-based insurance claims processing,"The insurance company’s system crashes, causing delays in claims processing.",request completed
+test04_33,SAP-based insurance claims processing,Sudden changes in laws and regulations require a reevaluation of claims standards.,request completed
+test04_33,SAP-based insurance claims processing,"A major accident results in widespread personal injuries, increasing the complexity of claims cases.",request completed
+test04_33,SAP-based insurance claims processing,"A security vulnerability in the SAP system is exploited, leading to the leakage of sensitive customer information.' laws and currency conversion.",request completed
+test04_33,SAP-based insurance claims processing,"The client files a lawsuit due to dissatisfaction with the claims outcome, impacting the claims process.",request completed
+test04_33,SAP-based insurance claims processing,A major change in insurance products requires a reassessment and adjustment of the existing claims processing procedures.,request completed
+test04_33,SAP-based insurance claims processing,An increase in insurance fraud cases leads to the implementation of new verification mechanisms.,request completed
+test04_33,SAP-based insurance claims processing,Issues with the client’s medical expense payments lead to delays in the claims process.,request completed
+test04_33,SAP-based insurance claims processing,Policy changes result in certain claims no longer meeting the insurance terms.,request completed
+test04_33,SAP-based insurance claims processing,"A technical failure causes the loss of claims application data, requiring manual recovery.",request completed
+test04_33,SAP-based insurance claims processing,"Claims require external expert evaluations, extending the processing time.",request completed
+test04_33,SAP-based insurance claims processing,"Due to the pandemic, face-to-face interviews or assessments in the claims process are restricted.",request completed
+test04_33,SAP-based insurance claims processing,"A claims case involves multiple insurance companies for joint compensation, increasing coordination complexity.",request completed
+test04_33,SAP-based insurance claims processing,Sudden social unrest or political events lead to a surge in claims applications from affected customers.,request completed
+test04_33,SAP-based insurance claims processing,"A severe weather event causes widespread property damage, and the insurance company cannot promptly verify the extent of the loss.",request completed
+test04_33,SAP-based insurance claims processing,"The claims process involves multiple parties with disputed responsibilities, causing delays and disputes.",request completed
+test04_33,SAP-based insurance claims processing,"The insurance company faces a cyberattack, leading to a data breach that affects claims verification.",request completed

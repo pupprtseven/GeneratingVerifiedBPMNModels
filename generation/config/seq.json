@@ -1,0 +1,24 @@
+{
+    "variables": [
+        "REQUIREMENT",
+        "FORMATTASK"
+    ],
+    "name": "Analyze the requirement description to identify potential logical dependencies among tasks, then generate the direct sequence of task execution while considering both intra-actor and inter-actor dependencies.",
+    "prompt": "You are given a REQUIREMENT and a SYMBOL table. Your task is to generate the full BPMN execution structure, including both control flow and message flow, as a structured JSON.\n\n1. CONTROL FLOW:\n- Each actor has a designated start node (e.g., S1 for A, S2 for B) and a designated end node (e.g., E1, E2).\n- Each actor's control flow must be a fully connected path, including loops and message receivers.\n- If a task is repeated (e.g., retry every hour), insert a timer task node (e.g., T5-t1) and model the loop as: Task → Timer → Task.\n- If a task receives a message from another actor, insert it as a message receiver (e.g., T6-r1), and include it in the control flow sequence.\n\n2. MESSAGE FLOW:\n- A message flow connects a task of one actor to a message receiver of another actor.\n- Each message_flow must have: { \"from_actor\": ..., \"to_actor\": ..., \"from\": <sender_task>, \"to\": <receiver_task> }.\n- Each message-receiver task (e.g., T6-r1, T5-r1, T7-r1) must also appear in control_flow.\n\n3. NAMING RULES:\n- Timer task: add suffix \"-t1\" after the task (e.g., T5-t1).\n- Message receiver task: add suffix \"-r1\" (e.g., T6-r1, T5-r1).\n- Do not invent new tasks; use only symbols from the SYMBOL table.\n\n4. OUTPUT FORMAT:\nReturn a JSON object with two keys: \"control_flow\" and \"message_flow\".\n- control_flow: list of { \"actor\", \"from\", \"to\" }.\n- message_flow: list of { \"from_actor\", \"to_actor\", \"from\", \"to\" }.\n\n5. OUTPUT CONSTRAINTS:\n- Do NOT use markdown or code blocks.\n- Do NOT include comments (// or /* */) in the JSON output.\n- All message receivers must appear in both control_flow and message_flow.\n- Maintain logical consistency: control flows must be connected, and message flows must not be standalone.\n\n6. EXPLANATION:\n- Briefly describe how timer loops and message receivers were placed.\n- Confirm that message flows link correct sender and receiver tasks that also appear in control_flow.\n\nIMPORTANT: Output ONLY valid JSON format. Do not include any comments, explanations, or markdown formatting within the JSON structure.",
+    "output": [
+        "control_flow",
+        "message_flow"
+    ],
+    "format": {
+        "control_flow": "JSON array format: [{\"actor\": \"A\", \"from\": \"S1\", \"to\": \"T1\"}, {\"actor\": \"A\", \"from\": \"T1\", \"to\": \"T2\"}]",
+        "message_flow": "JSON array format: [{\"from_actor\": \"A\", \"to_actor\": \"B\", \"from\": \"T5\", \"to\": \"T5-r1\"}]",
+        "start_node_pattern": "<actor_symbol>-st",
+        "output_constraints": [
+            "fully_connected_subgraph_per_actor",
+            "maintain_logical_execution_order",
+            "start_from_designated_start_node",
+            "no_comments_in_json"
+        ],
+        "loop_modeling": "Task → Timer Event → Task"
+    }
+}

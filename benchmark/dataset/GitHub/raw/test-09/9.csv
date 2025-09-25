@@ -1,0 +1,290 @@
+business_model_idx,business_scenario,LTC,business_object
+test09_0,school course enrollment allocation,Network issues prevent students from submitting their course registration requests on time during peak registration periods.,assign students
+test09_0,school course enrollment allocation,"There are insufficient course slots, and students are unable to enroll in their preferred courses.",assign students
+test09_0,school course enrollment allocation,"The system crashes, preventing students from successfully enrolling in courses.",assign students
+test09_0,school course enrollment allocation,"The course registration system does not update course information in time, causing students to enroll in incorrect courses.",assign students
+test09_0,school course enrollment allocation,Courses with too few enrolled students are canceled because they do not meet the minimum enrollment requirements.,assign students
+test09_0,school course enrollment allocation,Excessive allocation errors cause students to be enrolled in courses that do not align with their personal preferences or requirements.,assign students
+test09_0,school course enrollment allocation,The unclear interface design causes students to mistakenly enroll in the wrong courses during registration.,assign students
+test09_0,school course enrollment allocation,"The course schedule does not take into account other academic commitments, leading to scheduling conflicts for students.",assign students
+test09_0,school course enrollment allocation,"Course materials or textbooks are not distributed on time, affecting students' ability to prepare for or select courses.",assign students
+test09_0,school course enrollment allocation,"Students’ information is misclassified during registration, leading to inaccurate course recommendations.",assign students
+test09_0,school course enrollment allocation,Course schedule conflicts prevent students from enrolling in multiple essential courses.,assign students
+test09_0,school course enrollment allocation,Technical issues with the course registration system cause students’ enrollment data to be lost.,assign students
+test09_0,school course enrollment allocation,"The course registration system fails to check prerequisites, leading students to enroll in courses they do not qualify for.",assign students
+test09_0,school course enrollment allocation,"Students fail to receive timely information about course changes or cancellations, leading to incorrect course enrollment.",assign students
+test09_0,school course enrollment allocation,"The high number of course registrations overloads the system, causing slow processing and preventing students from enrolling.",assign students
+test09_0,school course enrollment allocation,Last-minute changes in course instructors disrupt students’ course selection plans.,assign students
+test09_0,school course enrollment allocation,"The course registration system does not support interdisciplinary enrollment, preventing students from taking cross-department courses.",assign students
+test09_1,school course enrollment allocation,Network issues prevent students from submitting their course registration requests on time during peak registration periods.,send list back
+test09_1,school course enrollment allocation,"There are insufficient course slots, and students are unable to enroll in their preferred courses.",send list back
+test09_1,school course enrollment allocation,"The system crashes, preventing students from successfully enrolling in courses.",send list back
+test09_1,school course enrollment allocation,"The course registration system does not update course information in time, causing students to enroll in incorrect courses.",send list back
+test09_1,school course enrollment allocation,Courses with too few enrolled students are canceled because they do not meet the minimum enrollment requirements.,send list back
+test09_1,school course enrollment allocation,Excessive allocation errors cause students to be enrolled in courses that do not align with their personal preferences or requirements.,send list back
+test09_1,school course enrollment allocation,The unclear interface design causes students to mistakenly enroll in the wrong courses during registration.,send list back
+test09_1,school course enrollment allocation,"The course schedule does not take into account other academic commitments, leading to scheduling conflicts for students.",send list back
+test09_1,school course enrollment allocation,"Course materials or textbooks are not distributed on time, affecting students' ability to prepare for or select courses.",send list back
+test09_1,school course enrollment allocation,"Students’ information is misclassified during registration, leading to inaccurate course recommendations.",send list back
+test09_1,school course enrollment allocation,Course schedule conflicts prevent students from enrolling in multiple essential courses.,send list back
+test09_1,school course enrollment allocation,Technical issues with the course registration system cause students’ enrollment data to be lost.,send list back
+test09_1,school course enrollment allocation,"The course registration system fails to check prerequisites, leading students to enroll in courses they do not qualify for.",send list back
+test09_1,school course enrollment allocation,"Students fail to receive timely information about course changes or cancellations, leading to incorrect course enrollment.",send list back
+test09_1,school course enrollment allocation,"The high number of course registrations overloads the system, causing slow processing and preventing students from enrolling.",send list back
+test09_1,school course enrollment allocation,Last-minute changes in course instructors disrupt students’ course selection plans.,send list back
+test09_1,school course enrollment allocation,"The course registration system does not support interdisciplinary enrollment, preventing students from taking cross-department courses.",send list back
+test09_2,school course enrollment allocation,Network issues prevent students from submitting their course registration requests on time during peak registration periods.,assign students to free course
+test09_2,school course enrollment allocation,"There are insufficient course slots, and students are unable to enroll in their preferred courses.",assign students to free course
+test09_2,school course enrollment allocation,"The system crashes, preventing students from successfully enrolling in courses.",assign students to free course
+test09_2,school course enrollment allocation,"The course registration system does not update course information in time, causing students to enroll in incorrect courses.",assign students to free course
+test09_2,school course enrollment allocation,Courses with too few enrolled students are canceled because they do not meet the minimum enrollment requirements.,assign students to free course
+test09_2,school course enrollment allocation,Excessive allocation errors cause students to be enrolled in courses that do not align with their personal preferences or requirements.,assign students to free course
+test09_2,school course enrollment allocation,The unclear interface design causes students to mistakenly enroll in the wrong courses during registration.,assign students to free course
+test09_2,school course enrollment allocation,"The course schedule does not take into account other academic commitments, leading to scheduling conflicts for students.",assign students to free course
+test09_2,school course enrollment allocation,"Course materials or textbooks are not distributed on time, affecting students' ability to prepare for or select courses.",assign students to free course
+test09_2,school course enrollment allocation,"Students’ information is misclassified during registration, leading to inaccurate course recommendations.",assign students to free course
+test09_2,school course enrollment allocation,Course schedule conflicts prevent students from enrolling in multiple essential courses.,assign students to free course
+test09_2,school course enrollment allocation,Technical issues with the course registration system cause students’ enrollment data to be lost.,assign students to free course
+test09_2,school course enrollment allocation,"The course registration system fails to check prerequisites, leading students to enroll in courses they do not qualify for.",assign students to free course
+test09_2,school course enrollment allocation,"Students fail to receive timely information about course changes or cancellations, leading to incorrect course enrollment.",assign students to free course
+test09_2,school course enrollment allocation,"The high number of course registrations overloads the system, causing slow processing and preventing students from enrolling.",assign students to free course
+test09_2,school course enrollment allocation,Last-minute changes in course instructors disrupt students’ course selection plans.,assign students to free course
+test09_2,school course enrollment allocation,"The course registration system does not support interdisciplinary enrollment, preventing students from taking cross-department courses.",assign students to free course
+test09_3,school course enrollment allocation,Network issues prevent students from submitting their course registration requests on time during peak registration periods.,send result
+test09_3,school course enrollment allocation,"There are insufficient course slots, and students are unable to enroll in their preferred courses.",send result
+test09_3,school course enrollment allocation,"The system crashes, preventing students from successfully enrolling in courses.",send result
+test09_3,school course enrollment allocation,"The course registration system does not update course information in time, causing students to enroll in incorrect courses.",send result
+test09_3,school course enrollment allocation,Courses with too few enrolled students are canceled because they do not meet the minimum enrollment requirements.,send result
+test09_3,school course enrollment allocation,Excessive allocation errors cause students to be enrolled in courses that do not align with their personal preferences or requirements.,send result
+test09_3,school course enrollment allocation,The unclear interface design causes students to mistakenly enroll in the wrong courses during registration.,send result
+test09_3,school course enrollment allocation,"The course schedule does not take into account other academic commitments, leading to scheduling conflicts for students.",send result
+test09_3,school course enrollment allocation,"Course materials or textbooks are not distributed on time, affecting students' ability to prepare for or select courses.",send result
+test09_3,school course enrollment allocation,"Students’ information is misclassified during registration, leading to inaccurate course recommendations.",send result
+test09_3,school course enrollment allocation,Course schedule conflicts prevent students from enrolling in multiple essential courses.,send result
+test09_3,school course enrollment allocation,Technical issues with the course registration system cause students’ enrollment data to be lost.,send result
+test09_3,school course enrollment allocation,"The course registration system fails to check prerequisites, leading students to enroll in courses they do not qualify for.",send result
+test09_3,school course enrollment allocation,"Students fail to receive timely information about course changes or cancellations, leading to incorrect course enrollment.",send result
+test09_3,school course enrollment allocation,"The high number of course registrations overloads the system, causing slow processing and preventing students from enrolling.",send result
+test09_3,school course enrollment allocation,Last-minute changes in course instructors disrupt students’ course selection plans.,send result
+test09_3,school course enrollment allocation,"The course registration system does not support interdisciplinary enrollment, preventing students from taking cross-department courses.",send result
+test09_4,school course enrollment allocation,Network issues prevent students from submitting their course registration requests on time during peak registration periods.,assign student
+test09_4,school course enrollment allocation,"There are insufficient course slots, and students are unable to enroll in their preferred courses.",assign student
+test09_4,school course enrollment allocation,"The system crashes, preventing students from successfully enrolling in courses.",assign student
+test09_4,school course enrollment allocation,"The course registration system does not update course information in time, causing students to enroll in incorrect courses.",assign student
+test09_4,school course enrollment allocation,Courses with too few enrolled students are canceled because they do not meet the minimum enrollment requirements.,assign student
+test09_4,school course enrollment allocation,Excessive allocation errors cause students to be enrolled in courses that do not align with their personal preferences or requirements.,assign student
+test09_4,school course enrollment allocation,The unclear interface design causes students to mistakenly enroll in the wrong courses during registration.,assign student
+test09_4,school course enrollment allocation,"The course schedule does not take into account other academic commitments, leading to scheduling conflicts for students.",assign student
+test09_4,school course enrollment allocation,"Course materials or textbooks are not distributed on time, affecting students' ability to prepare for or select courses.",assign student
+test09_4,school course enrollment allocation,"Students’ information is misclassified during registration, leading to inaccurate course recommendations.",assign student
+test09_4,school course enrollment allocation,Course schedule conflicts prevent students from enrolling in multiple essential courses.,assign student
+test09_4,school course enrollment allocation,Technical issues with the course registration system cause students’ enrollment data to be lost.,assign student
+test09_4,school course enrollment allocation,"The course registration system fails to check prerequisites, leading students to enroll in courses they do not qualify for.",assign student
+test09_4,school course enrollment allocation,"Students fail to receive timely information about course changes or cancellations, leading to incorrect course enrollment.",assign student
+test09_4,school course enrollment allocation,"The high number of course registrations overloads the system, causing slow processing and preventing students from enrolling.",assign student
+test09_4,school course enrollment allocation,Last-minute changes in course instructors disrupt students’ course selection plans.,assign student
+test09_4,school course enrollment allocation,"The course registration system does not support interdisciplinary enrollment, preventing students from taking cross-department courses.",assign student
+test09_5,school course enrollment allocation,Network issues prevent students from submitting their course registration requests on time during peak registration periods.,assign students
+test09_5,school course enrollment allocation,"There are insufficient course slots, and students are unable to enroll in their preferred courses.",assign students
+test09_5,school course enrollment allocation,"The system crashes, preventing students from successfully enrolling in courses.",assign students
+test09_5,school course enrollment allocation,"The course registration system does not update course information in time, causing students to enroll in incorrect courses.",assign students
+test09_5,school course enrollment allocation,Courses with too few enrolled students are canceled because they do not meet the minimum enrollment requirements.,assign students
+test09_5,school course enrollment allocation,Excessive allocation errors cause students to be enrolled in courses that do not align with their personal preferences or requirements.,assign students
+test09_5,school course enrollment allocation,The unclear interface design causes students to mistakenly enroll in the wrong courses during registration.,assign students
+test09_5,school course enrollment allocation,"The course schedule does not take into account other academic commitments, leading to scheduling conflicts for students.",assign students
+test09_5,school course enrollment allocation,"Course materials or textbooks are not distributed on time, affecting students' ability to prepare for or select courses.",assign students
+test09_5,school course enrollment allocation,"Students’ information is misclassified during registration, leading to inaccurate course recommendations.",assign students
+test09_5,school course enrollment allocation,Course schedule conflicts prevent students from enrolling in multiple essential courses.,assign students
+test09_5,school course enrollment allocation,Technical issues with the course registration system cause students’ enrollment data to be lost.,assign students
+test09_5,school course enrollment allocation,"The course registration system fails to check prerequisites, leading students to enroll in courses they do not qualify for.",assign students
+test09_5,school course enrollment allocation,"Students fail to receive timely information about course changes or cancellations, leading to incorrect course enrollment.",assign students
+test09_5,school course enrollment allocation,"The high number of course registrations overloads the system, causing slow processing and preventing students from enrolling.",assign students
+test09_5,school course enrollment allocation,Last-minute changes in course instructors disrupt students’ course selection plans.,assign students
+test09_5,school course enrollment allocation,"The course registration system does not support interdisciplinary enrollment, preventing students from taking cross-department courses.",assign students
+test09_6,school course enrollment allocation,Network issues prevent students from submitting their course registration requests on time during peak registration periods.,report result
+test09_6,school course enrollment allocation,"There are insufficient course slots, and students are unable to enroll in their preferred courses.",report result
+test09_6,school course enrollment allocation,"The system crashes, preventing students from successfully enrolling in courses.",report result
+test09_6,school course enrollment allocation,"The course registration system does not update course information in time, causing students to enroll in incorrect courses.",report result
+test09_6,school course enrollment allocation,Courses with too few enrolled students are canceled because they do not meet the minimum enrollment requirements.,report result
+test09_6,school course enrollment allocation,Excessive allocation errors cause students to be enrolled in courses that do not align with their personal preferences or requirements.,report result
+test09_6,school course enrollment allocation,The unclear interface design causes students to mistakenly enroll in the wrong courses during registration.,report result
+test09_6,school course enrollment allocation,"The course schedule does not take into account other academic commitments, leading to scheduling conflicts for students.",report result
+test09_6,school course enrollment allocation,"Course materials or textbooks are not distributed on time, affecting students' ability to prepare for or select courses.",report result
+test09_6,school course enrollment allocation,"Students’ information is misclassified during registration, leading to inaccurate course recommendations.",report result
+test09_6,school course enrollment allocation,Course schedule conflicts prevent students from enrolling in multiple essential courses.,report result
+test09_6,school course enrollment allocation,Technical issues with the course registration system cause students’ enrollment data to be lost.,report result
+test09_6,school course enrollment allocation,"The course registration system fails to check prerequisites, leading students to enroll in courses they do not qualify for.",report result
+test09_6,school course enrollment allocation,"Students fail to receive timely information about course changes or cancellations, leading to incorrect course enrollment.",report result
+test09_6,school course enrollment allocation,"The high number of course registrations overloads the system, causing slow processing and preventing students from enrolling.",report result
+test09_6,school course enrollment allocation,Last-minute changes in course instructors disrupt students’ course selection plans.,report result
+test09_6,school course enrollment allocation,"The course registration system does not support interdisciplinary enrollment, preventing students from taking cross-department courses.",report result
+test09_7,school course enrollment allocation,Network issues prevent students from submitting their course registration requests on time during peak registration periods.,give result
+test09_7,school course enrollment allocation,"There are insufficient course slots, and students are unable to enroll in their preferred courses.",give result
+test09_7,school course enrollment allocation,"The system crashes, preventing students from successfully enrolling in courses.",give result
+test09_7,school course enrollment allocation,"The course registration system does not update course information in time, causing students to enroll in incorrect courses.",give result
+test09_7,school course enrollment allocation,Courses with too few enrolled students are canceled because they do not meet the minimum enrollment requirements.,give result
+test09_7,school course enrollment allocation,Excessive allocation errors cause students to be enrolled in courses that do not align with their personal preferences or requirements.,give result
+test09_7,school course enrollment allocation,The unclear interface design causes students to mistakenly enroll in the wrong courses during registration.,give result
+test09_7,school course enrollment allocation,"The course schedule does not take into account other academic commitments, leading to scheduling conflicts for students.",give result
+test09_7,school course enrollment allocation,"Course materials or textbooks are not distributed on time, affecting students' ability to prepare for or select courses.",give result
+test09_7,school course enrollment allocation,"Students’ information is misclassified during registration, leading to inaccurate course recommendations.",give result
+test09_7,school course enrollment allocation,Course schedule conflicts prevent students from enrolling in multiple essential courses.,give result
+test09_7,school course enrollment allocation,Technical issues with the course registration system cause students’ enrollment data to be lost.,give result
+test09_7,school course enrollment allocation,"The course registration system fails to check prerequisites, leading students to enroll in courses they do not qualify for.",give result
+test09_7,school course enrollment allocation,"Students fail to receive timely information about course changes or cancellations, leading to incorrect course enrollment.",give result
+test09_7,school course enrollment allocation,"The high number of course registrations overloads the system, causing slow processing and preventing students from enrolling.",give result
+test09_7,school course enrollment allocation,Last-minute changes in course instructors disrupt students’ course selection plans.,give result
+test09_7,school course enrollment allocation,"The course registration system does not support interdisciplinary enrollment, preventing students from taking cross-department courses.",give result
+test09_8,school course enrollment allocation,Network issues prevent students from submitting their course registration requests on time during peak registration periods.,Assign Student
+test09_8,school course enrollment allocation,"There are insufficient course slots, and students are unable to enroll in their preferred courses.",Assign Student
+test09_8,school course enrollment allocation,"The system crashes, preventing students from successfully enrolling in courses.",Assign Student
+test09_8,school course enrollment allocation,"The course registration system does not update course information in time, causing students to enroll in incorrect courses.",Assign Student
+test09_8,school course enrollment allocation,Courses with too few enrolled students are canceled because they do not meet the minimum enrollment requirements.,Assign Student
+test09_8,school course enrollment allocation,Excessive allocation errors cause students to be enrolled in courses that do not align with their personal preferences or requirements.,Assign Student
+test09_8,school course enrollment allocation,The unclear interface design causes students to mistakenly enroll in the wrong courses during registration.,Assign Student
+test09_8,school course enrollment allocation,"The course schedule does not take into account other academic commitments, leading to scheduling conflicts for students.",Assign Student
+test09_8,school course enrollment allocation,"Course materials or textbooks are not distributed on time, affecting students' ability to prepare for or select courses.",Assign Student
+test09_8,school course enrollment allocation,"Students’ information is misclassified during registration, leading to inaccurate course recommendations.",Assign Student
+test09_8,school course enrollment allocation,Course schedule conflicts prevent students from enrolling in multiple essential courses.,Assign Student
+test09_8,school course enrollment allocation,Technical issues with the course registration system cause students’ enrollment data to be lost.,Assign Student
+test09_8,school course enrollment allocation,"The course registration system fails to check prerequisites, leading students to enroll in courses they do not qualify for.",Assign Student
+test09_8,school course enrollment allocation,"Students fail to receive timely information about course changes or cancellations, leading to incorrect course enrollment.",Assign Student
+test09_8,school course enrollment allocation,"The high number of course registrations overloads the system, causing slow processing and preventing students from enrolling.",Assign Student
+test09_8,school course enrollment allocation,Last-minute changes in course instructors disrupt students’ course selection plans.,Assign Student
+test09_8,school course enrollment allocation,"The course registration system does not support interdisciplinary enrollment, preventing students from taking cross-department courses.",Assign Student
+test09_9,school course enrollment allocation,Network issues prevent students from submitting their course registration requests on time during peak registration periods.,course selected
+test09_9,school course enrollment allocation,"There are insufficient course slots, and students are unable to enroll in their preferred courses.",course selected
+test09_9,school course enrollment allocation,"The system crashes, preventing students from successfully enrolling in courses.",course selected
+test09_9,school course enrollment allocation,"The course registration system does not update course information in time, causing students to enroll in incorrect courses.",course selected
+test09_9,school course enrollment allocation,Courses with too few enrolled students are canceled because they do not meet the minimum enrollment requirements.,course selected
+test09_9,school course enrollment allocation,Excessive allocation errors cause students to be enrolled in courses that do not align with their personal preferences or requirements.,course selected
+test09_9,school course enrollment allocation,The unclear interface design causes students to mistakenly enroll in the wrong courses during registration.,course selected
+test09_9,school course enrollment allocation,"The course schedule does not take into account other academic commitments, leading to scheduling conflicts for students.",course selected
+test09_9,school course enrollment allocation,"Course materials or textbooks are not distributed on time, affecting students' ability to prepare for or select courses.",course selected
+test09_9,school course enrollment allocation,"Students’ information is misclassified during registration, leading to inaccurate course recommendations.",course selected
+test09_9,school course enrollment allocation,Course schedule conflicts prevent students from enrolling in multiple essential courses.,course selected
+test09_9,school course enrollment allocation,Technical issues with the course registration system cause students’ enrollment data to be lost.,course selected
+test09_9,school course enrollment allocation,"The course registration system fails to check prerequisites, leading students to enroll in courses they do not qualify for.",course selected
+test09_9,school course enrollment allocation,"Students fail to receive timely information about course changes or cancellations, leading to incorrect course enrollment.",course selected
+test09_9,school course enrollment allocation,"The high number of course registrations overloads the system, causing slow processing and preventing students from enrolling.",course selected
+test09_9,school course enrollment allocation,Last-minute changes in course instructors disrupt students’ course selection plans.,course selected
+test09_9,school course enrollment allocation,"The course registration system does not support interdisciplinary enrollment, preventing students from taking cross-department courses.",course selected
+test09_10,school course enrollment allocation,Network issues prevent students from submitting their course registration requests on time during peak registration periods.,assign student
+test09_10,school course enrollment allocation,"There are insufficient course slots, and students are unable to enroll in their preferred courses.",assign student
+test09_10,school course enrollment allocation,"The system crashes, preventing students from successfully enrolling in courses.",assign student
+test09_10,school course enrollment allocation,"The course registration system does not update course information in time, causing students to enroll in incorrect courses.",assign student
+test09_10,school course enrollment allocation,Courses with too few enrolled students are canceled because they do not meet the minimum enrollment requirements.,assign student
+test09_10,school course enrollment allocation,Excessive allocation errors cause students to be enrolled in courses that do not align with their personal preferences or requirements.,assign student
+test09_10,school course enrollment allocation,The unclear interface design causes students to mistakenly enroll in the wrong courses during registration.,assign student
+test09_10,school course enrollment allocation,"The course schedule does not take into account other academic commitments, leading to scheduling conflicts for students.",assign student
+test09_10,school course enrollment allocation,"Course materials or textbooks are not distributed on time, affecting students' ability to prepare for or select courses.",assign student
+test09_10,school course enrollment allocation,"Students’ information is misclassified during registration, leading to inaccurate course recommendations.",assign student
+test09_10,school course enrollment allocation,Course schedule conflicts prevent students from enrolling in multiple essential courses.,assign student
+test09_10,school course enrollment allocation,Technical issues with the course registration system cause students’ enrollment data to be lost.,assign student
+test09_10,school course enrollment allocation,"The course registration system fails to check prerequisites, leading students to enroll in courses they do not qualify for.",assign student
+test09_10,school course enrollment allocation,"Students fail to receive timely information about course changes or cancellations, leading to incorrect course enrollment.",assign student
+test09_10,school course enrollment allocation,"The high number of course registrations overloads the system, causing slow processing and preventing students from enrolling.",assign student
+test09_10,school course enrollment allocation,Last-minute changes in course instructors disrupt students’ course selection plans.,assign student
+test09_10,school course enrollment allocation,"The course registration system does not support interdisciplinary enrollment, preventing students from taking cross-department courses.",assign student
+test09_11,school course enrollment allocation,Network issues prevent students from submitting their course registration requests on time during peak registration periods.,assign student to courses
+test09_11,school course enrollment allocation,"There are insufficient course slots, and students are unable to enroll in their preferred courses.",assign student to courses
+test09_11,school course enrollment allocation,"The system crashes, preventing students from successfully enrolling in courses.",assign student to courses
+test09_11,school course enrollment allocation,"The course registration system does not update course information in time, causing students to enroll in incorrect courses.",assign student to courses
+test09_11,school course enrollment allocation,Courses with too few enrolled students are canceled because they do not meet the minimum enrollment requirements.,assign student to courses
+test09_11,school course enrollment allocation,Excessive allocation errors cause students to be enrolled in courses that do not align with their personal preferences or requirements.,assign student to courses
+test09_11,school course enrollment allocation,The unclear interface design causes students to mistakenly enroll in the wrong courses during registration.,assign student to courses
+test09_11,school course enrollment allocation,"The course schedule does not take into account other academic commitments, leading to scheduling conflicts for students.",assign student to courses
+test09_11,school course enrollment allocation,"Course materials or textbooks are not distributed on time, affecting students' ability to prepare for or select courses.",assign student to courses
+test09_11,school course enrollment allocation,"Students’ information is misclassified during registration, leading to inaccurate course recommendations.",assign student to courses
+test09_11,school course enrollment allocation,Course schedule conflicts prevent students from enrolling in multiple essential courses.,assign student to courses
+test09_11,school course enrollment allocation,Technical issues with the course registration system cause students’ enrollment data to be lost.,assign student to courses
+test09_11,school course enrollment allocation,"The course registration system fails to check prerequisites, leading students to enroll in courses they do not qualify for.",assign student to courses
+test09_11,school course enrollment allocation,"Students fail to receive timely information about course changes or cancellations, leading to incorrect course enrollment.",assign student to courses
+test09_11,school course enrollment allocation,"The high number of course registrations overloads the system, causing slow processing and preventing students from enrolling.",assign student to courses
+test09_11,school course enrollment allocation,Last-minute changes in course instructors disrupt students’ course selection plans.,assign student to courses
+test09_11,school course enrollment allocation,"The course registration system does not support interdisciplinary enrollment, preventing students from taking cross-department courses.",assign student to courses
+test09_12,school course enrollment allocation,Network issues prevent students from submitting their course registration requests on time during peak registration periods.,finish select course
+test09_12,school course enrollment allocation,"There are insufficient course slots, and students are unable to enroll in their preferred courses.",finish select course
+test09_12,school course enrollment allocation,"The system crashes, preventing students from successfully enrolling in courses.",finish select course
+test09_12,school course enrollment allocation,"The course registration system does not update course information in time, causing students to enroll in incorrect courses.",finish select course
+test09_12,school course enrollment allocation,Courses with too few enrolled students are canceled because they do not meet the minimum enrollment requirements.,finish select course
+test09_12,school course enrollment allocation,Excessive allocation errors cause students to be enrolled in courses that do not align with their personal preferences or requirements.,finish select course
+test09_12,school course enrollment allocation,The unclear interface design causes students to mistakenly enroll in the wrong courses during registration.,finish select course
+test09_12,school course enrollment allocation,"The course schedule does not take into account other academic commitments, leading to scheduling conflicts for students.",finish select course
+test09_12,school course enrollment allocation,"Course materials or textbooks are not distributed on time, affecting students' ability to prepare for or select courses.",finish select course
+test09_12,school course enrollment allocation,"Students’ information is misclassified during registration, leading to inaccurate course recommendations.",finish select course
+test09_12,school course enrollment allocation,Course schedule conflicts prevent students from enrolling in multiple essential courses.,finish select course
+test09_12,school course enrollment allocation,Technical issues with the course registration system cause students’ enrollment data to be lost.,finish select course
+test09_12,school course enrollment allocation,"The course registration system fails to check prerequisites, leading students to enroll in courses they do not qualify for.",finish select course
+test09_12,school course enrollment allocation,"Students fail to receive timely information about course changes or cancellations, leading to incorrect course enrollment.",finish select course
+test09_12,school course enrollment allocation,"The high number of course registrations overloads the system, causing slow processing and preventing students from enrolling.",finish select course
+test09_12,school course enrollment allocation,Last-minute changes in course instructors disrupt students’ course selection plans.,finish select course
+test09_12,school course enrollment allocation,"The course registration system does not support interdisciplinary enrollment, preventing students from taking cross-department courses.",finish select course
+test09_13,school course enrollment allocation,Network issues prevent students from submitting their course registration requests on time during peak registration periods.,send list
+test09_13,school course enrollment allocation,"There are insufficient course slots, and students are unable to enroll in their preferred courses.",send list
+test09_13,school course enrollment allocation,"The system crashes, preventing students from successfully enrolling in courses.",send list
+test09_13,school course enrollment allocation,"The course registration system does not update course information in time, causing students to enroll in incorrect courses.",send list
+test09_13,school course enrollment allocation,Courses with too few enrolled students are canceled because they do not meet the minimum enrollment requirements.,send list
+test09_13,school course enrollment allocation,Excessive allocation errors cause students to be enrolled in courses that do not align with their personal preferences or requirements.,send list
+test09_13,school course enrollment allocation,The unclear interface design causes students to mistakenly enroll in the wrong courses during registration.,send list
+test09_13,school course enrollment allocation,"The course schedule does not take into account other academic commitments, leading to scheduling conflicts for students.",send list
+test09_13,school course enrollment allocation,"Course materials or textbooks are not distributed on time, affecting students' ability to prepare for or select courses.",send list
+test09_13,school course enrollment allocation,"Students’ information is misclassified during registration, leading to inaccurate course recommendations.",send list
+test09_13,school course enrollment allocation,Course schedule conflicts prevent students from enrolling in multiple essential courses.,send list
+test09_13,school course enrollment allocation,Technical issues with the course registration system cause students’ enrollment data to be lost.,send list
+test09_13,school course enrollment allocation,"The course registration system fails to check prerequisites, leading students to enroll in courses they do not qualify for.",send list
+test09_13,school course enrollment allocation,"Students fail to receive timely information about course changes or cancellations, leading to incorrect course enrollment.",send list
+test09_13,school course enrollment allocation,"The high number of course registrations overloads the system, causing slow processing and preventing students from enrolling.",send list
+test09_13,school course enrollment allocation,Last-minute changes in course instructors disrupt students’ course selection plans.,send list
+test09_13,school course enrollment allocation,"The course registration system does not support interdisciplinary enrollment, preventing students from taking cross-department courses.",send list
+test09_14,school course enrollment allocation,Network issues prevent students from submitting their course registration requests on time during peak registration periods.,course selected
+test09_14,school course enrollment allocation,"There are insufficient course slots, and students are unable to enroll in their preferred courses.",course selected
+test09_14,school course enrollment allocation,"The system crashes, preventing students from successfully enrolling in courses.",course selected
+test09_14,school course enrollment allocation,"The course registration system does not update course information in time, causing students to enroll in incorrect courses.",course selected
+test09_14,school course enrollment allocation,Courses with too few enrolled students are canceled because they do not meet the minimum enrollment requirements.,course selected
+test09_14,school course enrollment allocation,Excessive allocation errors cause students to be enrolled in courses that do not align with their personal preferences or requirements.,course selected
+test09_14,school course enrollment allocation,The unclear interface design causes students to mistakenly enroll in the wrong courses during registration.,course selected
+test09_14,school course enrollment allocation,"The course schedule does not take into account other academic commitments, leading to scheduling conflicts for students.",course selected
+test09_14,school course enrollment allocation,"Course materials or textbooks are not distributed on time, affecting students' ability to prepare for or select courses.",course selected
+test09_14,school course enrollment allocation,"Students’ information is misclassified during registration, leading to inaccurate course recommendations.",course selected
+test09_14,school course enrollment allocation,Course schedule conflicts prevent students from enrolling in multiple essential courses.,course selected
+test09_14,school course enrollment allocation,Technical issues with the course registration system cause students’ enrollment data to be lost.,course selected
+test09_14,school course enrollment allocation,"The course registration system fails to check prerequisites, leading students to enroll in courses they do not qualify for.",course selected
+test09_14,school course enrollment allocation,"Students fail to receive timely information about course changes or cancellations, leading to incorrect course enrollment.",course selected
+test09_14,school course enrollment allocation,"The high number of course registrations overloads the system, causing slow processing and preventing students from enrolling.",course selected
+test09_14,school course enrollment allocation,Last-minute changes in course instructors disrupt students’ course selection plans.,course selected
+test09_14,school course enrollment allocation,"The course registration system does not support interdisciplinary enrollment, preventing students from taking cross-department courses.",course selected
+test09_15,school course enrollment allocation,Network issues prevent students from submitting their course registration requests on time during peak registration periods.,assign students
+test09_15,school course enrollment allocation,"There are insufficient course slots, and students are unable to enroll in their preferred courses.",assign students
+test09_15,school course enrollment allocation,"The system crashes, preventing students from successfully enrolling in courses.",assign students
+test09_15,school course enrollment allocation,"The course registration system does not update course information in time, causing students to enroll in incorrect courses.",assign students
+test09_15,school course enrollment allocation,Courses with too few enrolled students are canceled because they do not meet the minimum enrollment requirements.,assign students
+test09_15,school course enrollment allocation,Excessive allocation errors cause students to be enrolled in courses that do not align with their personal preferences or requirements.,assign students
+test09_15,school course enrollment allocation,The unclear interface design causes students to mistakenly enroll in the wrong courses during registration.,assign students
+test09_15,school course enrollment allocation,"The course schedule does not take into account other academic commitments, leading to scheduling conflicts for students.",assign students
+test09_15,school course enrollment allocation,"Course materials or textbooks are not distributed on time, affecting students' ability to prepare for or select courses.",assign students
+test09_15,school course enrollment allocation,"Students’ information is misclassified during registration, leading to inaccurate course recommendations.",assign students
+test09_15,school course enrollment allocation,Course schedule conflicts prevent students from enrolling in multiple essential courses.,assign students
+test09_15,school course enrollment allocation,Technical issues with the course registration system cause students’ enrollment data to be lost.,assign students
+test09_15,school course enrollment allocation,"The course registration system fails to check prerequisites, leading students to enroll in courses they do not qualify for.",assign students
+test09_15,school course enrollment allocation,"Students fail to receive timely information about course changes or cancellations, leading to incorrect course enrollment.",assign students
+test09_15,school course enrollment allocation,"The high number of course registrations overloads the system, causing slow processing and preventing students from enrolling.",assign students
+test09_15,school course enrollment allocation,Last-minute changes in course instructors disrupt students’ course selection plans.,assign students
+test09_15,school course enrollment allocation,"The course registration system does not support interdisciplinary enrollment, preventing students from taking cross-department courses.",assign students
+test09_16,school course enrollment allocation,Network issues prevent students from submitting their course registration requests on time during peak registration periods.,course Booked
+test09_16,school course enrollment allocation,"There are insufficient course slots, and students are unable to enroll in their preferred courses.",course Booked
+test09_16,school course enrollment allocation,"The system crashes, preventing students from successfully enrolling in courses.",course Booked
+test09_16,school course enrollment allocation,"The course registration system does not update course information in time, causing students to enroll in incorrect courses.",course Booked
+test09_16,school course enrollment allocation,Courses with too few enrolled students are canceled because they do not meet the minimum enrollment requirements.,course Booked
+test09_16,school course enrollment allocation,Excessive allocation errors cause students to be enrolled in courses that do not align with their personal preferences or requirements.,course Booked
+test09_16,school course enrollment allocation,The unclear interface design causes students to mistakenly enroll in the wrong courses during registration.,course Booked
+test09_16,school course enrollment allocation,"The course schedule does not take into account other academic commitments, leading to scheduling conflicts for students.",course Booked
+test09_16,school course enrollment allocation,"Course materials or textbooks are not distributed on time, affecting students' ability to prepare for or select courses.",course Booked
+test09_16,school course enrollment allocation,"Students’ information is misclassified during registration, leading to inaccurate course recommendations.",course Booked
+test09_16,school course enrollment allocation,Course schedule conflicts prevent students from enrolling in multiple essential courses.,course Booked
+test09_16,school course enrollment allocation,Technical issues with the course registration system cause students’ enrollment data to be lost.,course Booked
+test09_16,school course enrollment allocation,"The course registration system fails to check prerequisites, leading students to enroll in courses they do not qualify for.",course Booked
+test09_16,school course enrollment allocation,"Students fail to receive timely information about course changes or cancellations, leading to incorrect course enrollment.",course Booked
+test09_16,school course enrollment allocation,"The high number of course registrations overloads the system, causing slow processing and preventing students from enrolling.",course Booked
+test09_16,school course enrollment allocation,Last-minute changes in course instructors disrupt students’ course selection plans.,course Booked
+test09_16,school course enrollment allocation,"The course registration system does not support interdisciplinary enrollment, preventing students from taking cross-department courses.",course Booked

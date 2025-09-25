@@ -1,0 +1,95 @@
+{
+    "variables": [
+        "REQUIREMENT",
+        "SYMBOL",
+        "FLOW"
+    ],
+    "name": "Generate CTL (Computational Tree Logic) constraints from business process requirements",
+    "prompt": "Given the following business process information:\n- REQUIREMENT: REQUIREMENT\n- SYMBOL: SYMBOL\n- Control flow and message dependencies: FLOW\n\nGenerate a list of CTL (Computational Tree Logic) constraints that formally encode the requirement. Ensure:\n\n1. Symbol Compliance: All variables/atomic propositions MUST use symbols from the provided SYMBOL mapping.\n2. Requirement Alignment: Constraints must directly reflect the semantics of the requirement.\n3. Formal Syntax: Use standard CTL operators (AG, AF, EF, EG, AU, EU, etc.) and logical connectives (and, or, not, ->).\n4. Standard Format: Output must follow the exact JSON structure specified.\n\nStep-by-Step Process:\n1. Requirement Analysis: Break down the requirement into temporal/logical patterns.\n2. Symbol Mapping: Identify relevant symbols from SYMBOL for each activity in the requirement.\n3. Constraint Generation: Propose CTL formulas adhering to the requirement and symbols.\n4. Validation: Ensure no unmapped variables are used.\n\nOutput Format Requirements:\n- Each constraint must have: constraint_id, ctl_formula, description, requirement_reference, constraint_type\n- ctl_formula must be a valid CTL formula using only symbols from SYMBOL\n- constraint_type must be one of: safety_properties, liveness_properties, response_properties, precedence_properties\n- Use standard CTL syntax with proper parentheses and operator precedence",
+    "output": [
+        "ctl_constraints"
+    ],
+    "format": {
+        "ctl_constraints": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "constraint_id": {
+                        "type": "string",
+                        "description": "Unique identifier for the constraint (e.g., 'C001', 'C002')"
+                    },
+                    "ctl_formula": {
+                        "type": "string",
+                        "description": "Valid CTL formula using symbols from SYMBOL mapping",
+                        "examples": [
+                            "AG(T1 -> AF(T2))",
+                            "EF(T1 and T2)",
+                            "AG(T1 -> (not T2 U T3))"
+                        ]
+                    },
+                    "description": {
+                        "type": "string",
+                        "description": "Human-readable description of what the constraint verifies"
+                    },
+                    "requirement_reference": {
+                        "type": "string",
+                        "description": "Reference to the specific part of the requirement this constraint addresses"
+                    },
+                    "constraint_type": {
+                        "type": "string",
+                        "enum": [
+                            "safety_properties",
+                            "liveness_properties",
+                            "response_properties",
+                            "precedence_properties"
+                        ],
+                        "description": "Type of temporal property being verified"
+                    }
+                },
+                "required": [
+                    "constraint_id",
+                    "ctl_formula",
+                    "description",
+                    "requirement_reference",
+                    "constraint_type"
+                ]
+            }
+        },
+        "constraint_types": {
+            "safety_properties": "Properties that assert something bad never happens (AG not bad_state)",
+            "liveness_properties": "Properties that assert something good eventually happens (AF good_state)",
+            "response_properties": "Properties that assert if something happens, something else must follow (AG(trigger -> AF(response)))",
+            "precedence_properties": "Properties that assert ordering constraints (AG(response -> A(not response U trigger)))"
+        },
+        "ctl_operators": {
+            "AG": "Always Globally - property holds in all states of all paths",
+            "AF": "Always Finally - property eventually holds in all paths",
+            "EF": "Exists Finally - property eventually holds in some path",
+            "EG": "Exists Globally - property holds in all states of some path",
+            "AU": "Always Until - first property holds until second property becomes true in all paths",
+            "EU": "Exists Until - first property holds until second property becomes true in some path",
+            "AX": "Always Next - property holds in all next states",
+            "EX": "Exists Next - property holds in some next state"
+        },
+        "symbol_compliance": "All atomic propositions in CTL formulas must correspond to task symbols (e.g., T1, T2) or actor symbols (e.g., A, B) from the provided SYMBOL mapping. Do not use unmapped variables.",
+        "example_output": {
+            "ctl_constraints": [
+                {
+                    "constraint_id": "C001",
+                    "ctl_formula": "AG(T1 -> AF(T2))",
+                    "description": "Whenever task T1 is executed, task T2 must eventually be executed",
+                    "requirement_reference": "Sequential execution requirement",
+                    "constraint_type": "response_properties"
+                },
+                {
+                    "constraint_id": "C002",
+                    "ctl_formula": "AG(not(T1 and T2))",
+                    "description": "Tasks T1 and T2 cannot be executed simultaneously",
+                    "requirement_reference": "Mutual exclusion requirement",
+                    "constraint_type": "safety_properties"
+                }
+            ]
+        }
+    }
+}

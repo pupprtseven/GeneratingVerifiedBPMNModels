@@ -1,0 +1,35 @@
+{
+    "variables": [
+        "REQUIREMENT",
+        "PAIRS",
+        "FORMATTASK"
+    ],
+    "name": "Identify gateway relationships between task pairs based on requirements and control flow",
+    "prompt": "Analyze the given REQUIREMENT and PAIRS (extracted from control flow) to identify both flat and nested gateway relationships. Assign a unique symbol (e.g., G1, G2, ...) to each gateway and determine its type. A gateway may reference either tasks or other gateways as its source (from_tasks) or target (to_tasks).\n\nConversion Rules for Gateway Types:\n\nParallel Gateways:\n- Parallel-Divergent: one from_task → multiple to_task (all paths are followed)\n- Parallel-Convergent: multiple from_task → one to_task (all paths must complete)\n\nInclusive Gateways:\n- Inclusive-Divergent: one from_task → multiple to_task (some or all paths may be followed)\n- Inclusive-Convergent: multiple from_task → one to_task (all active paths must complete)\n\nExclusive Gateways:\n- Exclusive-Divergent: one from_task → multiple to_task (only one path is chosen)\n- Exclusive-Convergent: multiple from_task → one to_task (one of several paths proceeds)\n\nIntersection of Gateways:\nIf two gateways share the same from_task and to_task:\n- Parallel gateways take precedence.\n- If both are parallel or both are inclusive/exclusive, convergent gateways take precedence over divergent gateways.\n\nUpdate logic:\n- Replace the common to_task of the higher-priority gateway with the symbol of the lower-priority gateway.\n- Replace the common from_task of the lower-priority gateway with the symbol of the higher-priority gateway.\n\nIMPORTANT: Output ONLY valid JSON format. Do not include any comments, explanations, or markdown formatting within the JSON structure.",
+    "output": [
+        "gateways"
+    ],
+    "format": {
+        "gateways": "JSON array format: each element is an object with fields: {\"gateway_symbol\": string, \"gateway_type\": string, \"from_tasks\": array of strings, \"to_tasks\": array of strings}. Gateway symbols (e.g., G1) may appear in from_tasks or to_tasks to support nested structures.",
+        "gateway_types": {
+            "Parallel": {
+                "Parallel-Divergent": "one from_task -> multiple to_task",
+                "Parallel-Convergent": "multiple from_task -> one to_task"
+            },
+            "Inclusive": {
+                "Inclusive-Divergent": "one from_task -> multiple to_task (conditional)",
+                "Inclusive-Convergent": "multiple from_task -> one to_task (after completion)"
+            },
+            "Exclusive": {
+                "Exclusive-Divergent": "one from_task -> multiple to_task (single path)",
+                "Exclusive-Convergent": "multiple from_task -> one to_task (token passing)"
+            }
+        },
+        "precedence_rules": [
+            "parallel_gateways_take_precedence",
+            "convergent_gateways_take_precedence_over_divergent"
+        ],
+        "symbol_pattern": "G<number>",
+        "no_comments_in_json": true
+    }
+}

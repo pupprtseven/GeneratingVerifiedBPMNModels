@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bpmn-js": "^18.6.2",
+    "jsdom": "^26.1.0"
+  }
+}

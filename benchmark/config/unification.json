@@ -1,0 +1,20 @@
+{
+    "variables": [
+        "BENCHSYMBOL",
+        "TARGETSYMBOL"
+    ],
+    "name": "Unify symbol mappings between benchmark and target BPMN models",
+    "prompt": "Your task is to analyze two symbol maps (BENCH and TARGET) and identify corresponding pairs between them for actors and tasks.\n\nInput Data:\n- BENCH: Benchmark symbol map containing actors and tasks\n- TARGET: Target symbol map containing actors and tasks\n\nAnalysis Requirements:\n\nFor Actors:\n- Compare actor.name fields between BENCH and TARGET using semantic similarity\n- Identify actors that represent the same or similar entities\n- Consider role similarities, responsibilities, and organizational positions\n- Map actors with clear semantic alignment\n\nFor Tasks:\n- Compare task.desc (task description) fields between BENCH and TARGET using semantic similarity\n- Identify tasks that perform the same or similar functions\n- Consider action similarities, process steps, and business logic\n- Map tasks with clear functional alignment\n\nMapping Strategy:\n- Prioritize high-confidence matches based on clear semantic similarity\n- For ambiguous cases, document assumptions and reasoning\n- Ensure logical consistency in relationships between actors and tasks\n- Preserve the workflow logic when mapping related elements\n\nQuality Requirements:\n- Provide concise reasoning for each mapping decision\n- Emphasize semantic alignment in explanations\n- Ensure relationships between actors and tasks are preserved\n- Document any assumptions made during the mapping process",
+    "output": [
+        "actor_mappings",
+        "task_mappings",
+        "reasoning"
+    ],
+    "format": {
+        "actor_mappings": "JSON array format with objects containing bench_symbol (string), target_symbol (string), and confidence (number 0-1) fields. Each object represents a mapping between corresponding actors.",
+        "task_mappings": "JSON array format with objects containing bench_symbol (string), target_symbol (string), and confidence (number 0-1) fields. Each object represents a mapping between corresponding tasks.",
+        "reasoning": "JSON object containing explanation (string) field that provides concise reasoning for the mapping decisions, emphasizing semantic alignment and logical consistency.",
+        "mapping_quality": "Ensure high confidence mappings (confidence >= 0.8) for clear semantic matches, and document assumptions for lower confidence mappings.",
+        "relationship_preservation": "Maintain logical consistency where an actor linked to a task in BENCH should map to a logically related actor-task pair in TARGET."
+    }
+}

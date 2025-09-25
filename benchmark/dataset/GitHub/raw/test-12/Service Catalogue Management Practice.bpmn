@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
+  <collaboration id="Collaboration_1">
+    <participant id="pool_1" name="Service Catalogue Manager" processRef="Process_1" />
+  </collaboration>
+  <process id="Process_1">
+    <subProcess id="subProcessCollapsed_0" name="Service Catalogue Management">
+      <incoming>sequenceFlow_8</incoming>
+      <outgoing>sequenceFlow_7</outgoing>
+    </subProcess>
+    <intermediateCatchEvent id="timerIntermediateEvent_2" name="Periodic review date">
+      <outgoing>sequenceFlow_8</outgoing>
+      <timerEventDefinition id="TimerEventDefinition_2" />
+    </intermediateCatchEvent>
+    <endEvent id="messageEndEvent_3" name="Service catalogue and service landscape communicated">
+      <incoming>sequenceFlow_7</incoming>
+      <messageEventDefinition id="MessageEventDefinition_3" />
+    </endEvent>
+    <sequenceFlow id="sequenceFlow_7" sourceRef="subProcessCollapsed_0" targetRef="messageEndEvent_3" />
+    <sequenceFlow id="sequenceFlow_8" sourceRef="timerIntermediateEvent_2" targetRef="subProcessCollapsed_0" />
+  </process>
+  <bpmndi:BPMNDiagram id="diagram-0">
+    <bpmndi:BPMNPlane id="plane-0" bpmnElement="Collaboration_1">
+      <bpmndi:BPMNShape id="pool_1_di" bpmnElement="pool_1" isHorizontal="true">
+        <omgdc:Bounds x="17.647531882970743" y="16.238859714928733" width="1279.8764891222804" height="211.65299324831207" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="sequenceFlow_8_di" bpmnElement="sequenceFlow_8">
+        <omgdi:waypoint x="271.31612903225806" y="115.90241560390098" />
+        <omgdi:waypoint x="456.27282820705176" y="115.36438109527381" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_7_di" bpmnElement="sequenceFlow_7">
+        <omgdi:waypoint x="672.2007501875469" y="116.3719729932483" />
+        <omgdi:waypoint x="858.9574193548386" y="117.1056564141035" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="subProcessCollapsed_0_di" bpmnElement="subProcessCollapsed_0">
+        <omgdc:Bounds x="456.27282820705176" y="70.66838709677418" width="215.9279219804951" height="92.00390097524381" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="timerIntermediateEvent_2_di" bpmnElement="timerIntermediateEvent_2">
+        <omgdc:Bounds x="233.11567891972993" y="99.98637659414852" width="38.200450112528124" height="36.60591147786947" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="105.55258814703676" y="107.07864966241559" width="123.63054763690921" height="21.6289872468117" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="messageEndEvent_3_di" bpmnElement="messageEndEvent_3">
+        <omgdc:Bounds x="858.9574193548386" y="100.04507126781695" width="33.80813203300825" height="35.050502625656414" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="896.1013653413353" y="104.17326331582895" width="336.53569392348084" height="26.852813203300823" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="subProcessCollapsed_0" />
+  </bpmndi:BPMNDiagram>
+</definitions>

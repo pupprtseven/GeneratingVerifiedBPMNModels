@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_1" targetNamespace="http://example.com/bpmn">
+  <collaboration id="Collaboration_1">
+    <participant id="Participant_A" name="User" processRef="Process_A"/>
+    <participant id="Participant_B" name="System" processRef="Process_B"/>
+  </collaboration>
+  <process id="Process_A" name="User Process" isExecutable="true">
+    <task id="T1" name="User submits order"/>
+    <startEvent id="S1" name="initial of User"/>
+    <endEvent id="E1" name="end of User"/>
+    <parallelGateway id="G1" name="Parallel-Convergent"/>
+    <sequenceFlow id="Flow_S1_to_T1" sourceRef="S1" targetRef="T1"/>
+    <sequenceFlow id="Flow_T1_to_T2-r1" sourceRef="T1" targetRef="T2-r1"/>
+    <sequenceFlow id="Flow_T2-r1_to_E1-r1" sourceRef="T2-r1" targetRef="E1-r1"/>
+    <sequenceFlow id="Flow_E1-r1_to_E1" sourceRef="E1-r1" targetRef="E1"/>
+    <sequenceFlow id="Flow_T2-r1_to_G1" sourceRef="T2-r1" targetRef="G1"/>
+    <sequenceFlow id="Flow_T2_to_G1" sourceRef="T2" targetRef="G1"/>
+    <sequenceFlow id="Flow_G1_to_E2" sourceRef="G1" targetRef="E2"/>
+  </process>
+  <process id="Process_B" name="System Process" isExecutable="true">
+    <task id="T2" name="System processes the order"/>
+    <startEvent id="S2" name="initial of System"/>
+    <endEvent id="E2" name="end of System"/>
+    <sequenceFlow id="Flow_S2_to_T2" sourceRef="S2" targetRef="T2"/>
+    <sequenceFlow id="Flow_E2-r1_to_E2" sourceRef="E2-r1" targetRef="E2"/>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_1">
+      <bpmndi:BPMNLane id="BPMNLane_A" bpmnElement="Participant_A">
+        <omgdc:Bounds x="100" y="100" width="600" height="300"/>
+      </bpmndi:BPMNLane>
+      <bpmndi:BPMNLane id="BPMNLane_B" bpmnElement="Participant_B">
+        <omgdc:Bounds x="100" y="450" width="600" height="300"/>
+      </bpmndi:BPMNLane>
+      <bpmndi:BPMNShape id="BPMNShape_S1" bpmnElement="S1">
+        <omgdc:Bounds x="150" y="150" width="100" height="80"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_S2" bpmnElement="S2">
+        <omgdc:Bounds x="150" y="500" width="100" height="80"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_T1" bpmnElement="T1">
+        <omgdc:Bounds x="200" y="150" width="100" height="80"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_T2" bpmnElement="T2">
+        <omgdc:Bounds x="350" y="500" width="100" height="80"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_E1" bpmnElement="E1">
+        <omgdc:Bounds x="550" y="150" width="100" height="80"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_E2" bpmnElement="E2">
+        <omgdc:Bounds x="550" y="500" width="100" height="80"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_G1" bpmnElement="G1">
+        <omgdc:Bounds x="400" y="150" width="100" height="80"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="BPMNEdge_Flow_S1_to_T1" bpmnElement="Flow_S1_to_T1">
+        <omgdi:waypoint x="200" y="190"/>
+        <omgdi:waypoint x="250" y="190"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_Flow_S2_to_T2" bpmnElement="Flow_S2_to_T2">
+        <omgdi:waypoint x="200" y="540"/>
+        <omgdi:waypoint x="400" y="540"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_Flow_T2_to_G1" bpmnElement="Flow_T2_to_G1">
+        <omgdi:waypoint x="400" y="540"/>
+        <omgdi:waypoint x="450" y="190"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_Flow_G1_to_E2" bpmnElement="Flow_G1_to_E2">
+        <omgdi:waypoint x="450" y="190"/>
+        <omgdi:waypoint x="600" y="540"/>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

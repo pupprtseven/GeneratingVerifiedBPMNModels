@@ -1,0 +1,48 @@
+{
+    "variables": [
+        "REQUIREMENT",
+        "SYMBOL"
+    ],
+    "name": "Classify and translate tasks into message receiver, timer, or action types",
+    "prompt": "Task Type Conventions:\nYou will classify the tasks into three types:\n- message receiver: A task that waits to receive a message.\n- timer: A task that involves waiting for a time-based event.\n- action: A task that involves an activity performed by an actor.\n\nTranslation Rules:\n- If tasks in the Symbol Table represent action tasks that may involve receiving messages or timers, create new message receiver or timer tasks for them, while preserving the original action task.\n- For message receiver tasks, append -r1 to the base task symbol (e.g., T5-r1).\n- For timer tasks, append -t1 to the base task symbol (e.g., T5-t1).\n- Each task should be represented by a list with two elements: [task_symbol, task_type].\n\nOutput Requirements:\n- Output only a single JSON object with key \"task_types\".\n- The value of \"task_types\" should be a list of objects with task_symbol and task_type fields.\n- Do not include actor information or use tuple notation like (A, T1, action).\n- Do not use dictionaries or nested structures.\n- Do not quote the key \"task_types\" twice or include textual explanation inside the JSON block.\n\nExplanation Instructions:\nAfter the JSON output, write an \"Explanation\" section.\nFor each task:\n- Explain why it was classified as 'message receiver', 'timer', or 'action'.\n- Justify the use of the base symbol or the addition of suffixes like -r1 or -t1 when such tasks are created.",
+    "output": [
+        "task_types"
+    ],
+    "format": {
+        "task_types": "JSON array of objects with task_symbol and task_type fields",
+        "task_type_enums": [
+            "message receiver",
+            "timer",
+            "action"
+        ]
+    },
+    "extra": {
+        "message": {
+            "variables": [
+                "REQUIREMENT",
+                "SYMBOL",
+                "ALREADY_GENERATED_TASKS"
+            ],
+            "name": "Identify the potential message receivers based on response task semantics:",
+            "prompt": "Task: Based on the REQUIREMENT and SYMBOL table, identify all tasks that are likely performed **in response to another actor's previous action**.\n\nResponse-Initiated Message Receiver Inference:\n- If a task is performed by Actor X and can be semantically interpreted as a reaction to an earlier task performed by Actor Y (Y ≠ X), infer that the task begins with receiving a message.\n- This includes direct replies (e.g., reacting to a request or confirmation) and indirect logical continuations (e.g., follow-up actions that assume prior communication).\n\nFor each such task:\n1. Identify the approximate causal origin of the response task.\n2. Generate a new message receiver task for the response task, indicating reception of that message.\n\nChain Causality and Multi-Effect Handling:\n- If a single prior behavior causes multiple downstream tasks by another actor, treat each as an independent response.\n- Causal chains indicated by temporal expressions (e.g., \"before\", \"after\", \"until\"), conditional logic, or inferred dependencies should all be captured.\n- Each response task must independently receive a message receiver task, even if they relate to the same prior condition.\n\nActor Role Constraint:\n- Only generate message receiver tasks if the sender and receiver belong to **different actors**.\n- Do not model intra-actor transitions (i.e., when a task by Actor X causes another task by Actor X).\n\nReceiver Symbol Derivation Clarification:\n- The message receiver task symbol must always be derived from the **response task**, not from the causal or sender task.\n- For example, if Task T6 is a response to a previous trigger, then generate T6-r1, not T5-r1.\n\nNaming:\n- The receiver task symbol is derived from the response task's symbol by appending -r1, -r2, etc.\n- Ensure uniqueness against ALREADY_GENERATED_TASKS; increment suffix if necessary.\n\nSemantic Source Labeling:\n- The second element in each task triplet (i.e., sender_task_symbol) should be a symbolic semantic label, such as \"T6-related\" or \"T8-related\".\n- This label describes the approximate causal or triggering relation for the response task, not a literal task ID.\n- Use the pattern: <response_task_symbol>-related.\n\nOutput Format:\nReturn a single JSON object with two fields:\n1. \"tasks\": a list of objects with actor_symbol, semantic_relation_label, and task_symbol fields\n2. \"task_types\": a list of objects with task_symbol and message receiver fields\n\nExplanation:\n- For each receiver task, explain why the response was interpreted as caused by a prior interaction.\n- Justify actor roles, suffix choices, and semantic label use.\n\nRequirements:\n- Analyze the **entire REQUIREMENT**, not just the first triggering pair.\n- Output all valid response-based receiver tasks that follow the inter-actor communication pattern.\n\nPlease output the results in standard JSON format. Do not use string representations or tuple notation. Use proper JSON objects and arrays.",
+            "output": [
+                "tasks",
+                "task_types"
+            ],
+            "format": {
+                "tasks": "JSON array of objects with actor_symbol, semantic_relation_label, and task_symbol fields",
+                "task_types": "JSON array of objects with task_symbol and message receiver fields",
+                "symbol_pattern": "<response_task_symbol>-r<number>",
+                "detection_criteria": [
+                    "causal_response_to_previous_actor",
+                    "temporal_dependency_between_tasks",
+                    "semantic_trigger_from_other_actor"
+                ],
+                "deduplication": {
+                    "reference_list": "ALREADY_GENERATED_TASKS",
+                    "strategy": "skip_if_exists_or_increment_suffix"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="" exporter="Camunda Modeler" exporterVersion="5.23.0" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
+  <collaboration id="Collaboration_1">
+    <participant id="pool_13" name="Service Catalogue" processRef="Process_13" />
+  </collaboration>
+  <process id="Process_13" isExecutable="false">
+    <task id="task_0" name="Definie survey goals and content">
+      <incoming>sequenceFlow_38</incoming>
+      <outgoing>sequenceFlow_46</outgoing>
+    </task>
+    <task id="task_1" name="Perform survey">
+      <incoming>sequenceFlow_39</incoming>
+      <outgoing>sequenceFlow_40</outgoing>
+    </task>
+    <exclusiveGateway id="exclusiveGateway_2">
+      <incoming>sequenceFlow_45</incoming>
+      <outgoing>sequenceFlow_35</outgoing>
+      <outgoing>sequenceFlow_36</outgoing>
+    </exclusiveGateway>
+    <task id="task_3" name="Consolidate and document survey results">
+      <incoming>sequenceFlow_42</incoming>
+      <outgoing>sequenceFlow_43</outgoing>
+    </task>
+    <task id="task_4" name="Announce survey">
+      <incoming>sequenceFlow_34</incoming>
+      <outgoing>sequenceFlow_37</outgoing>
+    </task>
+    <parallelGateway id="parallelGateway_5">
+      <incoming>sequenceFlow_46</incoming>
+      <outgoing>sequenceFlow_34</outgoing>
+      <outgoing>sequenceFlow_44</outgoing>
+    </parallelGateway>
+    <task id="task_6" name="Check currentness of the questionnaire">
+      <incoming>sequenceFlow_44</incoming>
+      <outgoing>sequenceFlow_45</outgoing>
+    </task>
+    <parallelGateway id="parallelGateway_7">
+      <incoming>sequenceFlow_41</incoming>
+      <incoming>sequenceFlow_37</incoming>
+      <outgoing>sequenceFlow_39</outgoing>
+    </parallelGateway>
+    <task id="task_8" name="Update survey">
+      <incoming>sequenceFlow_36</incoming>
+      <outgoing>sequenceFlow_47</outgoing>
+    </task>
+    <exclusiveGateway id="exclusiveGateway_9">
+      <incoming>sequenceFlow_47</incoming>
+      <incoming>sequenceFlow_35</incoming>
+      <outgoing>sequenceFlow_41</outgoing>
+    </exclusiveGateway>
+    <intermediateCatchEvent id="timerIntermediateEvent_10" name="End of survey">
+      <incoming>sequenceFlow_40</incoming>
+      <outgoing>sequenceFlow_42</outgoing>
+      <timerEventDefinition id="TimerEventDefinition_10" />
+    </intermediateCatchEvent>
+    <task id="task_11" name="Results of customer satisfaction survey" />
+    <startEvent id="timerStartEvent_12" name="Periodical survey date">
+      <outgoing>sequenceFlow_38</outgoing>
+      <timerEventDefinition id="TimerEventDefinition_12" />
+    </startEvent>
+    <intermediateCatchEvent id="timerIntermediateEvent_16" name="Customer satisfaction survey results available">
+      <incoming>sequenceFlow_43</incoming>
+      <timerEventDefinition id="TimerEventDefinition_16" />
+    </intermediateCatchEvent>
+    <sequenceFlow id="sequenceFlow_38" sourceRef="timerStartEvent_12" targetRef="task_0" />
+    <sequenceFlow id="sequenceFlow_46" sourceRef="task_0" targetRef="parallelGateway_5" />
+    <sequenceFlow id="sequenceFlow_39" sourceRef="parallelGateway_7" targetRef="task_1" />
+    <sequenceFlow id="sequenceFlow_40" sourceRef="task_1" targetRef="timerIntermediateEvent_10" />
+    <sequenceFlow id="sequenceFlow_45" sourceRef="task_6" targetRef="exclusiveGateway_2" />
+    <sequenceFlow id="sequenceFlow_35" sourceRef="exclusiveGateway_2" targetRef="exclusiveGateway_9" />
+    <sequenceFlow id="sequenceFlow_36" name="Update required?" sourceRef="exclusiveGateway_2" targetRef="task_8" />
+    <sequenceFlow id="sequenceFlow_42" sourceRef="timerIntermediateEvent_10" targetRef="task_3" />
+    <sequenceFlow id="sequenceFlow_43" sourceRef="task_3" targetRef="timerIntermediateEvent_16" />
+    <sequenceFlow id="sequenceFlow_34" name="consulted" sourceRef="parallelGateway_5" targetRef="task_4" />
+    <sequenceFlow id="sequenceFlow_37" sourceRef="task_4" targetRef="parallelGateway_7" />
+    <sequenceFlow id="sequenceFlow_44" sourceRef="parallelGateway_5" targetRef="task_6" />
+    <sequenceFlow id="sequenceFlow_41" sourceRef="exclusiveGateway_9" targetRef="parallelGateway_7" />
+    <sequenceFlow id="sequenceFlow_47" sourceRef="task_8" targetRef="exclusiveGateway_9" />
+  </process>
+  <bpmndi:BPMNDiagram id="diagram-0">
+    <bpmndi:BPMNPlane id="plane-0" bpmnElement="Collaboration_1">
+      <bpmndi:BPMNShape id="pool_13_di" bpmnElement="pool_13" isHorizontal="true">
+        <omgdc:Bounds x="154" y="80" width="1265" height="660" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task_0_di" bpmnElement="task_0">
+        <omgdc:Bounds x="284" y="266" width="84" height="65" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task_1_di" bpmnElement="task_1">
+        <omgdc:Bounds x="925" y="265" width="84" height="65" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="exclusiveGateway_2_di" bpmnElement="exclusiveGateway_2" isMarkerVisible="true">
+        <omgdc:Bounds x="596" y="283" width="33" height="32" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task_3_di" bpmnElement="task_3">
+        <omgdc:Bounds x="1109" y="265" width="83" height="67" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task_4_di" bpmnElement="task_4">
+        <omgdc:Bounds x="471" y="161" width="81" height="69" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="parallelGateway_5_di" bpmnElement="parallelGateway_5">
+        <omgdc:Bounds x="404" y="284" width="34" height="33" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task_6_di" bpmnElement="task_6">
+        <omgdc:Bounds x="470" y="267" width="83" height="65" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="parallelGateway_7_di" bpmnElement="parallelGateway_7">
+        <omgdc:Bounds x="858" y="283" width="32" height="33" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task_8_di" bpmnElement="task_8">
+        <omgdc:Bounds x="664" y="268" width="85" height="64" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="exclusiveGateway_9_di" bpmnElement="exclusiveGateway_9" isMarkerVisible="true">
+        <omgdc:Bounds x="786" y="283" width="32" height="34" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="timerIntermediateEvent_10_di" bpmnElement="timerIntermediateEvent_10">
+        <omgdc:Bounds x="1044" y="286" width="28" height="28" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="1025" y="269" width="68" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task_11_di" bpmnElement="task_11">
+        <omgdc:Bounds x="1095" y="365" width="111" height="43" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="timerStartEvent_12_di" bpmnElement="timerStartEvent_12">
+        <omgdc:Bounds x="220" y="287" width="26" height="26" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="190" y="313" width="84" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="timerIntermediateEvent_16_di" bpmnElement="timerIntermediateEvent_16">
+        <omgdc:Bounds x="1227" y="287" width="28" height="28" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="1282" y="287" width="69" height="53" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="sequenceFlow_34_di" bpmnElement="sequenceFlow_34">
+        <omgdi:waypoint x="421.0841110277569" y="283.6267066766692" />
+        <omgdi:waypoint x="419.215663915979" y="209.6127231807952" />
+        <omgdi:waypoint x="435.6403900975244" y="194.21515378844708" />
+        <omgdi:waypoint x="470.56372093023253" y="194.1955888972243" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="362" y="224" width="48" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_35_di" bpmnElement="sequenceFlow_35">
+        <omgdi:waypoint x="612.458094523631" y="315.57617404351083" />
+        <omgdi:waypoint x="639.0565641410352" y="355.32225056264065" />
+        <omgdi:waypoint x="777.7422955738934" y="352.9548987246812" />
+        <omgdi:waypoint x="802.4429707426856" y="317.4054913728432" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_36_di" bpmnElement="sequenceFlow_36">
+        <omgdi:waypoint x="629.1860765191298" y="299.5427456864216" />
+        <omgdi:waypoint x="638.0685371342836" y="297.2830007501875" />
+        <omgdi:waypoint x="664.4420105026256" y="297.6645161290322" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="570" y="265" width="86" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_37_di" bpmnElement="sequenceFlow_37">
+        <omgdi:waypoint x="551.728672168042" y="192.2586646661665" />
+        <omgdi:waypoint x="863.0452213053263" y="196.32816204051014" />
+        <omgdi:waypoint x="874.2265566391598" y="283.01041260315077" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_38_di" bpmnElement="sequenceFlow_38">
+        <omgdi:waypoint x="245.87072768192047" y="298.1047261815454" />
+        <omgdi:waypoint x="283.57227306826707" y="297.8797299324831" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_39_di" bpmnElement="sequenceFlow_39">
+        <omgdi:waypoint x="890.1523780945236" y="299.70904726181544" />
+        <omgdi:waypoint x="925.4083120780195" y="298.241680420105" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_40_di" bpmnElement="sequenceFlow_40">
+        <omgdi:waypoint x="1009.224306076519" y="298.25146286571646" />
+        <omgdi:waypoint x="1043.9911177794447" y="298.31993998499627" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_41_di" bpmnElement="sequenceFlow_41">
+        <omgdi:waypoint x="818.6818304576144" y="300.27642910727684" />
+        <omgdi:waypoint x="858.2909527381845" y="299.70904726181544" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_42_di" bpmnElement="sequenceFlow_42">
+        <omgdi:waypoint x="1071.92" y="296.5884471117779" />
+        <omgdi:waypoint x="1108.5063465866465" y="297.13626406601645" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_43_di" bpmnElement="sequenceFlow_43">
+        <omgdi:waypoint x="1191.686481620405" y="299.2003600900225" />
+        <omgdi:waypoint x="1227.0011102775693" y="299.19057764441106" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_44_di" bpmnElement="sequenceFlow_44">
+        <omgdi:waypoint x="437.9294823705926" y="299.99273818454617" />
+        <omgdi:waypoint x="444.9239309827457" y="297.39060765191294" />
+        <omgdi:waypoint x="470.4169842460615" y="297.96777194298573" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_45_di" bpmnElement="sequenceFlow_45">
+        <omgdi:waypoint x="553.2547336834208" y="299.2688372093023" />
+        <omgdi:waypoint x="595.7203300825206" y="299.5427456864216" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_46_di" bpmnElement="sequenceFlow_46">
+        <omgdi:waypoint x="367.300225056264" y="297.85038259564885" />
+        <omgdi:waypoint x="404.2289572393098" y="299.99273818454617" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sequenceFlow_47_di" bpmnElement="sequenceFlow_47">
+        <omgdi:waypoint x="749.0014703675919" y="297.4590847711928" />
+        <omgdi:waypoint x="786.2041110277569" y="300.27642910727684" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

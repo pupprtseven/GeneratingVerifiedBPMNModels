@@ -1,0 +1,49 @@
+MODULE main
+VAR
+    p_start_User: 0..1;
+    p_end_User: 0..1;
+    p_pre_T1: 0..1;
+    p_post_T1: 0..1;
+    p_start_System: 0..1;
+    p_end_System: 0..1;
+    p_pre_T2: 0..1;
+    p_post_T2: 0..1;
+ASSIGN
+    init(p_start_User) := 1;
+    init(p_end_User) := 0;
+    init(p_pre_T1) := 0;
+    init(p_post_T1) := 0;
+    init(p_start_System) := 1;
+    init(p_end_System) := 0;
+    init(p_pre_T2) := 0;
+    init(p_post_T2) := 0;
+    next(p_start_User) := p_start_User;
+    next(p_end_User) := p_end_User;
+    next(p_pre_T1) := case
+        p_pre_T1 = 1: 0;
+        TRUE: p_pre_T1;
+    esac;
+    next(p_post_T1) := case
+        p_pre_T1 = 1: 1;
+        TRUE: p_post_T1;
+    esac;
+    next(p_start_System) := p_start_System;
+    next(p_end_System) := p_end_System;
+    next(p_pre_T2) := p_pre_T2;
+    next(p_post_T2) := p_post_T2;
+    next(p_start_User) := p_start_User;
+    next(p_end_User) := p_end_User;
+    next(p_pre_T1) := p_pre_T1;
+    next(p_post_T1) := p_post_T1;
+    next(p_start_System) := p_start_System;
+    next(p_end_System) := p_end_System;
+    next(p_pre_T2) := case
+        p_pre_T2 = 1: 0;
+        TRUE: p_pre_T2;
+    esac;
+    next(p_post_T2) := case
+        p_pre_T2 = 1: 1;
+        TRUE: p_post_T2;
+    esac;
+LTLSPEC
+    AG(p_post_T1 -> AF(p_post_T2));

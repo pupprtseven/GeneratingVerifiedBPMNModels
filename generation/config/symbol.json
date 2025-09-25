@@ -1,0 +1,17 @@
+{
+    "variables": [
+        "REQUIREMENT"
+    ],
+    "name": "Extract actors and tasks from BPM (Business Process Management) requirement",
+    "prompt": "Your task is to analyze the given requirement and perform the following steps:\n\nIdentify Actors:\n- Figure out all the distinct actors mentioned in the requirement.\n- An actor can be a person, system, organization, or any entity that performs actions.\n- If only one actor is mentioned or implied, still create a single actor entry.\n- If no specific actor is mentioned, consider the context and create appropriate actor(s) (e.g., 'User', 'System', 'Process').\n- Assign a unique symbol to each actor (e.g., Actor1: A, Actor2: B, etc.).\n\nDefine Activities or Actions:\n- Carefully analyze the requirement and identify all distinct activities or actions.\n- Pay special attention to phrases like 'A and B', 'A until B', 'A before B', 'A after B', and 'A then B'.\n- In such cases, do not treat them as a single combined task (e.g., Task1: 'A after B'), but rather as separate activities (e.g., Task1: 'A', Task2: 'B'), each with its own symbol.\n- Include both explicit actions and implicit steps that are necessary for the process.\n- Consider system actions, user interactions, validations, and decision points.\n\nAssign Unique Symbols:\n- Assign a unique symbol to each activity or action (e.g., Task1: T1, Task2: T2, etc.), ensuring each task is distinct and easily identifiable.\n- Use consistent naming conventions for related tasks.\n\nMap Activities to Actors:\n- For each identified activity or action, specify the actor(s) responsible for performing it.\n- Ensure clarity in assigning roles and tasks.\n- If an action involves multiple actors, specify the primary actor responsible.\n- For system actions or automated processes, assign them to appropriate system actors.\n\nSpecial Considerations for Single Actor Scenarios:\n- When only one actor is involved, ensure all tasks are properly mapped to that actor.\n- Include both user-initiated and system-generated tasks.\n- Consider the complete workflow from start to finish.\n- Include validation, confirmation, and completion steps.\n\nPlease output the results in standard JSON format with arrays of objects, not as string representations.",
+    "output": [
+        "actor",
+        "tasks"
+    ],
+    "format": {
+        "actor": "JSON array format with objects containing actor_name (string) and symbol (string) fields. For single actor scenarios, create one actor object. For multiple actors, create separate objects for each actor.",
+        "tasks": "JSON array format with objects containing actor_symbol (string), task_description (string), and task_symbol (string) fields. For single actor scenarios, all tasks should reference the same actor_symbol. For multiple actors, tasks should reference the appropriate actor_symbol.",
+        "single_actor_scenario": "When only one actor is involved in the process, ensure all tasks are mapped to that single actor. Include both user-initiated actions and system-generated responses or validations.",
+        "multi_actor_scenario": "When multiple actors are involved, clearly distinguish which actor is responsible for each task. Consider actor interactions and message exchanges between different actors."
+    }
+}
